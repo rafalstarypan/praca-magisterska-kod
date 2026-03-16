@@ -1,0 +1,1727 @@
+{
+  "version": "v2.0",
+  "data": [
+    {
+      "title": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subt",
+      "paragraphs": [
+        {
+          "context": "Samples with mixed features (13%) possibly represent a transition phenotype or intratumoral heterogeneity.",
+          "qas": [
+            {
+              "id": "65f7741fc4010b4d78000027",
+              "question": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+              "answers": [
+                {
+                  "text": "13%",
+                  "answer_start": 29
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+      "paragraphs": [
+        {
+          "context": "Heterozygous UCHL1 loss-of-function variants cause a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy.",
+          "qas": [
+            {
+              "id": "67d3518718b1e36f2e000008",
+              "question": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+              "answers": [
+                {
+                  "text": "a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy",
+                  "answer_start": 51
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with pot",
+      "paragraphs": [
+        {
+          "context": "We observed that the combination of mFOLFOXIRI and bevacizumab increased the rate of clinical NED and showed a trend toward improved survival compared with mFOLFOXIRI alone",
+          "qas": [
+            {
+              "id": "662154f0b9f8b89d7e000009",
+              "question": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?",
+              "answers": [
+                {
+                  "text": "mFOLFOXIRI and bevacizumab",
+                  "answer_start": 36
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vector of zika virus.",
+      "paragraphs": [
+        {
+          "context": "Aedes aegypti is the primary vector of these pathogens and Culex quinquefasciatus may be a potential ZIKV vector",
+          "qas": [
+            {
+              "id": "67d7fe2618b1e36f2e000044",
+              "question": "Vector of zika virus.",
+              "answers": [
+                {
+                  "text": "Aedes aegypti",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which role does AAAGG have in RFC1 repeat expansions?",
+      "paragraphs": [
+        {
+          "context": "While AAAAG, AAAGGG and AAGAG expansions appear to be benign, we revealed a pathogenic role for large AAAGG repeat configuration expansions (n = 5). Long-read sequencing was used to characterize the entire repeat sequence, and six patients exhibited a pure AGGGC expansion, while the other patients presented complex motifs with AAGGG or AAAGG interruptions. All pathogenic motifs appeared to have arisen from a common haplotype and were predicted to form highly stable G quadruplexes, which have previously been demonstrated to affect gene transcription in other conditions. ",
+          "qas": [
+            {
+              "id": "67d34fb318b1e36f2e000007",
+              "question": "Which role does AAAGG have in RFC1 repeat expansions?",
+              "answers": [
+                {
+                  "text": "pathogenic",
+                  "answer_start": 76
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which biomedical challenge has been designed to facilitate interaction between biomedical experts an",
+      "paragraphs": [
+        {
+          "context": "BioASQ Synergy: a dialogue between question-answering systems and biomedical experts for promoting COVID-19 research.",
+          "qas": [
+            {
+              "id": "67d3434d18b1e36f2e000002",
+              "question": "Which biomedical challenge has been designed to facilitate interaction between biomedical experts and automated question-answering systems in order to promote COVID-19 research?",
+              "answers": [
+                {
+                  "text": "BioASQ Synergy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Prevalence of Premenstrual Dysphoric Disorder",
+      "paragraphs": [
+        {
+          "context": "PMDD affects 2-8%",
+          "qas": [
+            {
+              "id": "67d4354518b1e36f2e000010",
+              "question": "Prevalence of Premenstrual Dysphoric Disorder",
+              "answers": [
+                {
+                  "text": "2-8%",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What's the increase in CORE profiles in JASPAR 2024 compared to the previous version?",
+      "paragraphs": [
+        {
+          "context": "JASPAR (https://jaspar.elixir.no/) is a widely-used open-access database presenting manually curated high-quality and non-redundant DNA-binding profiles for transcription factors (TFs) across taxa. In this 10th release and 20th-anniversary update, the CORE collection has expanded with 329 new profiles. We updated three existing profiles and provided orthogonal support for 72 profiles from the previous release's UNVALIDATED collection. Altogether, the JASPAR 2024 update provides a 20% increase in CORE profiles from the previous release. ",
+          "qas": [
+            {
+              "id": "67d496ed18b1e36f2e000019",
+              "question": "What's the increase in CORE profiles in JASPAR 2024 compared to the previous version?",
+              "answers": [
+                {
+                  "text": "20%",
+                  "answer_start": 485
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vector of dengue infection.",
+      "paragraphs": [
+        {
+          "context": "Aedes aegypti and Aedes albopictus are the main vectors of arboviruses such as dengue, Zika virus, and chikungunya",
+          "qas": [
+            {
+              "id": "67d7fe1718b1e36f2e000043",
+              "question": "Vector of dengue infection.",
+              "answers": [
+                {
+                  "text": "Aedes albopictus",
+                  "answer_start": 18
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "In which population has it been described an association between the CUBN gene and T2DM genetic susc",
+      "paragraphs": [
+        {
+          "context": "Association between CUBN gene variants, type 2 diabetes and vitamin D concentrations in an elderly Greek population.",
+          "qas": [
+            {
+              "id": "67d45d5818b1e36f2e000012",
+              "question": "In which population has it been described an association between the CUBN gene and T2DM genetic susceptibility?",
+              "answers": [
+                {
+                  "text": "Greek",
+                  "answer_start": 99
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of African trypanosomiasis?",
+      "paragraphs": [
+        {
+          "context": "Human African trypanosomiasis (HAT) or sleeping sickness is caused by the protozoan parasites Trypanosoma brucei (T.b.) gambiense (West African form) and T.b. rhodesiense (East African form) that are transmitted by the bite of the tsetse fly, Glossina spp..",
+          "qas": [
+            {
+              "id": "67d6bda918b1e36f2e000021",
+              "question": "What is the cause of African trypanosomiasis?",
+              "answers": [
+                {
+                  "text": "Trypanosoma brucei",
+                  "answer_start": 94
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the consensus binding site of the TEAD transcription factors?",
+      "paragraphs": [
+        {
+          "context": "The Fgfr4 promoter region contained a Tead protein binding site (M-CAT 5'-CATTCCT-3'), and Tead2 showed induction during regeneration commensurate with Fgfr4 regulation.",
+          "qas": [
+            {
+              "id": "67d7506e18b1e36f2e00003f",
+              "question": "What is the consensus binding site of the TEAD transcription factors?",
+              "answers": [
+                {
+                  "text": "CATTCCT",
+                  "answer_start": 74
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most common EGFR mutation in glioblastoma multiforme?",
+      "paragraphs": [
+        {
+          "context": "The epidermal growth factor receptor variant type III (EGFRvIII) is the most common mutation of EGFR in glioblastoma multiforme (GBM) and is found in approximately 25% of all GBMs. Intriguingly, EGFRvIII is mostly found in GFAP+ astrocytic tumour cells in the brain, suggesting connection of EGFRvIII to astrogenesis.",
+          "qas": [
+            {
+              "id": "67da0c0f18b1e36f2e000052",
+              "question": "What is the most common EGFR mutation in glioblastoma multiforme?",
+              "answers": [
+                {
+                  "text": "EGFRvIII",
+                  "answer_start": 55
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is DRESS in the context of drug therapy?",
+      "paragraphs": [
+        {
+          "context": "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is a rare and severe adverse drug reaction involving multiple organs. ",
+          "qas": [
+            {
+              "id": "67cc9bef81b1027333000013",
+              "question": "What is DRESS in the context of drug therapy?",
+              "answers": [
+                {
+                  "text": "Drug reaction with eosinophilia and systemic symptoms",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which computational method exists for prediction of transcriptional condensate-associated genomic re",
+      "paragraphs": [
+        {
+          "context": "SEGCOND predicts putative transcriptional condensate-associated genomic regions by integrating multi-omics data.",
+          "qas": [
+            {
+              "id": "67d48f6c18b1e36f2e000017",
+              "question": "Which computational method exists for prediction of transcriptional condensate-associated genomic regions?",
+              "answers": [
+                {
+                  "text": "SEGCOND",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What are desflurane and sevoflurane?",
+      "paragraphs": [
+        {
+          "context": "[Critical evaluation of the new inhalational anesthetics desflurane and sevoflurane].",
+          "qas": [
+            {
+              "id": "67cc960381b102733300000f",
+              "question": "What are desflurane and sevoflurane?",
+              "answers": [
+                {
+                  "text": "anesthetics",
+                  "answer_start": 45
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which protein is silencing MIR139 in order to promote AML oncogenesis?",
+      "paragraphs": [
+        {
+          "context": "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
+          "qas": [
+            {
+              "id": "67d751e418b1e36f2e000040",
+              "question": "Which protein is silencing MIR139 in order to promote AML oncogenesis?",
+              "answers": [
+                {
+                  "text": "POLR2M",
+                  "answer_start": 43
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What's the effect of liver RBFOX2?",
+      "paragraphs": [
+        {
+          "context": "Liver RBFOX2 regulates cholesterol homeostasis via Scarb1 alternative splicing in mice.",
+          "qas": [
+            {
+              "id": "67d497c418b1e36f2e00001a",
+              "question": "What's the effect of liver RBFOX2?",
+              "answers": [
+                {
+                  "text": "Liver RBFOX2 regulates cholesterol homeostasis via Scarb1 alternative splicing in mice.",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which gene shapes the 3D enhancer network of the developing T cell genome?",
+      "paragraphs": [
+        {
+          "context": "The 3D enhancer network of the developing T cell genome is shaped by SATB1.",
+          "qas": [
+            {
+              "id": "67d4903418b1e36f2e000018",
+              "question": "Which gene shapes the 3D enhancer network of the developing T cell genome?",
+              "answers": [
+                {
+                  "text": "SATB1",
+                  "answer_start": 69
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which ensemble machine-learning framework has been developed harnessing UK biobank data?",
+      "paragraphs": [
+        {
+          "context": "The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Here, we present an ensemble machine-learning framework (machine learning with phenotype associations, MILTON) utilizing a range of biomarkers to predict 3,213 diseases in the UK Biobank. Leveraging the UK Biobank's longitudinal health record data, MILTON predicts incident disease cases undiagnosed at time of recruitment, largely outperforming available polygenic risk scores. ",
+          "qas": [
+            {
+              "id": "67dedd6818b1e36f2e000061",
+              "question": "Which ensemble machine-learning framework has been developed harnessing UK biobank data?",
+              "answers": [
+                {
+                  "text": "MILTON",
+                  "answer_start": 250
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Zodasiran?",
+      "paragraphs": [
+        {
+          "context": "Zodasiran, an RNAi Therapeutic Targeting ANGPTL3, for Mixed Hyperlipidemia.",
+          "qas": [
+            {
+              "id": "67e6bf8818b1e36f2e0000c5",
+              "question": "What is the target of Zodasiran?",
+              "answers": [
+                {
+                  "text": "ANGPTL3",
+                  "answer_start": 41
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where in the body would the  sublci and gyri be found?",
+      "paragraphs": [
+        {
+          "context": "The elaborate folding of the brain surface has posed a practical impediment to investigators engaged in mapping the areas of the cerebral cortex. This obstacle has been overcome partially by the development of methods to erase the sulci and gyri by physically flattening the cortex prior to sectioning. I",
+          "qas": [
+            {
+              "id": "67e1356018b1e36f2e000070",
+              "question": "Where in the body would the  sublci and gyri be found?",
+              "answers": [
+                {
+                  "text": "brain",
+                  "answer_start": 29
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Most common reversible cause of infertility in men.",
+      "paragraphs": [
+        {
+          "context": "Varicocele is the most common correctable cause of male infertility ",
+          "qas": [
+            {
+              "id": "67e28ded18b1e36f2e000080",
+              "question": "Most common reversible cause of infertility in men.",
+              "answers": [
+                {
+                  "text": "Varicocele",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What mutation is found in about 50% of melanomas?",
+      "paragraphs": [
+        {
+          "context": "BRAF is one of multiple RAF proteins responsible for the activation of the MAPK cell signalling cascade involved in cell growth, differentiation, and survival. A hotspot BRAFV600E mutation, in exon 15, was determined to be a driver in 100% hairy cell leukaemias, 50%-60% of human melanomas, 30%-50% of human thyroid carcinomas and 10%-20% of human colorectal carcinomas.",
+          "qas": [
+            {
+              "id": "67eaf29c18b1e36f2e0000e0",
+              "question": "What mutation is found in about 50% of melanomas?",
+              "answers": [
+                {
+                  "text": "BRAFV600E mutation",
+                  "answer_start": 170
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is a characteristic family of enzymes that are responsible for DNA demethylation?",
+      "paragraphs": [
+        {
+          "context": "DNA methylation has a profound impact on genome stability, transcription and development. Although enzymes that catalyse DNA methylation have been well characterized, those that are involved in methyl group removal have remained elusive, until recently. The transformative discovery that ten-eleven translocation (TET) family enzymes can oxidize 5-methylcytosine has greatly advanced our understanding of DNA demethylation. 5-Hydroxymethylcytosine is a key nexus in demethylation that can either be passively depleted through DNA replication or actively reverted to cytosine through iterative oxidation and thymine DNA glycosylase (TDG)-mediated base excision repair.",
+          "qas": [
+            {
+              "id": "67eb822e18b1e36f2e0000f1",
+              "question": "What is a characteristic family of enzymes that are responsible for DNA demethylation?",
+              "answers": [
+                {
+                  "text": "ten-eleven translocation (TET) family enzymes",
+                  "answer_start": 288
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which database serves as a catalogue of full-length 16S rRNA gene sequences from bacteria in wastewa",
+      "paragraphs": [
+        {
+          "context": "MiDAS 4: A global catalogue of full-length 16S rRNA gene sequences and taxonomy for studies of bacterial communities in wastewater treatment plants.",
+          "qas": [
+            {
+              "id": "67e7df6118b1e36f2e0000d8",
+              "question": "Which database serves as a catalogue of full-length 16S rRNA gene sequences from bacteria in wastewater treatment plants?",
+              "answers": [
+                {
+                  "text": "MiDAS 4",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Most common infectious cause of congenital deafness.",
+      "paragraphs": [
+        {
+          "context": "CMV infection during pregnancy. It is the most common infectious agent for sensorineural hearing loss (SNHL) in young children",
+          "qas": [
+            {
+              "id": "67e270d318b1e36f2e000075",
+              "question": "Most common infectious cause of congenital deafness.",
+              "answers": [
+                {
+                  "text": "CMV infection during pregnancy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the indication for bromocriptine?",
+      "paragraphs": [
+        {
+          "context": "Prolactinomas are the most common type of functional pituitary tumours. The objective of this study was to determine demographic profile of patients with prolactinomas, and to compare the outcomes in patients treated with Cabergoline versus those receiving Bromocriptine treatment",
+          "qas": [
+            {
+              "id": "67cf3f6481b1027333000025",
+              "question": "What is the indication for bromocriptine?",
+              "answers": [
+                {
+                  "text": "Prolactinomas",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is currently the number of germline associations with clonal hematopoiesis in European-ancestry",
+      "paragraphs": [
+        {
+          "context": "Clonal hematopoiesis (CH), the clonal expansion of a blood stem cell and its progeny driven by somatic driver mutations, affects over a third of people, yet remains poorly understood. Here we analyze genetic data from 200,453 UK Biobank participants to map the landscape of inherited predisposition to CH, increasing the number of germline associations with CH in European-ancestry populations from 4 to 14. ",
+          "qas": [
+            {
+              "id": "67e7db2918b1e36f2e0000d6",
+              "question": "What is currently the number of germline associations with clonal hematopoiesis in European-ancestry populations?",
+              "answers": [
+                {
+                  "text": "14",
+                  "answer_start": 404
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which missense variant in SPDL1 is associated with IPF?",
+      "paragraphs": [
+        {
+          "context": "Our variant-level analysis revealed a novel association between a rare missense variant in SPDL1 and IPF (NM_017785.5:g.169588475 G > A p.Arg20Gln; p = 2.4 × 10-7, odds ratio = 2.87, 95% confidence interval: 2.03-4.07). This signal was independently replicated in the FinnGen cohort, which contains 1028 cases and 196,986 controls (combined p = 2.2 × 10-20), firmly associating this variant as an IPF risk allele. SPDL1 encodes Spindly, a protein involved in mitotic checkpoint signalling during cell division that has not been previously described in fibrosis.",
+          "qas": [
+            {
+              "id": "67df1a1d18b1e36f2e000065",
+              "question": "Which missense variant in SPDL1 is associated with IPF?",
+              "answers": [
+                {
+                  "text": "NM_017785.5:g.169588475 G > A p.Arg20Gln",
+                  "answer_start": 106
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease can be treated with Fidanacogene elaparvovec?",
+      "paragraphs": [
+        {
+          "context": "Fidanacogene elaparvovec (PrBEQVEZ™) is an adeno-associated viral (AAV) vector-based gene therapy developed by Spark Therapeutics (a subsidiary of Roche) and Pfizer (under a license from Spark Therapeutics) for the treatment of haemophilia B. ",
+          "qas": [
+            {
+              "id": "67e6be3118b1e36f2e0000c3",
+              "question": "What disease can be treated with Fidanacogene elaparvovec?",
+              "answers": [
+                {
+                  "text": "haemophilia B",
+                  "answer_start": 228
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How many individuals were selected for generation of whole-genome sequencing data in the Mexico City",
+      "paragraphs": [
+        {
+          "context": "The Mexico City Prospective Study is a prospective cohort of more than 150,000 adults recruited two decades ago from the urban districts of Coyoacán and Iztapalapa in Mexico City1. Here we generated genotype and exome-sequencing data for all individuals and whole-genome sequencing data for 9,950 selected individuals. ",
+          "qas": [
+            {
+              "id": "67e6c9d518b1e36f2e0000cd",
+              "question": "How many individuals were selected for generation of whole-genome sequencing data in the Mexico City Prospective Study?",
+              "answers": [
+                {
+                  "text": "9,950",
+                  "answer_start": 291
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the mode of action of Bempedoic acid?",
+      "paragraphs": [
+        {
+          "context": "Bempedoic acid is a new oral cholesterol-lowering medication that reduces hepatic cholesterol synthesis by inhibiting the enzyme adenosine triphosphate (ATP)-citrate lyase enzyme. ",
+          "qas": [
+            {
+              "id": "67e014c918b1e36f2e000068",
+              "question": "What is the mode of action of Bempedoic acid?",
+              "answers": [
+                {
+                  "text": "ATP",
+                  "answer_start": 153
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the median survival time for glioblastoma patients with standard treatment?",
+      "paragraphs": [
+        {
+          "context": "Glioblastoma is the most aggressive malignant brain tumor among all primary brain and central nervous system tumors. The median survival time for glioblastoma patients given the current standard of care treatment (surgery, radiation, and chemotherapy) is less than 15 months.",
+          "qas": [
+            {
+              "id": "67eb817c18b1e36f2e0000f0",
+              "question": "What is the median survival time for glioblastoma patients with standard treatment?",
+              "answers": [
+                {
+                  "text": "15 months",
+                  "answer_start": 265
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which ensemble machine-learning framework has been developed for predicting druggability?",
+      "paragraphs": [
+        {
+          "context": "DrugnomeAI is an ensemble machine-learning framework for predicting druggability of candidate drug targets.",
+          "qas": [
+            {
+              "id": "67dede2918b1e36f2e000062",
+              "question": "Which ensemble machine-learning framework has been developed for predicting druggability?",
+              "answers": [
+                {
+                  "text": "DrugnomeAI",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most common genetic variant of cystic fibrosis?",
+      "paragraphs": [
+        {
+          "context": "CFTR F508del (c.1521_1523delCTT, p.Phe508delPhe) is the most common pathogenic allele underlying cystic fibrosis",
+          "qas": [
+            {
+              "id": "67e2849218b1e36f2e00007a",
+              "question": "What is the most common genetic variant of cystic fibrosis?",
+              "answers": [
+                {
+                  "text": "CFTR F508del (c.1521_1523delCTT, p.Phe508delPhe)",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which cytoscape application has been developed for the study of metabolic pathway evolution?",
+      "paragraphs": [
+        {
+          "context": "BioPAXViz: a cytoscape application for the visual exploration of metabolic pathway evolution.",
+          "qas": [
+            {
+              "id": "67e2944218b1e36f2e000083",
+              "question": "Which cytoscape application has been developed for the study of metabolic pathway evolution?",
+              "answers": [
+                {
+                  "text": "BioPAXViz",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most common genetic alteration in primary glioblastoma?",
+      "paragraphs": [
+        {
+          "context": "EGFR amplification has been identified as a genetic hallmark of primary glioblastomas and occurs in 40-60% of cases.",
+          "qas": [
+            {
+              "id": "67eb55f418b1e36f2e0000e7",
+              "question": "What is the most common genetic alteration in primary glioblastoma?",
+              "answers": [
+                {
+                  "text": "EGFR amplification",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Why is Calabash chalk consumed by pregnant women?",
+      "paragraphs": [
+        {
+          "context": "Calabash chalk (CaC) is an aluminium silicate hydroxide compound with heavy metal constituents, making it a potential neurotoxicant. Pregnant women often consume CaC as an antiemetic, which may interfere with the normal development of the foetal brain.",
+          "qas": [
+            {
+              "id": "67e133f118b1e36f2e00006f",
+              "question": "Why is Calabash chalk consumed by pregnant women?",
+              "answers": [
+                {
+                  "text": "antiemetic",
+                  "answer_start": 172
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Country with the highest incidence of African Trypanosomiasis (sleeping sickness).",
+      "paragraphs": [
+        {
+          "context": "For the past three decades, the Democratic Republic of the Congo (DRC) has been the country reporting the highest number of cases of human African trypanosomiasis ",
+          "qas": [
+            {
+              "id": "67e288d518b1e36f2e00007c",
+              "question": "Country with the highest incidence of African Trypanosomiasis (sleeping sickness).",
+              "answers": [
+                {
+                  "text": "Democratic Republic of the Congo",
+                  "answer_start": 32
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Tulisokibart?",
+      "paragraphs": [
+        {
+          "context": "BACKGROUND: Tulisokibart is a tumor necrosis factor-like cytokine 1A (TL1A) monoclonal antibody in development for the treatment of moderately to severely active ulcerative colitis. ",
+          "qas": [
+            {
+              "id": "67e6bdc618b1e36f2e0000c2",
+              "question": "What is the target of Tulisokibart?",
+              "answers": [
+                {
+                  "text": "tumor necrosis factor-like cytokine 1A",
+                  "answer_start": 30
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Abelacimab?",
+      "paragraphs": [
+        {
+          "context": "The factor XI/XIa antibody abelacimab combined with enoxaparin inhibits filter clotting in hemodialysis circuits ex vivo.",
+          "qas": [
+            {
+              "id": "67e56b5418b1e36f2e0000ad",
+              "question": "What is the target of Abelacimab?",
+              "answers": [
+                {
+                  "text": "factor XI",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the treatment for paracetamol intoxication?",
+      "paragraphs": [
+        {
+          "context": "administration of intravenous N-acetylcysteine",
+          "qas": [
+            {
+              "id": "67e2cd8b18b1e36f2e000097",
+              "question": "What is the treatment for paracetamol intoxication?",
+              "answers": [
+                {
+                  "text": "N-acetylcysteine",
+                  "answer_start": 30
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plaques en Prairie Fauchée are specific to which disease?",
+      "paragraphs": [
+        {
+          "context": "The painful lesions also called \"Plaques en prairie fauchée\", occur in the context of the discovery of a postive HIV serology. The diagnosis of secondary syphilis was confirmed by a positive syphilis serology (nontreponemal RPR test title of 64) and a positive Treponema pallidum PCR, amplifying the tpp47 gene, on a tongue swab. ",
+          "qas": [
+            {
+              "id": "67e5712e18b1e36f2e0000b2",
+              "question": "Plaques en Prairie Fauchée are specific to which disease?",
+              "answers": [
+                {
+                  "text": "secondary syphilis",
+                  "answer_start": 144
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Eptinezumab is a monclonal antibody direct againest what protein?",
+      "paragraphs": [
+        {
+          "context": "ACKGROUND: Eptinezumab is a monoclonal antibody that targets calcitonin gene-related peptide (CGRP mAb) and is used for migraine prophylaxis. ",
+          "qas": [
+            {
+              "id": "67e08afd18b1e36f2e00006a",
+              "question": "Eptinezumab is a monclonal antibody direct againest what protein?",
+              "answers": [
+                {
+                  "text": "calcitonin gene-related peptide (CGRP",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How many primary genetic associations were identified through pQTL mapping within the Pharma Proteom",
+      "paragraphs": [
+        {
+          "context": "The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants. Here we provide a detailed summary of this initiative, including technical and biological validations, insights into proteomic disease signatures, and prediction modelling for various demographic and health indicators. We present comprehensive protein quantitative trait locus (pQTL) mapping of 2,923 proteins that identifies 14,287 primary genetic associations, of which 81% are previously undescribed, alongside ancestry-specific pQTL mapping in non-European individuals.",
+          "qas": [
+            {
+              "id": "67e6ce6e18b1e36f2e0000cf",
+              "question": "How many primary genetic associations were identified through pQTL mapping within the Pharma Proteomics Project?",
+              "answers": [
+                {
+                  "text": "14,287 primary genetic associations",
+                  "answer_start": 485
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "rVSV-ZEBOV-GP is used for which disease?",
+      "paragraphs": [
+        {
+          "context": " The only FDA-licensed vaccine against Ebola virus, rVSV-ZEBOV-GP (Ervebo®), is efficacious against infection following just one dose.",
+          "qas": [
+            {
+              "id": "67e6b34318b1e36f2e0000b9",
+              "question": "rVSV-ZEBOV-GP is used for which disease?",
+              "answers": [
+                {
+                  "text": "Ebola virus",
+                  "answer_start": 39
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How many exomes did the largest whole-exome sequencing study of epilepsy to date involve?",
+      "paragraphs": [
+        {
+          "context": "Identifying genetic risk factors for highly heterogeneous disorders like epilepsy remains challenging. Here, we present the largest whole-exome sequencing study of epilepsy to date, with >54,000 human exomes, comprising 20,979 deeply phenotyped patients from multiple genetic ancestry groups with diverse epilepsy subtypes and 33,444 controls, to investigate rare variants that confer disease risk. ",
+          "qas": [
+            {
+              "id": "67e296bc18b1e36f2e000085",
+              "question": "How many exomes did the largest whole-exome sequencing study of epilepsy to date involve?",
+              "answers": [
+                {
+                  "text": ">54,000 human exomes",
+                  "answer_start": 187
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Westermark’s Sign is specific to which condition?",
+      "paragraphs": [
+        {
+          "context": "n initial chest X-ray revealed the Fleischner's sign, the knuckle sign, and the Westermark sign, specific but not sensitive for central pulmonary embolism, prompting a follow-up angio CT to confirm the diagnosis. ",
+          "qas": [
+            {
+              "id": "67e4590e18b1e36f2e0000a9",
+              "question": "Westermark’s Sign is specific to which condition?",
+              "answers": [
+                {
+                  "text": "pulmonary embolism",
+                  "answer_start": 136
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which association in clonal haematopoiesis has been identified in the UK biobank proteogenomics stud",
+      "paragraphs": [
+        {
+          "context": "Because previous proteogenomic studies have focused on common variation via genome-wide association studies, the contribution of rare variants to the plasma proteome remains largely unknown. Here we identify associations between rare protein-coding variants and 2,923 plasma protein abundances measured in 49,736 UK Biobank individuals. Our variant-level exome-wide association study identified 5,433 rare genotype-protein associations, of which 81% were undetected in a previous genome-wide association study of the same cohort5. We then looked at aggregate signals using gene-level collapsing analysis, which revealed 1,962 gene-protein associations. Of the 691 gene-level signals from protein-truncating variants, 99.4% were associated with decreased protein levels. STAB1 and STAB2, encoding scavenger receptors involved in plasma protein clearance, emerged as pleiotropic loci, with 77 and 41 protein associations, respectively. We demonstrate the utility of our publicly accessible resource through several applications. These include detailing an allelic series in NLRC4, identifying potential biomarkers for a fatty liver disease-associated variant in HSD17B13 and bolstering phenome-wide association studies by integrating protein quantitative trait loci with protein-truncating variants in collapsing analyses. Finally, we uncover distinct proteomic consequences of clonal haematopoiesis (CH), including an association between TET2-CH and increased FLT3 levels. Our results highlight a considerable role for rare variation in plasma protein abundance and the value of proteogenomics in therapeutic discovery.",
+          "qas": [
+            {
+              "id": "67e6d1b518b1e36f2e0000d3",
+              "question": "Which association in clonal haematopoiesis has been identified in the UK biobank proteogenomics study?",
+              "answers": [
+                {
+                  "text": "association between TET2-CH and increased FLT3 levels.",
+                  "answer_start": 1417
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What organ is evaluated by Hysterosalpingography (HSG)?",
+      "paragraphs": [
+        {
+          "context": "Hysterosalpingography (HSG) remains a valuable diagnostic tool in current clinical practice, offering crucial insights into endometrial cavity, fallopian tubes and the adjoining part of the pelvic peritoneal cavity. ",
+          "qas": [
+            {
+              "id": "67fc555a18b1e36f2e000131",
+              "question": "What organ is evaluated by Hysterosalpingography (HSG)?",
+              "answers": [
+                {
+                  "text": "fallopian tubes",
+                  "answer_start": 144
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "At which age should men start prostate cancer screening?",
+      "paragraphs": [
+        {
+          "context": "Family history of PCa, race/ethnicity, pathogenic variants (particularly BRCA2, MSH2, and HOXB13), and PRS are associated with increased PCa risk and should be considered in shared decision-making to determine PCa screening regimens.",
+          "qas": [
+            {
+              "id": "67fbe68c18b1e36f2e00011e",
+              "question": "At which age should men start prostate cancer screening?",
+              "answers": [
+                {
+                  "text": "Family history of PCa, race/ethnicity, pathogenic variants (particularly BRCA2, MSH2, and HOXB13), and PRS are associated with increased PCa risk and should be considered in shared decision-making to determine PCa screening regimens.",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What proportion of the cells in GBM are typically macrophages/microglia?",
+      "paragraphs": [
+        {
+          "context": "CNS immune defenses are marshaled and dominated by brain resident macrophages and microglia, which are the innate immune sentinels and frontline host immune barriers against various pathogenic insults. These myeloid lineage cells are the predominant immune population in gliomas and can constitute up to 30-50% of the total cellular composition.",
+          "qas": [
+            {
+              "id": "67fbee9818b1e36f2e000124",
+              "question": "What proportion of the cells in GBM are typically macrophages/microglia?",
+              "answers": [
+                {
+                  "text": "30-50%",
+                  "answer_start": 304
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the difference in action between fomoterol and salmeterol?",
+      "paragraphs": [
+        {
+          "context": "Formoterol has a faster onset of action compared with salmeterol. ",
+          "qas": [
+            {
+              "id": "67f8ea8318b1e36f2e000107",
+              "question": "What is the difference in action between fomoterol and salmeterol?",
+              "answers": [
+                {
+                  "text": "Formoterol has a faster onset of action compared with salmeterol",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What type of T cell memory subset is characterized by high CD45RO and CCR7 expression?",
+      "paragraphs": [
+        {
+          "context": "Among the CD8+ cytotoxic lymphocytes, the frequency of different subsets was determined including total memory cells (CD8+CD45RO+CD95+), T central memory (TCM: CD8+CCR7+CD45RO+CD95+), T effector memory (TEM: CD8+CCR7-CD45RO+CD95+), T stem cell memory (TSCM: CD8+CCR7+CD45RO-CD95+) and naïve T cells (CD8+CCR7+CD45RO-CD95-). ",
+          "qas": [
+            {
+              "id": "67fd7a0218b1e36f2e000141",
+              "question": "What type of T cell memory subset is characterized by high CD45RO and CCR7 expression?",
+              "answers": [
+                {
+                  "text": "T central memory",
+                  "answer_start": 137
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Zolbetuximab?",
+      "paragraphs": [
+        {
+          "context": "Zolbetuximab for Claudin18.2-positive gastric or gastroesophageal junction cancer.",
+          "qas": [
+            {
+              "id": "67e6d27518b1e36f2e0000d4",
+              "question": "What is the target of Zolbetuximab?",
+              "answers": [
+                {
+                  "text": "Claudin18.2",
+                  "answer_start": 17
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is a frequently lost chromosomal region in secondary glioblastoma?",
+      "paragraphs": [
+        {
+          "context": "The majority (88%) of primary glioblastomas with LOH#10 showed LOH at all informative markers, suggesting loss of the entire chromosome 10. In contrast, secondary glioblastomas with LOH#10 showed partial or complete loss of chromosome 10q but no loss of 10p. These results are in accordance with the view that LOH on 10q is a major factor in the evolution of glioblastoma multiform as the common phenotypic end point of both genetic pathways, whereas LOH on 10p is largely restricted to the primary (de novo) glioblastoma.",
+          "qas": [
+            {
+              "id": "67fd5d6e18b1e36f2e000139",
+              "question": "What is a frequently lost chromosomal region in secondary glioblastoma?",
+              "answers": [
+                {
+                  "text": "chromosome 10q",
+                  "answer_start": 224
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What chemokine is involved in recruiting myeloid-derived suppressor cells to GBM?",
+      "paragraphs": [
+        {
+          "context": "The limited therapeutic efficacy of checkpoint blockade immunotherapy against glioblastoma is closely related to the blood-brain barrier (BBB) and tumor immunosuppressive microenvironment, where the latter is driven primarily by tumor-associated myeloid cells (TAMCs). Targeting the C-X-C motif chemokine ligand-12/C-X-C motif chemokine receptor-4 (CXCL12/CXCR4) signaling orchestrates the recruitment of TAMCs and has emerged as a promising approach for alleviating immunosuppression.",
+          "qas": [
+            {
+              "id": "67f6f20618b1e36f2e000103",
+              "question": "What chemokine is involved in recruiting myeloid-derived suppressor cells to GBM?",
+              "answers": [
+                {
+                  "text": "CXCL12",
+                  "answer_start": 349
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the term for when a structural rearrangement places an oncogene under the control of a forei",
+      "paragraphs": [
+        {
+          "context": "Recent efforts have shown that structural variations (SVs) can disrupt three-dimensional genome organization and induce enhancer hijacking, yet no computational tools exist to identify such events from chromatin interaction data.",
+          "qas": [
+            {
+              "id": "67fc323818b1e36f2e00012d",
+              "question": "What is the term for when a structural rearrangement places an oncogene under the control of a foreign enhancer?",
+              "answers": [
+                {
+                  "text": "enhancer hijacking",
+                  "answer_start": 120
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of axatilimab?",
+      "paragraphs": [
+        {
+          "context": "BACKGROUND: Colony-stimulating factor 1 receptor (CSF1R)-dependent monocytes and macrophages are key mediators of chronic graft-versus-host disease (GVHD), a major long-term complication of allogeneic hematopoietic stem-cell transplantation. The CSF1R-blocking antibody axatilimab has shown promising clinical activity in chronic GVHD.",
+          "qas": [
+            {
+              "id": "67e6bed318b1e36f2e0000c4",
+              "question": "What is the target of axatilimab?",
+              "answers": [
+                {
+                  "text": "Colony-stimulating factor 1 receptor",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where do infiltrating macrophages in GBM derive from?",
+      "paragraphs": [
+        {
+          "context": "The most abundant non-neoplastic cells are those of the innate immune system, called tumor-associated macrophages (TAMs). TAMs constitute up to 40% of the tumor mass and consist of both brain-resident microglia and bone marrow-derived myeloid cells from the periphery.",
+          "qas": [
+            {
+              "id": "67f6f18918b1e36f2e000101",
+              "question": "Where do infiltrating macrophages in GBM derive from?",
+              "answers": [
+                {
+                  "text": "bone marrow",
+                  "answer_start": 215
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What are aptamers made of?",
+      "paragraphs": [
+        {
+          "context": "aptamer-functionalized nucleic acid nanotechnology offers applications of biosensing, bioimaging, and cancer therapy. In this review, after a brief overview of nucleic acid nanotechnology, we focus on the integration of aptamers with nucleic acid nanotechnology,",
+          "qas": [
+            {
+              "id": "67fb064318b1e36f2e00010d",
+              "question": "What are aptamers made of?",
+              "answers": [
+                {
+                  "text": "nucleic acid",
+                  "answer_start": 23
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lenacapavir is tested in which disease?",
+      "paragraphs": [
+        {
+          "context": "PURPOSE OF REVIEW: Long-acting preexposure prophylaxis (LA-PrEP), including cabotegravir (CAB-LA) and lenacapavir, could expand biomedical prevention coverage and reduce HIV incidence.",
+          "qas": [
+            {
+              "id": "67e6bd0e18b1e36f2e0000c1",
+              "question": "Lenacapavir is tested in which disease?",
+              "answers": [
+                {
+                  "text": "HIV",
+                  "answer_start": 170
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Is bronchiectasis a chronic or acute condition?",
+      "paragraphs": [
+        {
+          "context": "Introduction: Bronchiectasis is a chronic inflammatory lung disease",
+          "qas": [
+            {
+              "id": "680d5e47353a4a2e6b000005",
+              "question": "Is bronchiectasis a chronic or acute condition?",
+              "answers": [
+                {
+                  "text": "chronic",
+                  "answer_start": 34
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of fezolinetant?",
+      "paragraphs": [
+        {
+          "context": "In March 2023, the U.S. Food and Drug Administration approved fezolinetant (Veozah), a neurokinin 3 receptor antagonist for the treatment of vasomotor symptoms of menopause. ",
+          "qas": [
+            {
+              "id": "67e5557c18b1e36f2e0000ac",
+              "question": "What is the target of fezolinetant?",
+              "answers": [
+                {
+                  "text": "neurokinin 3 receptor",
+                  "answer_start": 87
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What complication of pregnancy was treated with  Diethylstilbestrol",
+      "paragraphs": [
+        {
+          "context": "Diethylstilbestrol (DES) is a potent estrogen mimic that was predominantly used from the 1940s to the 1970s by pregnant women in hopes of preventing miscarriage. ",
+          "qas": [
+            {
+              "id": "6810fef8353a4a2e6b000016",
+              "question": "What complication of pregnancy was treated with  Diethylstilbestrol",
+              "answers": [
+                {
+                  "text": "preventing miscarriage",
+                  "answer_start": 138
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Biopharmaceuticals for pediatric bronchiolitis.",
+      "paragraphs": [
+        {
+          "context": " Current protection against severe RSV infection is immunoprophylaxis with the monoclonal antibody palivizumab",
+          "qas": [
+            {
+              "id": "6810cb23353a4a2e6b000012",
+              "question": "Biopharmaceuticals for pediatric bronchiolitis.",
+              "answers": [
+                {
+                  "text": "the monoclonal antibody palivizumab",
+                  "answer_start": 75
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Diasease  (MASLD)?",
+      "paragraphs": [
+        {
+          "context": "Current studies emphasize the urgent need for a paradigm shift in conceptualizing nonalcoholic fatty liver disease (NAFLD), now renamed metabolic dysfunction-associated steatotic liver disease (MASLD)",
+          "qas": [
+            {
+              "id": "67fe5f0918b1e36f2e000144",
+              "question": "What is the previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Diasease  (MASLD)?",
+              "answers": [
+                {
+                  "text": "NAFLD",
+                  "answer_start": 116
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the pharmacological treatment of urinary schistosomiasis?",
+      "paragraphs": [
+        {
+          "context": "praziquantel ",
+          "qas": [
+            {
+              "id": "680f4c63353a4a2e6b00000d",
+              "question": "What is the pharmacological treatment of urinary schistosomiasis?",
+              "answers": [
+                {
+                  "text": "praziquantel",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which cells are the primary antigen-presenting cells?",
+      "paragraphs": [
+        {
+          "context": "Dendritic cells (DCs) are the primary antigen-presenting cells and play key roles in the orchestration of the innate and adaptive immune system.",
+          "qas": [
+            {
+              "id": "680a07a418b1e36f2e000148",
+              "question": "Which cells are the primary antigen-presenting cells?",
+              "answers": [
+                {
+                  "text": "Dendritic cells",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Fibromyalgia?",
+      "paragraphs": [
+        {
+          "context": "Fibromyalgia (FM) is a confusing and controversial diagnosis, characterized by widespread pain and tenderness at specific anatomical sites. The cause of this syndrome is unknown, ",
+          "qas": [
+            {
+              "id": "6810db0a353a4a2e6b000014",
+              "question": "What is the cause of Fibromyalgia?",
+              "answers": [
+                {
+                  "text": "unknown",
+                  "answer_start": 170
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What are the genetic variants in Turner syndrome?",
+      "paragraphs": [
+        {
+          "context": "45, X/46, XX mosaicism",
+          "qas": [
+            {
+              "id": "67e285b018b1e36f2e00007b",
+              "question": "What are the genetic variants in Turner syndrome?",
+              "answers": [
+                {
+                  "text": "45, X/46, XX mosaicism",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What organelle is responsible for ATP production?",
+      "paragraphs": [
+        {
+          "context": "Mitochondria are considered one of the most important subcellular organelles for targeting and delivering drugs because mitochondria are the main location for various cellular functions and energy (i.e., ATP) production, and mitochondrial dysfunctions and malfunctions cause diverse diseases such as neurodegenerative disorders, cardiovascular disorders, metabolic disorders, and cancers.",
+          "qas": [
+            {
+              "id": "680a07f918b1e36f2e00014a",
+              "question": "What organelle is responsible for ATP production?",
+              "answers": [
+                {
+                  "text": "Mitochondria",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What age group is commonly affected by biliary atresia?",
+      "paragraphs": [
+        {
+          "context": " Biliary atresia is a fibrosing cholangiopathy affecting neonates that is thought to result from a prenatal environmental insult to the bile duct",
+          "qas": [
+            {
+              "id": "67cdc78381b102733300001a",
+              "question": "What age group is commonly affected by biliary atresia?",
+              "answers": [
+                {
+                  "text": "neonates",
+                  "answer_start": 57
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What neurotransmitter is most associated with muscle activation?",
+      "paragraphs": [
+        {
+          "context": "Nicotinic acetylcholine receptors (nAChRs) are homo- or heteropentameric ligand-gated ion channels mediating excitatory neurotransmission and muscle activation.",
+          "qas": [
+            {
+              "id": "680a07ed18b1e36f2e000149",
+              "question": "What neurotransmitter is most associated with muscle activation?",
+              "answers": [
+                {
+                  "text": "acetylcholine",
+                  "answer_start": 10
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What medical proceedure causes nephrogenic systemic fibrosis?",
+      "paragraphs": [
+        {
+          "context": "The use of gadolinium-based contrast agents (GBCAs) has a strong association with NSF",
+          "qas": [
+            {
+              "id": "67e93f2d18b1e36f2e0000db",
+              "question": "What medical proceedure causes nephrogenic systemic fibrosis?",
+              "answers": [
+                {
+                  "text": "use of gadolinium-based contrast agents",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XIST proteins mediate what cellular process?",
+      "paragraphs": [
+        {
+          "context": "X inactivation is the means of equalizing the dosage of X chromosomal genes in male and female eutherian mammals, so that only one X is active in each cell. The XIST locus (in cis) on each additional X chromosome initiates the transcriptional silence of that chromosome, making it an inactive X",
+          "qas": [
+            {
+              "id": "67ca061181b102733300000a",
+              "question": "XIST proteins mediate what cellular process?",
+              "answers": [
+                {
+                  "text": "X inactivation",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What glial cells are responsible for myelination in the CNS?",
+      "paragraphs": [
+        {
+          "context": " In the vertebrate central nervous system (CNS), oligodendrocytes myelinate neuronal axons to increase conduction velocity and provide trophic support. Myelination can be modified by local signaling at the axon-myelin interface, potentially adapting sheaths to support the metabolic needs and physiology of individual neurons. However, neurons and oligodendrocytes are not wholly responsible for crafting the myelination patterns seen in vivo. Other cell types of the CNS, including microglia and astrocytes, modify myelination.",
+          "qas": [
+            {
+              "id": "680a21eb18b1e36f2e000150",
+              "question": "What glial cells are responsible for myelination in the CNS?",
+              "answers": [
+                {
+                  "text": "oligodendrocytes",
+                  "answer_start": 49
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is a common chromosome-level gain in glioblastoma?",
+      "paragraphs": [
+        {
+          "context": "These cytogenomic methods revealed classical findings associated with glioblastoma, such as a lack of IDH and TERT mutations, gain of chromosome 7, and loss of chromosome 10. ",
+          "qas": [
+            {
+              "id": "67fd5d6518b1e36f2e000138",
+              "question": "What is a common chromosome-level gain in glioblastoma?",
+              "answers": [
+                {
+                  "text": "chromosome 7",
+                  "answer_start": 134
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the gene target for  Zanidatamab?",
+      "paragraphs": [
+        {
+          "context": "Among those therapeutic targets, the human epidermal growth factor receptor-2 (HER-2) signaling pathway is one of the most popular targets for translational research in cancer.",
+          "qas": [
+            {
+              "id": "67fb046e18b1e36f2e00010c",
+              "question": "What is the gene target for  Zanidatamab?",
+              "answers": [
+                {
+                  "text": "HER-2",
+                  "answer_start": 79
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Is Clostridioides difficile an aerobe or a anaerobe bacterium?",
+      "paragraphs": [
+        {
+          "context": "Some species are obligate aerobes (e.g., Mycobacterium tuberculosis), relying on oxidative phosphorylation for ATP synthesis, whereas others are strict anaerobes (e.g., Clostridioides difficile) relying primarily on substrate-level phosphorylation using various fermentative pathways.",
+          "qas": [
+            {
+              "id": "67d71d8f18b1e36f2e00002b",
+              "question": "Is Clostridioides difficile an aerobe or a anaerobe bacterium?",
+              "answers": [
+                {
+                  "text": "strict anaerobe",
+                  "answer_start": 145
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bacteria that most commonly causes urinary tract infection.",
+      "paragraphs": [
+        {
+          "context": "Escherichia coli was the most identified uropathogen (60.4%) followed by Klebsiella spp. (8.7%) and Enterococcus spp. (7.7%)",
+          "qas": [
+            {
+              "id": "67e2b0a018b1e36f2e00008b",
+              "question": "Bacteria that most commonly causes urinary tract infection.",
+              "answers": [
+                {
+                  "text": "Escherichia coli",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

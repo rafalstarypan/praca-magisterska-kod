@@ -1,0 +1,40 @@
+# Dokumenty wewnętrzne
+internal_docs/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Dane surowe - domyślnie ignoruj wszystko w raw, ale śledź BioASQ
+data/raw/*
+!data/raw/bioasq/
+
+# COVID-QA processed - za duże (~279 MB), reprodukowalne ze skryptu
+data/processed/covidqa/
+
+# Checkpointy modeli
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+
+# Weights & Biases
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Env
+.env

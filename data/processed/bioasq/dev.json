@@ -1,0 +1,1538 @@
+{
+  "version": "v2.0",
+  "data": [
+    {
+      "title": "What type of extracolonic tumors does the PMS2 germline mutation cause?",
+      "paragraphs": [
+        {
+          "context": "Heterozygous PMS2 mutation carriers were at small increased risk for colorectal and endometrial cancer but not for any other Lynch syndrome-associated cancer. ",
+          "qas": [
+            {
+              "id": "65f7736fc4010b4d78000024",
+              "question": "What type of extracolonic tumors does the PMS2 germline mutation cause?",
+              "answers": [
+                {
+                  "text": "endometrial cancer",
+                  "answer_start": 84
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What proportion of risk is attributable to obesity in colorectal cancer women development?",
+      "paragraphs": [
+        {
+          "context": " The men in the obese/obese group had a higher risk of colon cancer than women (hazard ratio = 1.13 [1.10-1.17] in men, and hazard ratio = 1.04 [1.01-1.18] in women, P = 0.001). ",
+          "qas": [
+            {
+              "id": "65f7728fc4010b4d78000021",
+              "question": "What proportion of risk is attributable to obesity in colorectal cancer women development?",
+              "answers": [
+                {
+                  "text": "d hazard ratio = ",
+                  "answer_start": 122
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What type of DMD can golodirsen be used for?",
+      "paragraphs": [
+        {
+          "context": "Golodirsen (Vyondys 53™), an antisense oligonucleotide of the phophorodiamidate morpholino oligomer (PMO) subclass designed to induce exon 53 skipping",
+          "qas": [
+            {
+              "id": "64179034690f196b5100002b",
+              "question": "What type of DMD can golodirsen be used for?",
+              "answers": [
+                {
+                  "text": "exon 53",
+                  "answer_start": 134
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What proportion of alteration in NTRK genes are attributable to colorectal cancer?",
+      "paragraphs": [
+        {
+          "context": " In common cancers, rates were consistently below 0.5%. Rare morphological subtypes, colorectal microsatellite instability, and driver mutation exclusion cancers had higher rates.",
+          "qas": [
+            {
+              "id": "65f77397c4010b4d78000025",
+              "question": "What proportion of alteration in NTRK genes are attributable to colorectal cancer?",
+              "answers": [
+                {
+                  "text": "0.5%",
+                  "answer_start": 50
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cilta-cel was developed for treatment of which disease?",
+      "paragraphs": [
+        {
+          "context": "OBJECTIVE: This study used the latest available data cuts from the CARTITUDE-1 and KarMMa clinical trials to update previously published matching-adjusted indirect treatment comparisons (MAICs) assessing the comparative efficacy of ciltacabtagene autoleucel (cilta-cel) versus the FDA-approved idecabtagene vicleucel (ide-cel) dose range of 300 to 450 × 106 CAR-positive T-cells in the treatment of patients with relapsed or refractory multiple myeloma (RRMM) who were previously treated with a proteasome inhibitor, an immunomodulatory drug, and an anti-CD38 monoclonal antibody (i.e. triple-class exposed)",
+          "qas": [
+            {
+              "id": "65cfd4b21930410b13000020",
+              "question": "Cilta-cel was developed for treatment of which disease?",
+              "answers": [
+                {
+                  "text": "multiple myeloma",
+                  "answer_start": 436
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Leigh syndrome?",
+      "paragraphs": [
+        {
+          "context": "It may result from several defects of mitochondrial enzyme complexes, including pyruvate dehydrogenase complex, and respiratory chain complexes I, II, III, IV, V.",
+          "qas": [
+            {
+              "id": "6451007857b1c7a315000093",
+              "question": "What is the cause of Leigh syndrome?",
+              "answers": [
+                {
+                  "text": "defects of mitochondrial enzyme complexes",
+                  "answer_start": 27
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the indication for Alirocumab?",
+      "paragraphs": [
+        {
+          "context": "Alirocumab (Praluent) for high cholesterol",
+          "qas": [
+            {
+              "id": "65f70b9cc4010b4d7800001c",
+              "question": "What is the indication for Alirocumab?",
+              "answers": [
+                {
+                  "text": "high cholesterol",
+                  "answer_start": 26
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease can be treated with Tebentafusp?",
+      "paragraphs": [
+        {
+          "context": "Tebentafusp in Patients with Metastatic Uveal Melanoma: A Real-Life Retrospective Multicenter Study.",
+          "qas": [
+            {
+              "id": "65cec1fb1930410b13000005",
+              "question": "What disease can be treated with Tebentafusp?",
+              "answers": [
+                {
+                  "text": "Uveal Melanoma",
+                  "answer_start": 40
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "When was Havana Syndrome first recognized?",
+      "paragraphs": [
+        {
+          "context": " In 2016 diplomatic personnel serving in Havana, Cuba, began reporting audible sensory phenomena paired with onset of complex and persistent neurological symptoms consistent with brain injury. ",
+          "qas": [
+            {
+              "id": "65f856a1c4010b4d7800004e",
+              "question": "When was Havana Syndrome first recognized?",
+              "answers": [
+                {
+                  "text": "2016",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What does capnography measure?",
+      "paragraphs": [
+        {
+          "context": "A secondary analysis of a randomized study was performed to study the relationship between volumetric capnography (VCAP) and arterial CO2 partial pressure (PCO2) during cardiopulmonary resuscitation",
+          "qas": [
+            {
+              "id": "65f38059c4010b4d7800000e",
+              "question": "What does capnography measure?",
+              "answers": [
+                {
+                  "text": "CO2",
+                  "answer_start": 134
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Selpercatinib?",
+      "paragraphs": [
+        {
+          "context": "More recently, two selective RET inhibitors, selpercatinib and pralsetinib, demonstrated higher efficacy and good tolerability.",
+          "qas": [
+            {
+              "id": "65cfa22b1930410b1300000c",
+              "question": "What is the target of Selpercatinib?",
+              "answers": [
+                {
+                  "text": "RET",
+                  "answer_start": 29
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the vector for coxiella burnetii transmission?",
+      "paragraphs": [
+        {
+          "context": "transmitted by ticks include bacteria of the genus Borrelia and the species Francisella tularensis, Anaplasma phagophytophilum and Coxiella burnetii; ",
+          "qas": [
+            {
+              "id": "65f039fdc4010b4d78000002",
+              "question": "What is the vector for coxiella burnetii transmission?",
+              "answers": [
+                {
+                  "text": "tick",
+                  "answer_start": 15
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disorder is considered off label use for domperidone?",
+      "paragraphs": [
+        {
+          "context": "However, among (pediatric) gastroenterologists, domperidone is also used outside its authorized indication (\"off label\") for treatment of symptoms associated with gastro-esophageal reflux disease, dyspepsia, and gastroparesis.",
+          "qas": [
+            {
+              "id": "65f493cac4010b4d78000012",
+              "question": "What disorder is considered off label use for domperidone?",
+              "answers": [
+                {
+                  "text": "gastroparesis",
+                  "answer_start": 212
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most common surgical treatment for hydrocephalus?",
+      "paragraphs": [
+        {
+          "context": "OBJECTIVE: Ventriculoperitoneal shunt (VPS) surgery is a common treatment for hydrocephalus in children and adults, making it one of the most common procedures in ne",
+          "qas": [
+            {
+              "id": "65f85ec7c4010b4d78000052",
+              "question": "What is the most common surgical treatment for hydrocephalus?",
+              "answers": [
+                {
+                  "text": "Ventriculoperitoneal shunt",
+                  "answer_start": 11
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gantenerumab was developed for treatment of which disease?",
+      "paragraphs": [
+        {
+          "context": "Gantenerumab: an anti-amyloid monoclonal antibody with potential disease-modifying effects in early Alzheimer's disease.",
+          "qas": [
+            {
+              "id": "65cfa37c1930410b1300000d",
+              "question": "Gantenerumab was developed for treatment of which disease?",
+              "answers": [
+                {
+                  "text": "Alzheimer's disease",
+                  "answer_start": 100
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the administration route of zavegepant?",
+      "paragraphs": [
+        {
+          "context": "Zavegepant (Zavzpret), a nasal spray, is approved to treat adults with acute migraine with or without aura.",
+          "qas": [
+            {
+              "id": "65d1357c1930410b13000039",
+              "question": "What is the administration route of zavegepant?",
+              "answers": [
+                {
+                  "text": "nasal spray",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the first line treatment for severe Plasmodium falciparum malaria?",
+      "paragraphs": [
+        {
+          "context": "Intravenous artesunate has been the global standard of care for severe malaria",
+          "qas": [
+            {
+              "id": "65f82058c4010b4d7800003d",
+              "question": "What is the first line treatment for severe Plasmodium falciparum malaria?",
+              "answers": [
+                {
+                  "text": "artesunate",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which tick genus is the vector for Lyme disease?",
+      "paragraphs": [
+        {
+          "context": "Ixodes ricinus",
+          "qas": [
+            {
+              "id": "660c0071fdcbea915f00002b",
+              "question": "Which tick genus is the vector for Lyme disease?",
+              "answers": [
+                {
+                  "text": "Ixodes",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the optimal antiemetic treatment for FOLFIRINOX chemotherapy?",
+      "paragraphs": [
+        {
+          "context": "CINV induced by mFFX was poorly controlled even with prophylactic antiemetic therapy using 5HT3RA, DEX, and NK1RA, and was found to persist beyond 5 days",
+          "qas": [
+            {
+              "id": "65f7798dc4010b4d78000038",
+              "question": "What is the optimal antiemetic treatment for FOLFIRINOX chemotherapy?",
+              "answers": [
+                {
+                  "text": "DEX",
+                  "answer_start": 99
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TAK-994 is developed for which disease?",
+      "paragraphs": [
+        {
+          "context": "METHODS: We conducted a phase 2, randomized, placebo-controlled trial of TAK-994, an oral orexin receptor 2-selective agonist, in patients with narcolepsy type 1.",
+          "qas": [
+            {
+              "id": "65cfd3961930410b1300001f",
+              "question": "TAK-994 is developed for which disease?",
+              "answers": [
+                {
+                  "text": "narcolepsy",
+                  "answer_start": 144
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease can be treatment with Bulevirtide?",
+      "paragraphs": [
+        {
+          "context": "The entry inhibitor bulevirtide (BLV) is a new treatment option for patients with chronic hepatitis D virus (HDV) infection and compensated liver disease. ",
+          "qas": [
+            {
+              "id": "65cfdaae1930410b13000025",
+              "question": "What disease can be treatment with Bulevirtide?",
+              "answers": [
+                {
+                  "text": "chronic hepatitis D",
+                  "answer_start": 82
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which initial chemotherapy regimen is the most appropriate in Total Neoadjuvant Therapy (TNT) for lo",
+      "paragraphs": [
+        {
+          "context": "A plethora of potential chemotherapy schedules are available around the radiotherapy component, which include preoperative induction or consolidation with a range of options (FOLFOXIRI, FOLFOX, or CAPEOX,) ",
+          "qas": [
+            {
+              "id": "65f7785dc4010b4d78000033",
+              "question": "Which initial chemotherapy regimen is the most appropriate in Total Neoadjuvant Therapy (TNT) for locally advanced rectal cancer patients?",
+              "answers": [
+                {
+                  "text": "FOLFOXIRI",
+                  "answer_start": 175
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "In what part of the cell would a SNARE Soluble N-ethylmaleimide-sensitive factor attachment protein ",
+      "paragraphs": [
+        {
+          "context": "Soluble N-ethylmaleimide-sensitive factor attachment protein receptors (R-SNAREs) mainly promoted the assembly of the SNARE complex to drive the final membrane fusion step of membrane transport",
+          "qas": [
+            {
+              "id": "66088d66fdcbea915f00000c",
+              "question": "In what part of the cell would a SNARE Soluble N-ethylmaleimide-sensitive factor attachment protein receptors (SNAREs) be found",
+              "answers": [
+                {
+                  "text": "membrane",
+                  "answer_start": 151
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease is treated with Teplizumab?",
+      "paragraphs": [
+        {
+          "context": "Teplizumab has been approved for the delay of the onset of type 1 diabetes and may modulate new onset disease.",
+          "qas": [
+            {
+              "id": "65cf6ae91930410b13000007",
+              "question": "What disease is treated with Teplizumab?",
+              "answers": [
+                {
+                  "text": "type 1 diabetes",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the target of Divarasib?",
+      "paragraphs": [
+        {
+          "context": "Single-Agent Divarasib (GDC-6036) in Solid Tumors with a KRAS G12C Mutation.",
+          "qas": [
+            {
+              "id": "65cfaf7e1930410b13000016",
+              "question": "What is the target of Divarasib?",
+              "answers": [
+                {
+                  "text": "KRAS G12C",
+                  "answer_start": 57
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the appropriate treatment in HER2Neu amplificated refractory advanced colorectal cancer pati",
+      "paragraphs": [
+        {
+          "context": "Tucatinib plus trastuzumab had clinically meaningful anti-tumour activity and favourable tolerability. This treatment is the first US Food and Drug Administration-approved anti-HER2 regimen for metastatic colorectal cancer and is an important new treatment option for chemotherapy-refractory HER2-positive metastatic colorectal cancer.",
+          "qas": [
+            {
+              "id": "65f77a71c4010b4d7800003b",
+              "question": "What is the appropriate treatment in HER2Neu amplificated refractory advanced colorectal cancer patients?",
+              "answers": [
+                {
+                  "text": "Tucatinib plus trastuzumab",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What type of drug is administered to the mother for the prevention of lung immaturity when a preterm",
+      "paragraphs": [
+        {
+          "context": "The administration of antenatal corticosteroids, in cases of imminent preterm delivery, can enhance fetal lung maturation and reduce the incidence of respiratory distress syndrome, leading to improved neonatal outcomes. ",
+          "qas": [
+            {
+              "id": "660bb7f9fdcbea915f000029",
+              "question": "What type of drug is administered to the mother for the prevention of lung immaturity when a preterm delivery is anticipated?",
+              "answers": [
+                {
+                  "text": "corticosteroids",
+                  "answer_start": 32
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most appropriate dose of capecitabine in concurrent treatment with radiotherapy for neoa",
+      "paragraphs": [
+        {
+          "context": "Concurrent chronomodulated capecitabine (Brunch regimen) 1650 mg/m2/daily chemotherapy treatment was applied in both groups.",
+          "qas": [
+            {
+              "id": "66099c01fdcbea915f000023",
+              "question": "What is the most appropriate dose of capecitabine in concurrent treatment with radiotherapy for neoadjuvant therapy of locally advanced rectal cancer patients?",
+              "answers": [
+                {
+                  "text": "1650 mg/m2",
+                  "answer_start": 57
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What part of the cell is mitophagy associated with?",
+      "paragraphs": [
+        {
+          "context": "Mitophagy, or selective autophagy of mitochondria, is an essential pathway to preserve mitochondrial homeostasis by clearing up damaged mitochondria. ",
+          "qas": [
+            {
+              "id": "660877c8fdcbea915f000008",
+              "question": "What part of the cell is mitophagy associated with?",
+              "answers": [
+                {
+                  "text": "mitochondria",
+                  "answer_start": 37
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What channel is targeted by VX-548?",
+      "paragraphs": [
+        {
+          "context": "Selective Inhibition of NaV1.8 with VX-548 for Acute Pain.",
+          "qas": [
+            {
+              "id": "65cfd02e1930410b1300001c",
+              "question": "What channel is targeted by VX-548?",
+              "answers": [
+                {
+                  "text": "NaV1.8",
+                  "answer_start": 24
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most effective drug for oxaliplatin-induced neuropathy?",
+      "paragraphs": [
+        {
+          "context": "only limited evidence for the efficacy of duloxetine in the treatment setting has been provided.",
+          "qas": [
+            {
+              "id": "66099926fdcbea915f000016",
+              "question": "What is the most effective drug for oxaliplatin-induced neuropathy?",
+              "answers": [
+                {
+                  "text": "duloxetine",
+                  "answer_start": 42
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is Microcoring used for",
+      "paragraphs": [
+        {
+          "context": " MCT treatment of human skin is safe and well tolerated. Although further studies on efficacy are required to evaluate the full potential of MCT in skin rejuvenation, early findings such as skin tightening and increase in skin thickness are encouraging.",
+          "qas": [
+            {
+              "id": "65f37bb1c4010b4d7800000d",
+              "question": "What is Microcoring used for",
+              "answers": [
+                {
+                  "text": "skin rejuvenation",
+                  "answer_start": 148
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Brazilian spotted fever?",
+      "paragraphs": [
+        {
+          "context": "The bacterium Rickettsia rickettsii is the agent of Brazilian spotted fever (BSF)",
+          "qas": [
+            {
+              "id": "660c0486fdcbea915f00002d",
+              "question": "What is the cause of Brazilian spotted fever?",
+              "answers": [
+                {
+                  "text": "Rickettsia rickettsii",
+                  "answer_start": 14
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the first-line treatment for BRAF mutated advanced colorectal cancer patients?",
+      "paragraphs": [
+        {
+          "context": "The current standard therapies for first-line treatment of BRAF-mutated mCRC are chemotherapy with bevacizumab as well as 5-fluorouracil, leucovorin, oxaliplatin, and irinotecan (FOLFOXIRI) plus bevacizumab in patients with a good performance status",
+          "qas": [
+            {
+              "id": "66099a25fdcbea915f00001e",
+              "question": "What is the first-line treatment for BRAF mutated advanced colorectal cancer patients?",
+              "answers": [
+                {
+                  "text": "FOLFOXIRI) plus bevacizumab",
+                  "answer_start": 179
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the key transcription factor for melanocyte development and differentiation?",
+      "paragraphs": [
+        {
+          "context": "Certain transcription factors have vital roles in lineage development, including specification of cell types and control of differentiation. Microphthalmia-associated transcription factor (MITF) is a key transcription factor for melanocyte development and differentiation. MITF regulates expression of numerous pigmentation genes to promote melanocyte differentiation, as well as fundamental genes for maintaining cell homeostasis, including genes encoding proteins involved in apoptosis (eg, BCL2) and the cell cycle (eg, CDK2).",
+          "qas": [
+            {
+              "id": "661d96c9eac11fad33000028",
+              "question": "What is the key transcription factor for melanocyte development and differentiation?",
+              "answers": [
+                {
+                  "text": "Microphthalmia-associated transcription factor",
+                  "answer_start": 141
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Phenylketonuria (PKU)?",
+      "paragraphs": [
+        {
+          "context": "Phenylketonuria (PKU) is an inborn error caused by deficiencies in phenylalanine (Phe) metabolism",
+          "qas": [
+            {
+              "id": "661d48a2eac11fad33000018",
+              "question": "What is the cause of Phenylketonuria (PKU)?",
+              "answers": [
+                {
+                  "text": "deficiencies in phenylalanine (Phe) metabolism",
+                  "answer_start": 51
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which disease is treated with nirsevimab?",
+      "paragraphs": [
+        {
+          "context": "Efficacy of nirsevimab against respiratory syncytial virus lower respiratory tract infections in preterm and term infants, and pharmacokinetic extrapolation to infants with congenital heart disease and chronic lung disease: a pooled analysis of randomised controlled trials.",
+          "qas": [
+            {
+              "id": "65cebc0c1930410b13000003",
+              "question": "Which disease is treated with nirsevimab?",
+              "answers": [
+                {
+                  "text": "respiratory syncytial virus",
+                  "answer_start": 31
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Burrow Ink Test can be used to diagnose which disease?",
+      "paragraphs": [
+        {
+          "context": "Alternative diagnostic methods include the burrow ink test, video-dermatoscopy, newly serologic tests like PCR/ELISA, and specific IgE directed toward major mite components. Treatment of scabies consists of either topical permethrin or oral ivermectin, although the optimal regimen is still unclear.",
+          "qas": [
+            {
+              "id": "65cfcd541930410b13000019",
+              "question": "Burrow Ink Test can be used to diagnose which disease?",
+              "answers": [
+                {
+                  "text": "scabies",
+                  "answer_start": 187
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the technique of choice to perform a caesarean section?",
+      "paragraphs": [
+        {
+          "context": "Usually laparotomy followed by hysterotomy with a low transverse incision is preferable",
+          "qas": [
+            {
+              "id": "65f85fdbc4010b4d78000054",
+              "question": "What is the technique of choice to perform a caesarean section?",
+              "answers": [
+                {
+                  "text": "low transverse incision",
+                  "answer_start": 50
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the faster length time for oxaliplatin infusion?",
+      "paragraphs": [
+        {
+          "context": " Infusing oxaliplatin at a rate of 1 mg/m(2)/min does not increase the rate of HSRs and does not compromise patient safety. This infusion rate is safe for use in routine practice.",
+          "qas": [
+            {
+              "id": "66099967fdcbea915f000018",
+              "question": "What is the faster length time for oxaliplatin infusion?",
+              "answers": [
+                {
+                  "text": "1 mg/m(2)/min",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease is treated by Callosotomy",
+      "paragraphs": [
+        {
+          "context": "Corpus callosotomy (CC) is a surgical palliative procedure done for a selected group of patients with drug resistant epilepsy (DRE) to stop drop attacks and prevent ",
+          "qas": [
+            {
+              "id": "661be55f48a2c27714000003",
+              "question": "What disease is treated by Callosotomy",
+              "answers": [
+                {
+                  "text": "epilepsy",
+                  "answer_start": 117
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "From what age is it recommended to start population screening for colorectal cancer?",
+      "paragraphs": [
+        {
+          "context": "Colorectal cancer is a growing burden in adults less than 50 years old. In 2018, the American Cancer Society published a guideline update recommending a reduction in the colorectal cancer screening start age for average-risk individuals from 50 to 45. Implementing these recommendations would have important implications for public health.",
+          "qas": [
+            {
+              "id": "66099a03fdcbea915f00001d",
+              "question": "From what age is it recommended to start population screening for colorectal cancer?",
+              "answers": [
+                {
+                  "text": "45",
+                  "answer_start": 248
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the most effective immunotherapy regimen in patients with MSI-H advanced colorectal cancer?",
+      "paragraphs": [
+        {
+          "context": "Nivolumab plus ipilimumab demonstrated high response rates, encouraging progression-free survival and OS at 12 months, manageable safety, and meaningful improvements in key patient-reported outcomes. Indirect comparisons suggest combination therapy provides improved efficacy relative to anti-programmed death-1 monotherapy and has a favorable benefit-risk profile. Nivolumab plus ipilimumab provides a promising new treatment option for patients with dMMR/MSI-H mCRC.",
+          "qas": [
+            {
+              "id": "660999e7fdcbea915f00001c",
+              "question": "What is the most effective immunotherapy regimen in patients with MSI-H advanced colorectal cancer?",
+              "answers": [
+                {
+                  "text": "Nivolumab plus ipilimumab",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of autosomal dominant Polycystic Kidney Disease?",
+      "paragraphs": [
+        {
+          "context": "Autosomal dominant polycystic kidney disease (ADPKD) is genetically heterogeneous and is caused by mutations in the PKD1 or PKD2 genes.",
+          "qas": [
+            {
+              "id": "661d6252eac11fad33000025",
+              "question": "What is the cause of autosomal dominant Polycystic Kidney Disease?",
+              "answers": [
+                {
+                  "text": "mutations in the PKD1 or PKD2 genes",
+                  "answer_start": 99
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "By which method do micro RNAs (miRNAs) primarily aid in transcriptional and post-transcriptional reg",
+      "paragraphs": [
+        {
+          "context": "Small non-coding RNAs (miRNAs) regulate gene expression by binding to mRNA and mediating its degradation or inhibiting translation.",
+          "qas": [
+            {
+              "id": "661c424588784bab31000001",
+              "question": "By which method do micro RNAs (miRNAs) primarily aid in transcriptional and post-transcriptional regulation?",
+              "answers": [
+                {
+                  "text": "degradation",
+                  "answer_start": 93
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Autosomal Recessive Polycystic Kidney Disease?",
+      "paragraphs": [
+        {
+          "context": "Variants of the polycystic kidney and hepatic disease 1 (PKHD1) gene are associated with autosomal recessive polycystic kidney disease (ARPKD).",
+          "qas": [
+            {
+              "id": "661d6473eac11fad33000027",
+              "question": "What is the cause of Autosomal Recessive Polycystic Kidney Disease?",
+              "answers": [
+                {
+                  "text": "PKHD1) gene",
+                  "answer_start": 57
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What causes Mucormycosis?",
+      "paragraphs": [
+        {
+          "context": "Mucormycosis, is a severe but rare fungal infection caused by a group of molds called mucormycetes. Diabetes, use of corticosteroids, metabolic/diabetic acidosis and Covid-19 mediated immunosuppression are reported in more than 70% of cases in mucormycosis patients.",
+          "qas": [
+            {
+              "id": "65ef8502dffffb9b6b000003",
+              "question": "What causes Mucormycosis?",
+              "answers": [
+                {
+                  "text": "mucormycetes",
+                  "answer_start": 86
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "When was the first case of human monkey pox diagnosed?",
+      "paragraphs": [
+        {
+          "context": "the detection of the first human case in the Democratic Republic of the Congo in 1970",
+          "qas": [
+            {
+              "id": "66165f2afdcbea915f000051",
+              "question": "When was the first case of human monkey pox diagnosed?",
+              "answers": [
+                {
+                  "text": "1970",
+                  "answer_start": 81
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What type of colorectal cancer screening is the most cost-effective for general population?",
+      "paragraphs": [
+        {
+          "context": "colonoscopy was a cost-effective strategy for colorectal cancer screening in the general population",
+          "qas": [
+            {
+              "id": "65f774a4c4010b4d78000029",
+              "question": "What type of colorectal cancer screening is the most cost-effective for general population?",
+              "answers": [
+                {
+                  "text": "colonoscopy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where would Odocoileus virginianus be found?",
+      "paragraphs": [
+        {
+          "context": "free-ranging white-tailed deer (Odocoileus virginianus) in North America ",
+          "qas": [
+            {
+              "id": "660982eefdcbea915f000012",
+              "question": "Where would Odocoileus virginianus be found?",
+              "answers": [
+                {
+                  "text": "North America",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What mutation is associated with the VEXAS syndrome?",
+      "paragraphs": [
+        {
+          "context": "Somatic mutations of the UBA1 gene in hematopoietic stem cells constitute the genetic basis of VEXAS. ",
+          "qas": [
+            {
+              "id": "65cfa8f81930410b13000010",
+              "question": "What mutation is associated with the VEXAS syndrome?",
+              "answers": [
+                {
+                  "text": "UBA1 gene",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Prader-Willi Syndrome?",
+      "paragraphs": [
+        {
+          "context": "Prader-Willi syndrome (PWS), which is a complex epigenetic disorder caused by the deficiency of paternally expressed genes in chromosome 15q11-q13, ",
+          "qas": [
+            {
+              "id": "661d5c97eac11fad33000021",
+              "question": "What is the cause of Prader-Willi Syndrome?",
+              "answers": [
+                {
+                  "text": "deficiency of paternally expressed genes in chromosome 15q11-q13",
+                  "answer_start": 82
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the optimal timing of surgical resection after a neoadjuvant chemoradiotherapy for locally a",
+      "paragraphs": [
+        {
+          "context": "A total of 579 patients (54.4%) had a shorter wait time (8 weeks or less) 485 patients (45.6%) had a longer wait time (greater than 8 weeks). ",
+          "qas": [
+            {
+              "id": "65f777d7c4010b4d78000032",
+              "question": "What is the optimal timing of surgical resection after a neoadjuvant chemoradiotherapy for locally advanced rectal cancer patients?",
+              "answers": [
+                {
+                  "text": "8 weeks",
+                  "answer_start": 57
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What disease can be treated with Trofinetide?",
+      "paragraphs": [
+        {
+          "context": "Trofinetide for the treatment of Rett syndrome: a randomized phase 3 study.",
+          "qas": [
+            {
+              "id": "65d134bd1930410b13000037",
+              "question": "What disease can be treated with Trofinetide?",
+              "answers": [
+                {
+                  "text": "Rett syndrome",
+                  "answer_start": 33
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which is the most reliable liquid biopsy technique after complete resection of  colorectal cancer me",
+      "paragraphs": [
+        {
+          "context": "Among all liquid biopsy methods, CTCs showed the best diagnostic performance",
+          "qas": [
+            {
+              "id": "65f7789dc4010b4d78000034",
+              "question": "Which is the most reliable liquid biopsy technique after complete resection of  colorectal cancer metastases?",
+              "answers": [
+                {
+                  "text": "CTCs",
+                  "answer_start": 33
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where is the tumor of follicular infundibulum usually found?",
+      "paragraphs": [
+        {
+          "context": "GATA6 transcription factor has been identified as a new marker of the upper folliculosebaceous compartment (lower infundibulum, junctional zone and isthmus, and upper sebaceous gland) in the human skin",
+          "qas": [
+            {
+              "id": "65f59e46c4010b4d78000015",
+              "question": "Where is the tumor of follicular infundibulum usually found?",
+              "answers": [
+                {
+                  "text": "skin",
+                  "answer_start": 197
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the cause of Rett Syndrome?",
+      "paragraphs": [
+        {
+          "context": "Mutations of the X-linked gene encoding methyl-CpG-binding protein 2 (MECP2) cause classical forms of Rett syndrome (RTT) in girls",
+          "qas": [
+            {
+              "id": "661d4c2eeac11fad3300001a",
+              "question": "What is the cause of Rett Syndrome?",
+              "answers": [
+                {
+                  "text": "MECP2",
+                  "answer_start": 70
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the use of lebrikizumab?",
+      "paragraphs": [
+        {
+          "context": "Efficacy and Safety of Lebrikizumab in Combination With Topical Corticosteroids in Adolescents and Adults With Moderate-to-Severe Atopic Dermatitis: A Randomized Clinical Trial (ADhere).",
+          "qas": [
+            {
+              "id": "65d36e761930410b13000044",
+              "question": "What is the use of lebrikizumab?",
+              "answers": [
+                {
+                  "text": "Atopic Dermatitis",
+                  "answer_start": 130
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Coffee Bean Sign is characteristic to which disease?",
+      "paragraphs": [
+        {
+          "context": ". In addition, X-ray signs including disproportionate sigmoid dilatation, distended inverted 'U' in sigmoid, coffee bean sign, opposed wall sign, direction of apex of sigmoid loop, liver overlap sign, northern exposure sign and proximal colonic dilatation and CT features including whirl sign, 'X' marks the spot sign, split wall sign and number of transition points were reported for each case. The clinical management and outcomes including morbidity, mortality, endoscopic decompression and need for surgery were also evaluated. The subtype of volvulus was correlated with the above X-ray signs, CT features and clinical management and outcomes. ",
+          "qas": [
+            {
+              "id": "65d144b81930410b13000041",
+              "question": "Coffee Bean Sign is characteristic to which disease?",
+              "answers": [
+                {
+                  "text": "volvulus",
+                  "answer_start": 547
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What process does tRNA nucleotidyl transferase 1 (TRNT1)  catalyze?",
+      "paragraphs": [
+        {
+          "context": "TRNT1 gene encodes a CCA-adding tRNA nucleotidyl transferase enzyme. ",
+          "qas": [
+            {
+              "id": "662cfc88187cba990d000008",
+              "question": "What process does tRNA nucleotidyl transferase 1 (TRNT1)  catalyze?",
+              "answers": [
+                {
+                  "text": "CCA",
+                  "answer_start": 21
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the prevalence of intellectual developmental disorders in Becker Muscular Dystrophy?",
+      "paragraphs": [
+        {
+          "context": "The global prevalence of intellectual developmental disorder (IDD) was 8% in Becker muscular dystrophy",
+          "qas": [
+            {
+              "id": "66300d3e187cba990d00001b",
+              "question": "What is the prevalence of intellectual developmental disorders in Becker Muscular Dystrophy?",
+              "answers": [
+                {
+                  "text": "8%",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mutation of which gene was implicated in Disabling pansclerotic morphea?",
+      "paragraphs": [
+        {
+          "context": "CONCLUSIONS: Gain-of-function variants in STAT4 caused DPM in the families that we studied.",
+          "qas": [
+            {
+              "id": "65cfdf1c1930410b13000028",
+              "question": "Mutation of which gene was implicated in Disabling pansclerotic morphea?",
+              "answers": [
+                {
+                  "text": "STAT4",
+                  "answer_start": 42
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Oxysterol is produced by the oxidation of what waxy, fat-like substance made in the liver?",
+      "paragraphs": [
+        {
+          "context": "Oxysterols derive from either enzymatic or non-enzymatic oxidation of cholesterol. ",
+          "qas": [
+            {
+              "id": "662a4b08b9f8b89d7e00000b",
+              "question": "Oxysterol is produced by the oxidation of what waxy, fat-like substance made in the liver?",
+              "answers": [
+                {
+                  "text": "cholesterol",
+                  "answer_start": 70
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which chromosome is most commonly affected by loss of heterozygosity in glioblastoma?",
+      "paragraphs": [
+        {
+          "context": "Loss of heterozygosity (LOH) on chromosome 10 (LOH#10) is the most frequent genetic alteration in glioblastomas;",
+          "qas": [
+            {
+              "id": "6630154c187cba990d000021",
+              "question": "Which chromosome is most commonly affected by loss of heterozygosity in glioblastoma?",
+              "answers": [
+                {
+                  "text": "chromosome 10",
+                  "answer_start": 32
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which genetic alteration is most commonly associated with the classical subtype of glioblastoma?",
+      "paragraphs": [
+        {
+          "context": "Despite all of the progress in understanding its molecular biology and pathogenesis, glioblastoma (GBM) is one of the most aggressive types of cancers, and without an efficient treatment modality at the moment, it remains largely incurable. Nowadays, one of the most frequently studied molecules with important implications in the pathogenesis of the classical subtype of GBM is the epidermal growth factor receptor (EGFR). Although many clinical trials aiming to study EGFR targeted therapies have been performed, none of them have reported promising clinical results when used in glioma patients.",
+          "qas": [
+            {
+              "id": "663016bb187cba990d000023",
+              "question": "Which genetic alteration is most commonly associated with the classical subtype of glioblastoma?",
+              "answers": [
+                {
+                  "text": "EGFR",
+                  "answer_start": 417
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is PUL-2 in Duchenne Muscular Dystrophy?",
+      "paragraphs": [
+        {
+          "context": "The performance of upper limb 2.0 (PUL) is widely used to assess upper limb function in DMD patients.",
+          "qas": [
+            {
+              "id": "66302487187cba990d000031",
+              "question": "What is PUL-2 in Duchenne Muscular Dystrophy?",
+              "answers": [
+                {
+                  "text": "performance of upper limb",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the average median survival for advanced colorectal cancer patients?",
+      "paragraphs": [
+        {
+          "context": "Median OS was roughly stable for patients diagnosed between 2004 and 2012 (22.6 months) but since has steadily improved for those diagnosed in 2013 to 2015 (28.8 months), and 2016 to 2019 (32.4 months",
+          "qas": [
+            {
+              "id": "66099907fdcbea915f000015",
+              "question": "What is the average median survival for advanced colorectal cancer patients?",
+              "answers": [
+                {
+                  "text": "32.4 months",
+                  "answer_start": 189
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Where in the body would the globus pallidus be found?",
+      "paragraphs": [
+        {
+          "context": "This pilot study was conducted in 4 patients with Parkinson's disease (PD) who underwent MRI-guided deep brain stimulation of the globus pallidus internus (GPi). CSF was obtained via lumbar puncture after general anesthesia and prior to incision",
+          "qas": [
+            {
+              "id": "662cfbf5187cba990d000007",
+              "question": "Where in the body would the globus pallidus be found?",
+              "answers": [
+                {
+                  "text": "brain",
+                  "answer_start": 105
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the gold standard for a diagnosis of narcolepsy?",
+      "paragraphs": [
+        {
+          "context": "referral to an accredited sleep laboratory for a formal sleep study including overnight polysomnography is necessary for a positive narcolepsy diagnosi",
+          "qas": [
+            {
+              "id": "66156200fdcbea915f00004d",
+              "question": "What is the gold standard for a diagnosis of narcolepsy?",
+              "answers": [
+                {
+                  "text": "sleep study including overnight polysomnography",
+                  "answer_start": 56
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Which receptor tyrosine kinase is commonly mutated or amplified in pediatric glioma cases?",
+      "paragraphs": [
+        {
+          "context": "Over 20% of pHGG have been found in sequencing studies to have alterations in platelet derived growth factor-alpha (PDGFRA), making growth factor modeling and inhibition via targeted tyrosine kinases a rich vein of interest.",
+          "qas": [
+            {
+              "id": "6630390b187cba990d000035",
+              "question": "Which receptor tyrosine kinase is commonly mutated or amplified in pediatric glioma cases?",
+              "answers": [
+                {
+                  "text": "PDGFRA",
+                  "answer_start": 116
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the race with the highest incidence of colorectal cancer?",
+      "paragraphs": [
+        {
+          "context": "Black Americans demonstrating the highest incidence and mortality from this disease",
+          "qas": [
+            {
+              "id": "66214c5db9f8b89d7e000002",
+              "question": "What is the race with the highest incidence of colorectal cancer?",
+              "answers": [
+                {
+                  "text": "Black",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What are episignatures?",
+      "paragraphs": [
+        {
+          "context": "A growing number of genetic syndromes have been associated with unique genomic DNA methylation patterns (called \"episignatures\") that can be used for diagnostic testing and as disease biomarkers. ",
+          "qas": [
+            {
+              "id": "66301e04187cba990d000027",
+              "question": "What are episignatures?",
+              "answers": [
+                {
+                  "text": "unique genomic DNA methylation patterns",
+                  "answer_start": 64
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is the prevalence of intellectual developmental disorders in Duchenne Muscular Dystrophy?",
+      "paragraphs": [
+        {
+          "context": "The global prevalence of intellectual developmental disorder (IDD) was 8% in Becker muscular dystrophy and 22% in Duchenne muscular dystrophy (DMD).",
+          "qas": [
+            {
+              "id": "66300ee7187cba990d00001c",
+              "question": "What is the prevalence of intellectual developmental disorders in Duchenne Muscular Dystrophy?",
+              "answers": [
+                {
+                  "text": "22%",
+                  "answer_start": 107
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
