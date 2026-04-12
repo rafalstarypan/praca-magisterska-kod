@@ -13,8 +13,9 @@ build/
 data/raw/*
 !data/raw/bioasq/
 
-# COVID-QA processed - za duże (~279 MB), reprodukowalne ze skryptu
+# COVID-QA i SQuAD processed - za duże, reprodukowalne ze skryptu
 data/processed/covidqa/
+data/processed/squad/
 
 # Checkpointy modeli
 *.pt
