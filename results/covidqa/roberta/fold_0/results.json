@@ -1,0 +1,52 @@
+{
+  "model": "roberta",
+  "model_hf_name": "FacebookAI/roberta-base",
+  "pretrained_from": "results/squad/roberta/best_model",
+  "dataset": "covidqa",
+  "fold": 0,
+  "seed": 42,
+  "total_params": 124056578,
+  "trainable_params": 124056578,
+  "train_metrics": {
+    "train_runtime": 2036.3195,
+    "train_samples_per_second": 62.614,
+    "train_steps_per_second": 3.914,
+    "total_flos": 2.4987090280582656e+16,
+    "train_loss": 0.13345380821546277,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 40.98837209302326,
+    "f1": 64.66375631898,
+    "total": 344
+  },
+  "test_metrics": {
+    "exact_match": 37.62376237623762,
+    "f1": 62.99711397236386,
+    "total": 303
+  },
+  "hardware": {
+    "wall_time_seconds": 2037.5,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4",
+    "peak_vram_mb": 4080,
+    "peak_vram_reserved_mb": 4430
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

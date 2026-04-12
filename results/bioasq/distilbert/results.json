@@ -1,0 +1,42 @@
+{
+  "model": "distilbert",
+  "model_hf_name": "distilbert/distilbert-base-uncased",
+  "pretrained_from": "results/squad/distilbert/best_model",
+  "dataset": "bioasq",
+  "fold": null,
+  "seed": 42,
+  "total_params": 66364418,
+  "trainable_params": 66364418,
+  "train_metrics": {
+    "train_runtime": 44.1039,
+    "train_samples_per_second": 82.85,
+    "train_steps_per_second": 5.238,
+    "total_flos": 358054820637696.0,
+    "train_loss": 0.9467160278584534,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 45.205479452054796,
+    "f1": 66.00811389203604,
+    "total": 73
+  },
+  "test_metrics": {
+    "exact_match": 42.68292682926829,
+    "f1": 60.82597797296128,
+    "total": 82
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

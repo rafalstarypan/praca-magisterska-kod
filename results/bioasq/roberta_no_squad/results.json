@@ -1,0 +1,42 @@
+{
+  "model": "roberta",
+  "model_hf_name": "FacebookAI/roberta-base",
+  "pretrained_from": null,
+  "dataset": "bioasq",
+  "fold": null,
+  "seed": 42,
+  "total_params": 124056578,
+  "trainable_params": 124056578,
+  "train_metrics": {
+    "train_runtime": 80.4246,
+    "train_samples_per_second": 45.434,
+    "train_steps_per_second": 2.872,
+    "total_flos": 716083761835008.0,
+    "train_loss": 1.9937668342094916,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 42.465753424657535,
+    "f1": 59.638884707377855,
+    "total": 73
+  },
+  "test_metrics": {
+    "exact_match": 42.68292682926829,
+    "f1": 62.29610836318154,
+    "total": 82
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

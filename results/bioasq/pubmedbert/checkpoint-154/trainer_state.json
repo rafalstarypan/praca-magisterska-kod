@@ -1,0 +1,77 @@
+{
+  "best_global_step": 154,
+  "best_metric": 71.78161964136773,
+  "best_model_checkpoint": "C:\\Users\\rafal\\Desktop\\praca_magisterska\\praca-magisterska-kod\\results\\bioasq\\pubmedbert\\checkpoint-154",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 154,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.6493506493506493,
+      "grad_norm": 13.566387176513672,
+      "learning_rate": 2.6521739130434784e-05,
+      "loss": 1.0123217010498047,
+      "step": 50
+    },
+    {
+      "epoch": 1.0,
+      "eval_exact_match": 57.534246575342465,
+      "eval_f1": 71.36058989805967,
+      "eval_loss": 0.9618971347808838,
+      "eval_runtime": 0.5774,
+      "eval_samples_per_second": 126.422,
+      "eval_steps_per_second": 5.195,
+      "eval_total": 73,
+      "step": 77
+    },
+    {
+      "epoch": 1.2987012987012987,
+      "grad_norm": 12.134106636047363,
+      "learning_rate": 1.956521739130435e-05,
+      "loss": 0.841639404296875,
+      "step": 100
+    },
+    {
+      "epoch": 1.948051948051948,
+      "grad_norm": 11.63671588897705,
+      "learning_rate": 1.2318840579710144e-05,
+      "loss": 0.5869651031494141,
+      "step": 150
+    },
+    {
+      "epoch": 2.0,
+      "eval_exact_match": 57.534246575342465,
+      "eval_f1": 71.78161964136773,
+      "eval_loss": 1.004263162612915,
+      "eval_runtime": 0.4843,
+      "eval_samples_per_second": 150.74,
+      "eval_steps_per_second": 6.195,
+      "eval_total": 73,
+      "step": 154
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 231,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 476997229421568.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

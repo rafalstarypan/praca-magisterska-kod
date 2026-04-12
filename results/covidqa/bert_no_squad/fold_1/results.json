@@ -1,0 +1,42 @@
+{
+  "model": "bert",
+  "model_hf_name": "google-bert/bert-base-uncased",
+  "pretrained_from": null,
+  "dataset": "covidqa",
+  "fold": 1,
+  "seed": 42,
+  "total_params": 108893186,
+  "trainable_params": 108893186,
+  "train_metrics": {
+    "train_runtime": 2006.4157,
+    "train_samples_per_second": 63.573,
+    "train_steps_per_second": 3.974,
+    "total_flos": 2.499708488152781e+16,
+    "train_loss": 0.2564332918442668,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 19.825072886297377,
+    "f1": 38.70440457664669,
+    "total": 343
+  },
+  "test_metrics": {
+    "exact_match": 18.48184818481848,
+    "f1": 40.05642365557956,
+    "total": 303
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

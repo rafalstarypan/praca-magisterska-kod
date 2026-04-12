@@ -1,0 +1,42 @@
+{
+  "model": "distilbert",
+  "model_hf_name": "distilbert/distilbert-base-uncased",
+  "pretrained_from": "results/squad/distilbert/best_model",
+  "dataset": "covidqa",
+  "fold": 4,
+  "seed": 42,
+  "total_params": 66364418,
+  "trainable_params": 66364418,
+  "train_metrics": {
+    "train_runtime": 1131.2712,
+    "train_samples_per_second": 113.418,
+    "train_steps_per_second": 7.091,
+    "total_flos": 1.2572780479354368e+16,
+    "train_loss": 0.14963066993999646,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 30.612244897959183,
+    "f1": 57.23949892513338,
+    "total": 343
+  },
+  "test_metrics": {
+    "exact_match": 25.742574257425744,
+    "f1": 50.881310829177096,
+    "total": 303
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

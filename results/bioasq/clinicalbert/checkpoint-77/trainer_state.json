@@ -1,0 +1,52 @@
+{
+  "best_global_step": 77,
+  "best_metric": 65.17874819244683,
+  "best_model_checkpoint": "C:\\Users\\rafal\\Desktop\\praca_magisterska\\praca-magisterska-kod\\results\\bioasq\\clinicalbert\\checkpoint-77",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 77,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.6493506493506493,
+      "grad_norm": 11.300122261047363,
+      "learning_rate": 2.6521739130434784e-05,
+      "loss": 1.3073590087890625,
+      "step": 50
+    },
+    {
+      "epoch": 1.0,
+      "eval_exact_match": 43.83561643835616,
+      "eval_f1": 65.17874819244683,
+      "eval_loss": 1.154134750366211,
+      "eval_runtime": 0.3915,
+      "eval_samples_per_second": 186.457,
+      "eval_steps_per_second": 7.663,
+      "eval_total": 73,
+      "step": 77
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 231,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 239282504980992.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

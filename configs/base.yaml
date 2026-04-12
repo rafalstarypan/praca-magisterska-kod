@@ -1,0 +1,26 @@
+# Hyperparameters for E1: Comparative matrix (fixed for all models)
+# Source: zakres_prac_nad_systemem.pdf (promotor)
+
+# Optimizer & schedule
+learning_rate: 3.0e-5
+weight_decay: 0.01
+warmup_ratio: 0.1
+num_train_epochs: 3
+
+# Batching
+per_device_train_batch_size: 16
+per_device_eval_batch_size: 32
+
+# QA tokenization
+max_seq_length: 384
+doc_stride: 128
+
+# QA post-processing
+max_answer_length: 30
+n_best_size: 20
+
+# Mixed precision
+fp16: true
+
+# Logging
+logging_steps: 50

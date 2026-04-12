@@ -1,0 +1,52 @@
+{
+  "model": "pubmedbert",
+  "model_hf_name": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "pretrained_from": "results/squad/pubmedbert/best_model",
+  "dataset": "covidqa",
+  "fold": 1,
+  "seed": 42,
+  "total_params": 108893186,
+  "trainable_params": 108893186,
+  "train_metrics": {
+    "train_runtime": 1822.7747,
+    "train_samples_per_second": 62.985,
+    "train_steps_per_second": 3.937,
+    "total_flos": 2.2499022562942464e+16,
+    "train_loss": 0.11411370602804947,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 37.02623906705539,
+    "f1": 63.08561978263753,
+    "total": 343
+  },
+  "test_metrics": {
+    "exact_match": 35.64356435643565,
+    "f1": 60.68746201394689,
+    "total": 303
+  },
+  "hardware": {
+    "wall_time_seconds": 1823.9,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4",
+    "peak_vram_mb": 3906,
+    "peak_vram_reserved_mb": 4130
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

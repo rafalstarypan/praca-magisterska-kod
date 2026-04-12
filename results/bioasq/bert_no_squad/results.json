@@ -1,0 +1,42 @@
+{
+  "model": "bert",
+  "model_hf_name": "google-bert/bert-base-uncased",
+  "pretrained_from": null,
+  "dataset": "bioasq",
+  "fold": null,
+  "seed": 42,
+  "total_params": 108893186,
+  "trainable_params": 108893186,
+  "train_metrics": {
+    "train_runtime": 62.1097,
+    "train_samples_per_second": 58.831,
+    "train_steps_per_second": 3.719,
+    "total_flos": 716083761835008.0,
+    "train_loss": 2.2079143771877536,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 30.136986301369863,
+    "f1": 47.21022988867257,
+    "total": 73
+  },
+  "test_metrics": {
+    "exact_match": 34.146341463414636,
+    "f1": 50.240105423032254,
+    "total": 82
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

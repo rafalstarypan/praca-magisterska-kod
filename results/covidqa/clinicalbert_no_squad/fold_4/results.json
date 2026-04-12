@@ -1,0 +1,52 @@
+{
+  "model": "clinicalbert",
+  "model_hf_name": "emilyalsentzer/Bio_ClinicalBERT",
+  "pretrained_from": null,
+  "dataset": "covidqa",
+  "fold": 4,
+  "seed": 42,
+  "total_params": 107721218,
+  "trainable_params": 107721218,
+  "train_metrics": {
+    "train_runtime": 2142.5689,
+    "train_samples_per_second": 63.588,
+    "train_steps_per_second": 3.975,
+    "total_flos": 2.6699694548419584e+16,
+    "train_loss": 0.230635971156339,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 20.699708454810494,
+    "f1": 48.92495979918415,
+    "total": 343
+  },
+  "test_metrics": {
+    "exact_match": 19.801980198019802,
+    "f1": 41.10675447838356,
+    "total": 303
+  },
+  "hardware": {
+    "wall_time_seconds": 2143.7,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4",
+    "peak_vram_mb": 3891,
+    "peak_vram_reserved_mb": 4040
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

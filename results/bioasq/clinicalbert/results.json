@@ -1,0 +1,42 @@
+{
+  "model": "clinicalbert",
+  "model_hf_name": "emilyalsentzer/Bio_ClinicalBERT",
+  "pretrained_from": "results/squad/clinicalbert/best_model",
+  "dataset": "bioasq",
+  "fold": null,
+  "seed": 42,
+  "total_params": 107721218,
+  "trainable_params": 107721218,
+  "train_metrics": {
+    "train_runtime": 62.0409,
+    "train_samples_per_second": 59.042,
+    "train_steps_per_second": 3.723,
+    "total_flos": 717847514942976.0,
+    "train_loss": 0.7658610942559841,
+    "epoch": 3.0
+  },
+  "eval_metrics": {
+    "exact_match": 45.205479452054796,
+    "f1": 65.45272079518655,
+    "total": 73
+  },
+  "test_metrics": {
+    "exact_match": 46.34146341463415,
+    "f1": 65.89884031957203,
+    "total": 82
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 3,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}

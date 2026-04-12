@@ -1,0 +1,38 @@
+{
+  "model": "biobert",
+  "model_hf_name": "dmis-lab/biobert-v1.1",
+  "pretrained_from": null,
+  "dataset": "squad",
+  "fold": null,
+  "seed": 42,
+  "total_params": 107721218,
+  "trainable_params": 107721218,
+  "train_metrics": {
+    "train_runtime": 2658.1513,
+    "train_samples_per_second": 66.76,
+    "train_steps_per_second": 4.173,
+    "total_flos": 3.4776899892642816e+16,
+    "train_loss": 1.108475897658658,
+    "epoch": 2.0
+  },
+  "eval_metrics": {
+    "exact_match": 81.37180700094608,
+    "f1": 88.74669241862493,
+    "total": 10570
+  },
+  "test_metrics": {},
+  "config": {
+    "learning_rate": 3e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "num_train_epochs": 2,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 32,
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "n_best_size": 20,
+    "fp16": true,
+    "logging_steps": 50
+  }
+}
