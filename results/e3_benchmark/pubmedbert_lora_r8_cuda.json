@@ -1,0 +1,51 @@
+{
+  "label": "pubmedbert_lora_r8",
+  "model_path": "results/bioasq/pubmedbert_lora_r8/best_model",
+  "device": "cuda",
+  "lora_merged": true,
+  "total_params": 108893186,
+  "n_examples": 82,
+  "n_warmup": 30,
+  "n_runs": 10,
+  "batch_size": 32,
+  "latency_ms": {
+    "median": 16.64,
+    "std": 0.5,
+    "per_run_medians": [
+      17.67,
+      17.34,
+      16.47,
+      16.23,
+      15.97,
+      16.55,
+      16.67,
+      16.6,
+      16.69,
+      16.93
+    ]
+  },
+  "throughput_samples_per_sec": {
+    "median": 220.2,
+    "std": 2.3,
+    "per_run": [
+      226.2,
+      218.6,
+      219.5,
+      221.0,
+      218.0,
+      221.2,
+      220.3,
+      218.3,
+      220.4,
+      220.0
+    ]
+  },
+  "peak_vram_mb": 430,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "label": "distilbert",
+  "model_path": "results/bioasq/distilbert/best_model",
+  "device": "cuda",
+  "lora_merged": false,
+  "total_params": 66364418,
+  "n_examples": 82,
+  "n_warmup": 10,
+  "n_runs": 5,
+  "batch_size": 32,
+  "latency_ms": {
+    "median": 8.48,
+    "std": 0.31,
+    "per_run_medians": [
+      9.07,
+      8.48,
+      8.6,
+      8.26,
+      8.39
+    ]
+  },
+  "throughput_samples_per_sec": {
+    "median": 373.4,
+    "std": 3.0,
+    "per_run": [
+      376.3,
+      373.4,
+      372.3,
+      369.4,
+      376.5
+    ]
+  },
+  "peak_vram_mb": 268,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4"
+  }
+}

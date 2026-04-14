@@ -1,0 +1,95 @@
+{
+  "best_global_step": 231,
+  "best_metric": 63.035541323212556,
+  "best_model_checkpoint": "C:\\Users\\rafal\\Desktop\\praca_magisterska\\praca-magisterska-kod\\results\\bioasq\\pubmedbert_lora_r4\\checkpoint-231",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 231,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.6493506493506493,
+      "grad_norm": 2.683870792388916,
+      "learning_rate": 8.840579710144929e-05,
+      "loss": 1.1673097229003906,
+      "step": 50
+    },
+    {
+      "epoch": 1.0,
+      "eval_exact_match": 45.205479452054796,
+      "eval_f1": 61.891814426061,
+      "eval_loss": 1.2608171701431274,
+      "eval_runtime": 0.7397,
+      "eval_samples_per_second": 98.686,
+      "eval_steps_per_second": 4.056,
+      "eval_total": 73,
+      "step": 77
+    },
+    {
+      "epoch": 1.2987012987012987,
+      "grad_norm": 4.379007339477539,
+      "learning_rate": 6.42512077294686e-05,
+      "loss": 1.1080537414550782,
+      "step": 100
+    },
+    {
+      "epoch": 1.948051948051948,
+      "grad_norm": 1.941998839378357,
+      "learning_rate": 4.057971014492754e-05,
+      "loss": 1.041245574951172,
+      "step": 150
+    },
+    {
+      "epoch": 2.0,
+      "eval_exact_match": 45.205479452054796,
+      "eval_f1": 62.4283441064263,
+      "eval_loss": 1.1718764305114746,
+      "eval_runtime": 0.5036,
+      "eval_samples_per_second": 144.943,
+      "eval_steps_per_second": 5.957,
+      "eval_total": 73,
+      "step": 154
+    },
+    {
+      "epoch": 2.5974025974025974,
+      "grad_norm": 5.949661731719971,
+      "learning_rate": 1.6425120772946863e-05,
+      "loss": 0.9979853820800781,
+      "step": 200
+    },
+    {
+      "epoch": 3.0,
+      "eval_exact_match": 46.57534246575342,
+      "eval_f1": 63.035541323212556,
+      "eval_loss": 1.1465247869491577,
+      "eval_runtime": 0.5522,
+      "eval_samples_per_second": 132.187,
+      "eval_steps_per_second": 5.432,
+      "eval_total": 73,
+      "step": 231
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 231,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 716749167356928.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}

@@ -11,6 +11,10 @@ Usage:
     # Direct fine-tuning (no SQuAD pretraining):
     python src/train.py --model bert --dataset bioasq
     python src/train.py --model biobert --dataset covidqa --fold 0 --no_tb
+
+    # E2 — LoRA fine-tuning:
+    python src/train.py --model pubmedbert --dataset bioasq --lora --pretrained_from results/squad/pubmedbert/best_model
+    python src/train.py --model pubmedbert --dataset bioasq --lora --lora_r 4 --pretrained_from ...
 """
 
 import os
@@ -65,10 +69,15 @@ LABEL_COLUMNS = ["start_positions", "end_positions"]
 # Helpers
 # ---------------------------------------------------------------------------
 
-def load_config():
-    """Load base training config from YAML."""
+def load_config(lora=False):
+    """Load base training config from YAML, optionally merging LoRA overrides."""
     with open(CONFIGS_DIR / "base.yaml", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        config = yaml.safe_load(f)
+    if lora:
+        with open(CONFIGS_DIR / "lora.yaml", encoding="utf-8") as f:
+            lora_cfg = yaml.safe_load(f)
+        config.update(lora_cfg)
+    return config
 
 
 def get_data_paths(dataset_name, fold=None):
@@ -98,16 +107,20 @@ def get_data_paths(dataset_name, fold=None):
     raise ValueError(f"Unknown dataset: {dataset_name}")
 
 
-def get_output_dir(model_key, dataset_name, fold=None, pretrained_from=None):
+def get_output_dir(model_key, dataset_name, fold=None, pretrained_from=None,
+                   lora=False, lora_r=None):
     """Build output directory path.
 
     When pretrained_from is None (direct fine-tuning), appends '_no_squad'
     to distinguish from the default two-stage pipeline.
     For squad dataset itself, no suffix is added.
+    LoRA runs get a '_lora_rN' suffix.
     """
     dir_name = model_key
     if dataset_name != "squad" and pretrained_from is None:
         dir_name = f"{model_key}_no_squad"
+    if lora:
+        dir_name = f"{dir_name}_lora_r{lora_r}"
     path = RESULTS_DIR / dataset_name / dir_name
     if fold is not None:
         path = path / f"fold_{fold}"
@@ -158,6 +171,14 @@ def main():
         "--epochs", type=int, default=None,
         help="Override num_train_epochs from config",
     )
+    parser.add_argument(
+        "--lora", action="store_true",
+        help="Use LoRA (PEFT) instead of full fine-tuning",
+    )
+    parser.add_argument(
+        "--lora_r", type=int, default=None,
+        help="Override LoRA rank (default from lora.yaml)",
+    )
     args = parser.parse_args()
 
     if args.dataset == "covidqa" and args.fold is None:
@@ -166,9 +187,13 @@ def main():
         parser.error("SQuAD does not use folds")
 
     # ---- config & seed ----
-    config = load_config()
+    config = load_config(lora=args.lora)
     if args.epochs is not None:
         config["num_train_epochs"] = args.epochs
+    # Allow CLI override of LoRA rank
+    if args.lora_r is not None:
+        config["lora_r"] = args.lora_r
+    lora_r = config.get("lora_r", 8) if args.lora else None
     set_seed(args.seed)
 
     model_hf_name = MODEL_REGISTRY[args.model]
@@ -176,6 +201,7 @@ def main():
     data_paths = get_data_paths(args.dataset, args.fold)
     output_dir = Path(args.output_dir) if args.output_dir else get_output_dir(
         args.model, args.dataset, args.fold, args.pretrained_from,
+        lora=args.lora, lora_r=lora_r,
     )
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -201,6 +227,21 @@ def main():
     logger.info("Loading model: %s", model_load_path)
     tokenizer = AutoTokenizer.from_pretrained(model_hf_name)
     model = AutoModelForQuestionAnswering.from_pretrained(model_load_path)
+
+    # ---- LoRA wrapping (E2) ----
+    if args.lora:
+        from peft import LoraConfig, TaskType, get_peft_model
+        lora_config = LoraConfig(
+            task_type=TaskType.QUESTION_ANS,
+            r=config["lora_r"],
+            lora_alpha=config["lora_alpha"],
+            lora_dropout=config["lora_dropout"],
+            target_modules=config["lora_target_modules"],
+        )
+        model = get_peft_model(model, lora_config)
+        logger.info("LoRA enabled: r=%d, alpha=%d, targets=%s",
+                     config["lora_r"], config["lora_alpha"], config["lora_target_modules"])
+        model.print_trainable_parameters()
 
     total_params, trainable_params = count_parameters(model)
     logger.info("Parameters: %s total, %s trainable", f"{total_params:,}", f"{trainable_params:,}")
@@ -296,8 +337,13 @@ def main():
         logger.info("Peak VRAM: %d MB allocated, %d MB reserved",
                      gpu_info["peak_vram_mb"], gpu_info["peak_vram_reserved_mb"])
 
-    # Save best model (Trainer also saves tokenizer via processing_class)
-    trainer.save_model(str(output_dir / "best_model"))
+    # Save best model
+    if args.lora:
+        # Save only LoRA adapter weights (~1-3 MB)
+        model.save_pretrained(str(output_dir / "best_model"))
+        tokenizer.save_pretrained(str(output_dir / "best_model"))
+    else:
+        trainer.save_model(str(output_dir / "best_model"))
 
     # ---- final eval on eval set (best model is already loaded) ----
     logger.info("Final evaluation on eval set...")
@@ -339,6 +385,15 @@ def main():
         **gpu_info,
     }
 
+    lora_info = None
+    if args.lora:
+        lora_info = {
+            "r": config["lora_r"],
+            "alpha": config["lora_alpha"],
+            "dropout": config["lora_dropout"],
+            "target_modules": config["lora_target_modules"],
+        }
+
     results = to_serializable({
         "model": args.model,
         "model_hf_name": model_hf_name,
@@ -348,6 +403,7 @@ def main():
         "seed": args.seed,
         "total_params": total_params,
         "trainable_params": trainable_params,
+        "lora": lora_info,
         "train_metrics": train_metrics,
         "eval_metrics": eval_metrics,
         "test_metrics": test_metrics,

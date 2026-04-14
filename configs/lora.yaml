@@ -1,0 +1,14 @@
+# LoRA fine-tuning parameters for E2: Full FT vs LoRA
+# Source: zakres_prac_nad_systemem.pdf (promotor)
+# Inherits all other params from base.yaml
+
+# LoRA-specific
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.1
+lora_target_modules:
+  - query
+  - value
+
+# Override learning rate for LoRA (higher than full FT)
+learning_rate: 1.0e-4

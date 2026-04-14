@@ -1,0 +1,40 @@
+{
+  "label": "pubmedbert",
+  "model_path": "results/bioasq/pubmedbert/best_model",
+  "device": "cpu",
+  "lora_merged": false,
+  "total_params": 108893186,
+  "n_examples": 82,
+  "n_warmup": 10,
+  "n_runs": 5,
+  "batch_size": 32,
+  "latency_ms": {
+    "median": 265.74,
+    "std": 7.82,
+    "per_run_medians": [
+      253.07,
+      267.48,
+      264.94,
+      265.74,
+      274.8
+    ]
+  },
+  "throughput_samples_per_sec": {
+    "median": 1.1,
+    "std": 0.1,
+    "per_run": [
+      1.1,
+      1.1,
+      1.0,
+      1.0,
+      1.1
+    ]
+  },
+  "peak_vram_mb": null,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "num_threads": 1
+  }
+}

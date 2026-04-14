@@ -1,0 +1,41 @@
+{
+  "label": "bert",
+  "model_path": "results/bioasq/bert/best_model",
+  "device": "cuda",
+  "lora_merged": false,
+  "total_params": 108893186,
+  "n_examples": 82,
+  "n_warmup": 10,
+  "n_runs": 5,
+  "batch_size": 32,
+  "latency_ms": {
+    "median": 16.51,
+    "std": 0.56,
+    "per_run_medians": [
+      16.51,
+      16.87,
+      16.15,
+      17.28,
+      15.87
+    ]
+  },
+  "throughput_samples_per_sec": {
+    "median": 188.2,
+    "std": 2.1,
+    "per_run": [
+      191.4,
+      187.3,
+      191.7,
+      188.0,
+      188.2
+    ]
+  },
+  "peak_vram_mb": 430,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.0",
+    "torch_version": "2.6.0+cu124",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "cuda_version": "12.4"
+  }
+}
