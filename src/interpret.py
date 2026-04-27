@@ -186,6 +186,26 @@ def attention_to_context(attentions, pred_start, pred_end, ctx_start, ctx_end):
     return ctx_scores
 
 
+def attention_to_context_per_layer(attentions, pred_start, pred_end,
+                                   ctx_start, ctx_end):
+    """Compute attention-to-context scores for each layer separately.
+
+    Returns:
+        np.array of shape (n_layers, ctx_len) — scores per layer per context token.
+    """
+    n_layers = attentions.shape[0]
+    ctx_len = ctx_end - ctx_start
+    per_layer = np.zeros((n_layers, ctx_len))
+
+    for layer_idx in range(n_layers):
+        layer = attentions[layer_idx]  # (heads, seq, seq)
+        avg_heads = layer.mean(axis=0)  # (seq, seq)
+        answer_attn = avg_heads[pred_start:pred_end + 1, ctx_start:ctx_end]
+        per_layer[layer_idx] = answer_attn.mean(axis=0)
+
+    return per_layer
+
+
 def attention_plausibility(ctx_attention_scores, tokens, ctx_start,
                            gold_answer, tokenizer, k=5):
     """Compute plausibility: overlap of top-k attention tokens with gold answer.

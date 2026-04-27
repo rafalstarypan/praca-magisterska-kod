@@ -1,0 +1,52 @@
+{
+  "model": "pubmedbert",
+  "label": "PubMedBERT (domain)",
+  "attention_plausibility_mean": 0.8039354699881015,
+  "attention_plausibility_std": 0.30168672875996905,
+  "per_layer_plausibility_mean": [
+    0.8060844029265082,
+    0.4788007898534214,
+    0.7490858459279512,
+    0.7479747348168401,
+    0.6491460975671502,
+    0.6748265866686919,
+    0.8008402318928635,
+    0.770284676337308,
+    0.8008402318928636,
+    0.7898084858611175,
+    0.7556021366547684,
+    0.8039354699881016
+  ],
+  "lime_plausibility_mean": 0.8109004329004328,
+  "lime_plausibility_std": 0.2966600519905412,
+  "k=3": {
+    "comprehensiveness_mean": 0.25333960957825186,
+    "comprehensiveness_std": 0.40723957447676395,
+    "sufficiency_mean": 0.09827375620603561,
+    "sufficiency_std": 0.30009600817174764,
+    "n_examples": 50
+  },
+  "k=5": {
+    "comprehensiveness_mean": 0.2755256884172559,
+    "comprehensiveness_std": 0.4256407955740655,
+    "sufficiency_mean": 0.0671281760931015,
+    "sufficiency_std": 0.2474184017675182,
+    "n_examples": 50
+  },
+  "k=10": {
+    "comprehensiveness_mean": 0.3433596435934305,
+    "comprehensiveness_std": 0.42667285588873033,
+    "sufficiency_mean": 0.033046180307865144,
+    "sufficiency_std": 0.1396871430735633,
+    "n_examples": 50
+  },
+  "comprehensiveness_mean": 0.2755256884172559,
+  "comprehensiveness_std": 0.4256407955740655,
+  "sufficiency_mean": 0.0671281760931015,
+  "sufficiency_std": 0.2474184017675182,
+  "n_examples": 50,
+  "cross_agreement_spearman": 0.2022580356628961,
+  "cross_agreement_std": 0.3462371627231597,
+  "n_attention": 30,
+  "n_lime": 50
+}

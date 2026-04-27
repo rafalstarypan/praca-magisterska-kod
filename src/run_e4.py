@@ -30,6 +30,7 @@ from interpret import (
     predict_answer,
     get_attention_weights,
     attention_to_context,
+    attention_to_context_per_layer,
     attention_plausibility,
     get_lime_explanation,
     lime_plausibility,
@@ -108,6 +109,21 @@ def run_attention_analysis(model, tokenizer, examples, model_name, device,
                 gold_answers[0], tokenizer, k=5,
             )
 
+            # Per-layer plausibility (Extension A)
+            per_layer_scores = attention_to_context_per_layer(
+                attn["attentions"],
+                pred["start_token"], pred["end_token"],
+                attn["ctx_start"], attn["ctx_end"],
+            )
+            n_layers = per_layer_scores.shape[0]
+            per_layer_plaus = []
+            for layer_idx in range(n_layers):
+                lp = attention_plausibility(
+                    per_layer_scores[layer_idx], attn["tokens"],
+                    attn["ctx_start"], gold_answers[0], tokenizer, k=5,
+                )
+                per_layer_plaus.append(lp["plausibility"])
+
             results.append({
                 "example_id": ex["id"],
                 "question": question,
@@ -118,6 +134,7 @@ def run_attention_analysis(model, tokenizer, examples, model_name, device,
                 "top_k_tokens": plaus["top_k_tokens"],
                 "gold_tokens": plaus["gold_tokens"],
                 "overlap": plaus.get("overlap", []),
+                "per_layer_plausibility": per_layer_plaus,
             })
 
             if (i + 1) % 10 == 0:
@@ -182,14 +199,19 @@ def run_lime_analysis(model, tokenizer, examples, model_name, device,
 
 
 def run_faithfulness(model, tokenizer, examples, lime_results, model_name,
-                      device, n_examples=50, k=5):
-    """Compute comprehensiveness and sufficiency using LIME importances."""
-    logger.info("Faithfulness metrics: %s (%d examples, k=%d)",
-                model_name, n_examples, k)
-    comp_scores = []
-    suff_scores = []
+                      device, n_examples=50, k_values=(3, 5, 10)):
+    """Compute comprehensiveness and sufficiency for multiple k values.
+
+    Extension B: evaluates faithfulness at k=3, k=5, k=10 to show
+    sensitivity of metrics to the choice of k.
+    """
+    logger.info("Faithfulness metrics: %s (%d examples, k=%s)",
+                model_name, n_examples, k_values)
 
     lime_by_id = {r["example_id"]: r for r in lime_results}
+
+    # Collect per-example scores for each k
+    per_k = {k: {"comp": [], "suff": []} for k in k_values}
 
     for ex in examples[:n_examples]:
         if ex["id"] not in lime_by_id:
@@ -201,28 +223,50 @@ def run_faithfulness(model, tokenizer, examples, lime_results, model_name,
             continue
 
         try:
-            comp = compute_comprehensiveness(
-                model, tokenizer, ex["question"], ex["context"],
-                importances, device, k=k,
-            )
-            suff = compute_sufficiency(
-                model, tokenizer, ex["question"], ex["context"],
-                importances, device, k=k,
-            )
-            comp_scores.append(comp["comprehensiveness"])
-            suff_scores.append(suff["sufficiency"])
+            for k in k_values:
+                comp = compute_comprehensiveness(
+                    model, tokenizer, ex["question"], ex["context"],
+                    importances, device, k=k,
+                )
+                suff = compute_sufficiency(
+                    model, tokenizer, ex["question"], ex["context"],
+                    importances, device, k=k,
+                )
+                per_k[k]["comp"].append(comp["comprehensiveness"])
+                per_k[k]["suff"].append(suff["sufficiency"])
 
         except Exception as e:
             logger.warning("  Skipping %s: %s", ex["id"], e)
             continue
 
-    return {
-        "comprehensiveness_mean": float(np.mean(comp_scores)) if comp_scores else 0,
-        "comprehensiveness_std": float(np.std(comp_scores)) if comp_scores else 0,
-        "sufficiency_mean": float(np.mean(suff_scores)) if suff_scores else 0,
-        "sufficiency_std": float(np.std(suff_scores)) if suff_scores else 0,
-        "n_examples": len(comp_scores),
-    }
+    result = {}
+    for k in k_values:
+        cs = per_k[k]["comp"]
+        ss = per_k[k]["suff"]
+        result[f"k={k}"] = {
+            "comprehensiveness_mean": float(np.mean(cs)) if cs else 0,
+            "comprehensiveness_std": float(np.std(cs)) if cs else 0,
+            "sufficiency_mean": float(np.mean(ss)) if ss else 0,
+            "sufficiency_std": float(np.std(ss)) if ss else 0,
+            "n_examples": len(cs),
+        }
+        logger.info("  k=%d: comp=%.4f +/- %.4f, suff=%.4f +/- %.4f (n=%d)",
+                    k,
+                    result[f"k={k}"]["comprehensiveness_mean"],
+                    result[f"k={k}"]["comprehensiveness_std"],
+                    result[f"k={k}"]["sufficiency_mean"],
+                    result[f"k={k}"]["sufficiency_std"],
+                    len(cs))
+
+    # Keep backwards compatibility: top-level keys from k=5
+    k5 = result.get("k=5", {})
+    result["comprehensiveness_mean"] = k5.get("comprehensiveness_mean", 0)
+    result["comprehensiveness_std"] = k5.get("comprehensiveness_std", 0)
+    result["sufficiency_mean"] = k5.get("sufficiency_mean", 0)
+    result["sufficiency_std"] = k5.get("sufficiency_std", 0)
+    result["n_examples"] = k5.get("n_examples", 0)
+
+    return result
 
 
 def run_cross_agreement(attn_results, lime_results, model, tokenizer,
@@ -341,17 +385,11 @@ def main():
                   encoding="utf-8") as f:
             json.dump(lime_results, f, indent=2, ensure_ascii=False)
 
-        # 3. Faithfulness (uses LIME importances)
+        # 3. Faithfulness (uses LIME importances) — multi-k (Extension B)
         faith = run_faithfulness(
             model, tokenizer, examples, lime_results, model_key,
-            args.device, n_examples=args.n_lime, k=args.k,
+            args.device, n_examples=args.n_lime,
         )
-        logger.info("Comprehensiveness: %.4f +/- %.4f",
-                    faith["comprehensiveness_mean"],
-                    faith["comprehensiveness_std"])
-        logger.info("Sufficiency: %.4f +/- %.4f",
-                    faith["sufficiency_mean"],
-                    faith["sufficiency_std"])
 
         with open(model_dir / "faithfulness.json", "w",
                   encoding="utf-8") as f:
@@ -371,12 +409,33 @@ def main():
                   encoding="utf-8") as f:
             json.dump(agreement, f, indent=2, ensure_ascii=False)
 
+        # Per-layer plausibility aggregation (Extension A)
+        per_layer_all = [r["per_layer_plausibility"] for r in attn_results
+                         if "per_layer_plausibility" in r]
+        if per_layer_all:
+            per_layer_array = np.array(per_layer_all)  # (n_examples, n_layers)
+            per_layer_mean = per_layer_array.mean(axis=0).tolist()
+            per_layer_std = per_layer_array.std(axis=0).tolist()
+            logger.info("Per-layer plausibility (mean): %s",
+                        [f"{v:.3f}" for v in per_layer_mean])
+        else:
+            per_layer_mean = []
+            per_layer_std = []
+
+        # Save per-layer results
+        with open(model_dir / "per_layer_plausibility.json", "w",
+                  encoding="utf-8") as f:
+            json.dump({"mean": per_layer_mean, "std": per_layer_std,
+                        "n_examples": len(per_layer_all)},
+                      f, indent=2, ensure_ascii=False)
+
         # Model summary
         model_summary = {
             "model": model_key,
             "label": model_cfg["label"],
             "attention_plausibility_mean": float(np.mean(attn_plausibility_scores)),
             "attention_plausibility_std": float(np.std(attn_plausibility_scores)),
+            "per_layer_plausibility_mean": per_layer_mean,
             "lime_plausibility_mean": float(np.mean(lime_plausibility_scores)),
             "lime_plausibility_std": float(np.std(lime_plausibility_scores)),
             **faith,
