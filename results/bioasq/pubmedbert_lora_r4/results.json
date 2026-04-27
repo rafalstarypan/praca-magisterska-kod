@@ -17,25 +17,25 @@
     ]
   },
   "train_metrics": {
-    "train_runtime": 53.4376,
-    "train_samples_per_second": 68.323,
-    "train_steps_per_second": 4.323,
+    "train_runtime": 42.6373,
+    "train_samples_per_second": 85.629,
+    "train_steps_per_second": 5.418,
     "total_flos": 716749167356928.0,
-    "train_loss": 1.06865914249833,
+    "train_loss": 1.067525574655244,
     "epoch": 3.0
   },
   "eval_metrics": {
     "exact_match": 46.57534246575342,
-    "f1": 63.035541323212556,
+    "f1": 63.94878333234498,
     "total": 73
   },
   "test_metrics": {
     "exact_match": 53.65853658536585,
-    "f1": 73.77138444211614,
+    "f1": 74.48276655593729,
     "total": 82
   },
   "hardware": {
-    "wall_time_seconds": 53.8,
+    "wall_time_seconds": 42.9,
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.12.0",
     "torch_version": "2.6.0+cu124",

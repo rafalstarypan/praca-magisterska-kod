@@ -17,9 +17,9 @@
     ]
   },
   "train_metrics": {
-    "train_runtime": 50.5784,
-    "train_samples_per_second": 72.185,
-    "train_steps_per_second": 4.567,
+    "train_runtime": 42.6487,
+    "train_samples_per_second": 85.606,
+    "train_steps_per_second": 5.416,
     "total_flos": 720470324505600.0,
     "train_loss": 1.0682084219796317,
     "epoch": 3.0
@@ -35,7 +35,7 @@
     "total": 82
   },
   "hardware": {
-    "wall_time_seconds": 50.9,
+    "wall_time_seconds": 42.9,
     "platform": "Windows-11-10.0.26200-SP0",
     "python_version": "3.12.0",
     "torch_version": "2.6.0+cu124",
