@@ -1,0 +1,52 @@
+{
+  "model": "pubmedbert",
+  "label": "PubMedBERT (domain)",
+  "attention_plausibility_mean": 0.8117987828032758,
+  "attention_plausibility_std": 0.28578244934738517,
+  "per_layer_plausibility_mean": [
+    0.7462361789544075,
+    0.49004509611056446,
+    0.6996991740252331,
+    0.7101826999131237,
+    0.5880067176440732,
+    0.6788480115662401,
+    0.7628731149751689,
+    0.761276134719652,
+    0.79307055980676,
+    0.7685932078903837,
+    0.7702482601551922,
+    0.8117987828032758
+  ],
+  "lime_plausibility_mean": 0.7477325520008447,
+  "lime_plausibility_std": 0.3424074134512205,
+  "k=3": {
+    "comprehensiveness_mean": 0.17589414530865302,
+    "comprehensiveness_std": 0.44610373360165784,
+    "sufficiency_mean": 0.021688078484702403,
+    "sufficiency_std": 0.27716857403262846,
+    "n_examples": 82
+  },
+  "k=5": {
+    "comprehensiveness_mean": 0.18779433343741225,
+    "comprehensiveness_std": 0.46703065742841,
+    "sufficiency_mean": 0.022348890444490968,
+    "sufficiency_std": 0.23937588453194286,
+    "n_examples": 82
+  },
+  "k=10": {
+    "comprehensiveness_mean": 0.29733233753500915,
+    "comprehensiveness_std": 0.4600748105432987,
+    "sufficiency_mean": -0.0012140047577459637,
+    "sufficiency_std": 0.20059264395949927,
+    "n_examples": 82
+  },
+  "comprehensiveness_mean": 0.18779433343741225,
+  "comprehensiveness_std": 0.46703065742841,
+  "sufficiency_mean": 0.022348890444490968,
+  "sufficiency_std": 0.23937588453194286,
+  "n_examples": 82,
+  "cross_agreement_spearman": 0.11420021545890655,
+  "cross_agreement_std": 0.38692337828112305,
+  "n_attention": 82,
+  "n_lime": 82
+}

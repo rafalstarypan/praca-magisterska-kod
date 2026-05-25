@@ -1,0 +1,52 @@
+{
+  "model": "bert",
+  "label": "BERT (general)",
+  "attention_plausibility_mean": 0.5964364152990876,
+  "attention_plausibility_std": 0.3529114819153793,
+  "per_layer_plausibility_mean": [
+    0.6262892153798835,
+    0.5609902973531091,
+    0.6143729918943404,
+    0.5883910470099565,
+    0.6078253728467214,
+    0.6309313212415015,
+    0.6133734725860918,
+    0.5738594297183904,
+    0.5224146453628229,
+    0.6220443748545552,
+    0.6320468521450828,
+    0.5964364152990876
+  ],
+  "lime_plausibility_mean": 0.6981390560658853,
+  "lime_plausibility_std": 0.3605258515025725,
+  "k=3": {
+    "comprehensiveness_mean": 0.09157229401171207,
+    "comprehensiveness_std": 0.4083528867313786,
+    "sufficiency_mean": -0.04189466834976906,
+    "sufficiency_std": 0.3072183227500748,
+    "n_examples": 82
+  },
+  "k=5": {
+    "comprehensiveness_mean": 0.11572770190584224,
+    "comprehensiveness_std": 0.42225916281222914,
+    "sufficiency_mean": -0.037999992872156746,
+    "sufficiency_std": 0.23844031787959222,
+    "n_examples": 82
+  },
+  "k=10": {
+    "comprehensiveness_mean": 0.14379931422995357,
+    "comprehensiveness_std": 0.42206176665304507,
+    "sufficiency_mean": -0.01249589884608257,
+    "sufficiency_std": 0.16383186239140313,
+    "n_examples": 82
+  },
+  "comprehensiveness_mean": 0.11572770190584224,
+  "comprehensiveness_std": 0.42225916281222914,
+  "sufficiency_mean": -0.037999992872156746,
+  "sufficiency_std": 0.23844031787959222,
+  "n_examples": 82,
+  "cross_agreement_spearman": 0.09215991635373877,
+  "cross_agreement_std": 0.36450941284339,
+  "n_attention": 82,
+  "n_lime": 82
+}

@@ -1,0 +1,46 @@
+{
+  "model": "distilbert",
+  "label": "DistilBERT (distilled)",
+  "attention_plausibility_mean": 0.6132212392823824,
+  "attention_plausibility_std": 0.3729836371345667,
+  "per_layer_plausibility_mean": [
+    0.600009857168561,
+    0.5659493638396355,
+    0.5570220522905122,
+    0.5667966273089898,
+    0.5174119672535981,
+    0.6132212392823823
+  ],
+  "lime_plausibility_mean": 0.7029880688417274,
+  "lime_plausibility_std": 0.36915855604421494,
+  "k=3": {
+    "comprehensiveness_mean": 0.06721765175461769,
+    "comprehensiveness_std": 0.38959999852632404,
+    "sufficiency_mean": -0.05674803565915038,
+    "sufficiency_std": 0.26102293880814664,
+    "n_examples": 82
+  },
+  "k=5": {
+    "comprehensiveness_mean": 0.06771843012694906,
+    "comprehensiveness_std": 0.3807831243629877,
+    "sufficiency_mean": -0.001010353881411436,
+    "sufficiency_std": 0.22535233926028406,
+    "n_examples": 82
+  },
+  "k=10": {
+    "comprehensiveness_mean": 0.12157231755554676,
+    "comprehensiveness_std": 0.36284969505173853,
+    "sufficiency_mean": -0.0012758488244399792,
+    "sufficiency_std": 0.14933290205477542,
+    "n_examples": 82
+  },
+  "comprehensiveness_mean": 0.06771843012694906,
+  "comprehensiveness_std": 0.3807831243629877,
+  "sufficiency_mean": -0.001010353881411436,
+  "sufficiency_std": 0.22535233926028406,
+  "n_examples": 82,
+  "cross_agreement_spearman": 0.0981034083263039,
+  "cross_agreement_std": 0.37971358447779524,
+  "n_attention": 82,
+  "n_lime": 82
+}

@@ -42,7 +42,7 @@ from interpret import (
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-RESULTS_DIR = PROJECT_ROOT / "results" / "e4_interpretability"
+RESULTS_DIR = PROJECT_ROOT / "results" / "e4_interpretability_v2"
 
 # All 6 models from E1 (with SQuAD pretraining — best variants)
 MODELS = {
@@ -317,9 +317,9 @@ def run_cross_agreement(attn_results, lime_results, model, tokenizer,
 def main():
     parser = argparse.ArgumentParser(description="E4: Interpretability experiments")
     parser.add_argument("--device", default="cuda")
-    parser.add_argument("--n_attention", type=int, default=30,
+    parser.add_argument("--n_attention", type=int, default=82,
                         help="Number of examples for attention analysis")
-    parser.add_argument("--n_lime", type=int, default=50,
+    parser.add_argument("--n_lime", type=int, default=82,
                         help="Number of examples for LIME analysis")
     parser.add_argument("--lime_samples", type=int, default=2000,
                         help="Number of LIME perturbation samples")

@@ -1,0 +1,5280 @@
+[
+  {
+    "example_id": "65f7741fc4010b4d78000027",
+    "question": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+    "context": "Samples with mixed features (13%) possibly represent a transition phenotype or intratumoral heterogeneity.",
+    "gold_answer": "13%",
+    "predicted_answer": "13%)",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "(13%)",
+      "phenotype",
+      "Samples",
+      "or",
+      "intratumoral"
+    ],
+    "gold_words": [
+      "13"
+    ],
+    "overlap": [
+      "13"
+    ],
+    "top_importances": [
+      [
+        "(13%)",
+        0.5167308790269747
+      ],
+      [
+        "phenotype",
+        -0.06084968147082005
+      ],
+      [
+        "Samples",
+        0.05065267112456085
+      ],
+      [
+        "or",
+        -0.047527633066962574
+      ],
+      [
+        "intratumoral",
+        0.03851683716623137
+      ],
+      [
+        "with",
+        -0.03225956499929747
+      ],
+      [
+        "heterogeneity.",
+        -0.02918341128495758
+      ],
+      [
+        "transition",
+        -0.01902843681917597
+      ],
+      [
+        "represent",
+        0.00884049263297293
+      ],
+      [
+        "possibly",
+        -0.004423394431502434
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67d3518718b1e36f2e000008",
+    "question": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+    "context": "Heterozygous UCHL1 loss-of-function variants cause a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy.",
+    "gold_answer": "a neurodegenerative disorder with spasticity, ataxia, neuropathy, and optic atrophy",
+    "predicted_answer": "neurodegenerative disorder",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "neurodegenerative",
+      "a",
+      "atrophy.",
+      "and",
+      "optic"
+    ],
+    "gold_words": [
+      "disorder",
+      "a",
+      "atrophy",
+      "optic",
+      "ataxia",
+      "neurodegenerative",
+      "with",
+      "neuropathy",
+      "spasticity",
+      "and"
+    ],
+    "overlap": [
+      "a",
+      "atrophy",
+      "optic",
+      "neurodegenerative",
+      "and"
+    ],
+    "top_importances": [
+      [
+        "neurodegenerative",
+        0.2109943079313431
+      ],
+      [
+        "a",
+        -0.12025642423534909
+      ],
+      [
+        "atrophy.",
+        -0.055135096165428076
+      ],
+      [
+        "and",
+        0.042941204597885425
+      ],
+      [
+        "optic",
+        -0.033855838194786964
+      ],
+      [
+        "disorder",
+        -0.03149354797841128
+      ],
+      [
+        "cause",
+        -0.022953185733976963
+      ],
+      [
+        "UCHL1",
+        -0.022067021881383642
+      ],
+      [
+        "neuropathy,",
+        0.019504615037951794
+      ],
+      [
+        "spasticity,",
+        0.016423887150638302
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "662154f0b9f8b89d7e000009",
+    "question": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?",
+    "context": "We observed that the combination of mFOLFOXIRI and bevacizumab increased the rate of clinical NED and showed a trend toward improved survival compared with mFOLFOXIRI alone",
+    "gold_answer": "mFOLFOXIRI and bevacizumab",
+    "predicted_answer": "mFOLFOXIRI and bevacizumab",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "mFOLFOXIRI",
+      "bevacizumab",
+      "and",
+      "We",
+      "NED"
+    ],
+    "gold_words": [
+      "and",
+      "bevacizumab",
+      "mfolfoxiri"
+    ],
+    "overlap": [
+      "and",
+      "bevacizumab",
+      "mfolfoxiri"
+    ],
+    "top_importances": [
+      [
+        "mFOLFOXIRI",
+        -0.23693500200538342
+      ],
+      [
+        "bevacizumab",
+        -0.09592214196288469
+      ],
+      [
+        "and",
+        -0.07492509721434497
+      ],
+      [
+        "We",
+        0.03358885722726979
+      ],
+      [
+        "NED",
+        0.03311922902840722
+      ],
+      [
+        "clinical",
+        0.03148891765343447
+      ],
+      [
+        "survival",
+        0.02570208984533523
+      ],
+      [
+        "rate",
+        0.024754685764137887
+      ],
+      [
+        "that",
+        -0.02466413150750179
+      ],
+      [
+        "increased",
+        -0.020000889890032795
+      ]
+    ],
+    "time_seconds": 47.4
+  },
+  {
+    "example_id": "67d7fe2618b1e36f2e000044",
+    "question": "Vector of zika virus.",
+    "context": "Aedes aegypti is the primary vector of these pathogens and Culex quinquefasciatus may be a potential ZIKV vector",
+    "gold_answer": "Aedes aegypti",
+    "predicted_answer": "Culex quinquefasciatus",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "ZIKV",
+      "vector",
+      "is",
+      "Culex",
+      "and"
+    ],
+    "gold_words": [
+      "aegypti",
+      "aedes"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "ZIKV",
+        0.22599853283197494
+      ],
+      [
+        "vector",
+        -0.14443293987417152
+      ],
+      [
+        "is",
+        0.1328711960984462
+      ],
+      [
+        "Culex",
+        0.09945008814046274
+      ],
+      [
+        "and",
+        -0.06951893895102096
+      ],
+      [
+        "potential",
+        0.059337422033161114
+      ],
+      [
+        "these",
+        0.05442141482735003
+      ],
+      [
+        "Aedes",
+        0.04531536962540333
+      ],
+      [
+        "primary",
+        0.04497226165369007
+      ],
+      [
+        "aegypti",
+        0.04190076130535807
+      ]
+    ],
+    "time_seconds": 44.7
+  },
+  {
+    "example_id": "67d34fb318b1e36f2e000007",
+    "question": "Which role does AAAGG have in RFC1 repeat expansions?",
+    "context": "While AAAAG, AAAGGG and AAGAG expansions appear to be benign, we revealed a pathogenic role for large AAAGG repeat configuration expansions (n = 5). Long-read sequencing was used to characterize the e",
+    "gold_answer": "pathogenic",
+    "predicted_answer": "pathogenic",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "pathogenic",
+      "expansions",
+      "role",
+      "5).",
+      "be"
+    ],
+    "gold_words": [
+      "pathogenic"
+    ],
+    "overlap": [
+      "pathogenic"
+    ],
+    "top_importances": [
+      [
+        "pathogenic",
+        0.2340529904181792
+      ],
+      [
+        "expansions",
+        0.0858650044758123
+      ],
+      [
+        "role",
+        0.06522407305595966
+      ],
+      [
+        "5).",
+        0.05639633041715098
+      ],
+      [
+        "be",
+        0.047745941205642004
+      ],
+      [
+        "revealed",
+        -0.040422369125344894
+      ],
+      [
+        "six",
+        0.03934292898143187
+      ],
+      [
+        "appear",
+        -0.0362533697192999
+      ],
+      [
+        "predicted",
+        -0.028380454573820595
+      ],
+      [
+        "benign,",
+        0.025197793484215966
+      ]
+    ],
+    "time_seconds": 44.1
+  },
+  {
+    "example_id": "67d3434d18b1e36f2e000002",
+    "question": "Which biomedical challenge has been designed to facilitate interaction between biomedical experts and automated question-answering systems in order to promote COVID-19 research?",
+    "context": "BioASQ Synergy: a dialogue between question-answering systems and biomedical experts for promoting COVID-19 research.",
+    "gold_answer": "BioASQ Synergy",
+    "predicted_answer": "BioASQ Synergy",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "BioASQ",
+      "Synergy:",
+      "COVID-19",
+      "biomedical",
+      "experts"
+    ],
+    "gold_words": [
+      "synergy",
+      "bioasq"
+    ],
+    "overlap": [
+      "synergy",
+      "bioasq"
+    ],
+    "top_importances": [
+      [
+        "BioASQ",
+        0.26112669822664486
+      ],
+      [
+        "Synergy:",
+        0.20947113312046434
+      ],
+      [
+        "COVID-19",
+        -0.03779596615544283
+      ],
+      [
+        "biomedical",
+        -0.02904218953023923
+      ],
+      [
+        "experts",
+        0.02102063434521414
+      ],
+      [
+        "promoting",
+        0.020112465103162076
+      ],
+      [
+        "for",
+        0.019842353613212196
+      ],
+      [
+        "a",
+        0.019522551168459305
+      ],
+      [
+        "and",
+        -0.012301551295086026
+      ],
+      [
+        "systems",
+        0.010746504030838015
+      ]
+    ],
+    "time_seconds": 43.9
+  },
+  {
+    "example_id": "67d4354518b1e36f2e000010",
+    "question": "Prevalence of Premenstrual Dysphoric Disorder",
+    "context": "PMDD affects 2-8%",
+    "gold_answer": "2-8%",
+    "predicted_answer": "PMDD affects 2-8%",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "affects",
+      "2-8%",
+      "PMDD"
+    ],
+    "gold_words": [
+      "28"
+    ],
+    "overlap": [
+      "28"
+    ],
+    "top_importances": [
+      [
+        "affects",
+        0.3611085989881337
+      ],
+      [
+        "2-8%",
+        0.3412303088584021
+      ],
+      [
+        "PMDD",
+        -0.11508496978631144
+      ]
+    ],
+    "time_seconds": 43.3
+  },
+  {
+    "example_id": "67d496ed18b1e36f2e000019",
+    "question": "What's the increase in CORE profiles in JASPAR 2024 compared to the previous version?",
+    "context": "JASPAR (https://jaspar.elixir.no/) is a widely-used open-access database presenting manually curated high-quality and non-redundant DNA-binding profiles for transcription factors (TFs) across taxa. In",
+    "gold_answer": "20%",
+    "predicted_answer": "20%",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "20%",
+      "329",
+      "increase",
+      "profiles.",
+      "collection."
+    ],
+    "gold_words": [
+      "20"
+    ],
+    "overlap": [
+      "20"
+    ],
+    "top_importances": [
+      [
+        "20%",
+        0.6857936970703593
+      ],
+      [
+        "329",
+        0.06309303186562785
+      ],
+      [
+        "increase",
+        -0.05715889028079279
+      ],
+      [
+        "profiles.",
+        0.03742531451682768
+      ],
+      [
+        "collection.",
+        -0.031125002971653673
+      ],
+      [
+        "widely-used",
+        0.024989288254687516
+      ],
+      [
+        "existing",
+        -0.024774223563303416
+      ],
+      [
+        "expanded",
+        -0.024700631978229342
+      ],
+      [
+        "collection",
+        -0.0232964208521905
+      ],
+      [
+        "previous",
+        0.020627332727761617
+      ]
+    ],
+    "time_seconds": 46.9
+  },
+  {
+    "example_id": "67d7fe1718b1e36f2e000043",
+    "question": "Vector of dengue infection.",
+    "context": "Aedes aegypti and Aedes albopictus are the main vectors of arboviruses such as dengue, Zika virus, and chikungunya",
+    "gold_answer": "Aedes albopictus",
+    "predicted_answer": "Aedes aegypti and Aedes albopictus",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "Zika",
+      "aegypti",
+      "arboviruses",
+      "Aedes",
+      "chikungunya"
+    ],
+    "gold_words": [
+      "albopictus",
+      "aedes"
+    ],
+    "overlap": [
+      "aedes"
+    ],
+    "top_importances": [
+      [
+        "Zika",
+        0.11260270852269766
+      ],
+      [
+        "aegypti",
+        -0.08386290167503423
+      ],
+      [
+        "arboviruses",
+        -0.07955567464419776
+      ],
+      [
+        "Aedes",
+        -0.06120512860274901
+      ],
+      [
+        "chikungunya",
+        -0.05603635838493669
+      ],
+      [
+        "dengue,",
+        -0.050787807581179636
+      ],
+      [
+        "vectors",
+        -0.030592797734426695
+      ],
+      [
+        "such",
+        0.026806890929803963
+      ],
+      [
+        "virus,",
+        0.02318853681154438
+      ],
+      [
+        "and",
+        0.021853635934469838
+      ]
+    ],
+    "time_seconds": 46.7
+  },
+  {
+    "example_id": "67d45d5818b1e36f2e000012",
+    "question": "In which population has it been described an association between the CUBN gene and T2DM genetic susceptibility?",
+    "context": "Association between CUBN gene variants, type 2 diabetes and vitamin D concentrations in an elderly Greek population.",
+    "gold_answer": "Greek",
+    "predicted_answer": "Greek population",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "population.",
+      "elderly",
+      "Greek",
+      "an",
+      "variants,"
+    ],
+    "gold_words": [
+      "greek"
+    ],
+    "overlap": [
+      "greek"
+    ],
+    "top_importances": [
+      [
+        "population.",
+        -0.20704279490337565
+      ],
+      [
+        "elderly",
+        -0.11316404772431202
+      ],
+      [
+        "Greek",
+        -0.027512880123183377
+      ],
+      [
+        "an",
+        0.02524578833833652
+      ],
+      [
+        "variants,",
+        -0.021107983779541265
+      ],
+      [
+        "type",
+        -0.015123700720083988
+      ],
+      [
+        "in",
+        0.014344203897001665
+      ],
+      [
+        "vitamin",
+        0.011631745397169942
+      ],
+      [
+        "D",
+        -0.01020766744565535
+      ],
+      [
+        "Association",
+        -0.009390005013821916
+      ]
+    ],
+    "time_seconds": 44.5
+  },
+  {
+    "example_id": "67d6bda918b1e36f2e000021",
+    "question": "What is the cause of African trypanosomiasis?",
+    "context": "Human African trypanosomiasis (HAT) or sleeping sickness is caused by the protozoan parasites Trypanosoma brucei (T.b.) gambiense (West African form) and T.b. rhodesiense (East African form) that are ",
+    "gold_answer": "Trypanosoma brucei",
+    "predicted_answer": "Trypanosoma brucei",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "Trypanosoma",
+      "trypanosomiasis",
+      "parasites",
+      "rhodesiense",
+      "brucei"
+    ],
+    "gold_words": [
+      "brucei",
+      "trypanosoma"
+    ],
+    "overlap": [
+      "brucei",
+      "trypanosoma"
+    ],
+    "top_importances": [
+      [
+        "Trypanosoma",
+        0.16162787326920935
+      ],
+      [
+        "trypanosomiasis",
+        0.1614608609122552
+      ],
+      [
+        "parasites",
+        -0.06711385936412612
+      ],
+      [
+        "rhodesiense",
+        -0.06267411915415783
+      ],
+      [
+        "brucei",
+        0.06168667465069355
+      ],
+      [
+        "(West",
+        -0.061548230098775136
+      ],
+      [
+        "and",
+        -0.05632287270266733
+      ],
+      [
+        "T.b.",
+        -0.047913047326677526
+      ],
+      [
+        "that",
+        -0.042066389786418676
+      ],
+      [
+        "Glossina",
+        -0.04194945704829346
+      ]
+    ],
+    "time_seconds": 43.2
+  },
+  {
+    "example_id": "67d7506e18b1e36f2e00003f",
+    "question": "What is the consensus binding site of the TEAD transcription factors?",
+    "context": "The Fgfr4 promoter region contained a Tead protein binding site (M-CAT 5'-CATTCCT-3'), and Tead2 showed induction during regeneration commensurate with Fgfr4 regulation.",
+    "gold_answer": "CATTCCT",
+    "predicted_answer": "M-CAT 5'-CATTCCT-3",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "5'-CATTCCT-3'),",
+      "(M-CAT",
+      "The",
+      "binding",
+      "site"
+    ],
+    "gold_words": [
+      "cattcct"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "5'-CATTCCT-3'),",
+        -0.1932881804552219
+      ],
+      [
+        "(M-CAT",
+        0.0956305074736604
+      ],
+      [
+        "The",
+        -0.07495114526566546
+      ],
+      [
+        "binding",
+        0.06343051064954638
+      ],
+      [
+        "site",
+        0.0572862666916071
+      ],
+      [
+        "contained",
+        0.04821064406211374
+      ],
+      [
+        "regulation.",
+        0.048139223717321496
+      ],
+      [
+        "showed",
+        0.038182815906114984
+      ],
+      [
+        "Fgfr4",
+        -0.037046549801040024
+      ],
+      [
+        "Tead2",
+        -0.03510735875626508
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67da0c0f18b1e36f2e000052",
+    "question": "What is the most common EGFR mutation in glioblastoma multiforme?",
+    "context": "The epidermal growth factor receptor variant type III (EGFRvIII) is the most common mutation of EGFR in glioblastoma multiforme (GBM) and is found in approximately 25% of all GBMs. Intriguingly, EGFRv",
+    "gold_answer": "EGFRvIII",
+    "predicted_answer": "EGFRvIII",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "III",
+      "epidermal",
+      "EGFR",
+      "variant",
+      "receptor"
+    ],
+    "gold_words": [
+      "egfrviii"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "III",
+        -0.13084838126298998
+      ],
+      [
+        "epidermal",
+        -0.0863661134134583
+      ],
+      [
+        "EGFR",
+        0.05998149095861636
+      ],
+      [
+        "variant",
+        -0.05193155115038783
+      ],
+      [
+        "receptor",
+        -0.04610795913208039
+      ],
+      [
+        "is",
+        0.04247488933040702
+      ],
+      [
+        "The",
+        -0.03708582997235615
+      ],
+      [
+        "mutation",
+        0.025521286350394193
+      ],
+      [
+        "(EGFRvIII)",
+        -0.02523255931011726
+      ],
+      [
+        "the",
+        -0.023564522342046115
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67cc9bef81b1027333000013",
+    "question": "What is DRESS in the context of drug therapy?",
+    "context": "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is a rare and severe adverse drug reaction involving multiple organs. ",
+    "gold_answer": "Drug reaction with eosinophilia and systemic symptoms",
+    "predicted_answer": "Drug reaction with eosinophilia and systemic symptoms (DRESS) syndrome is a rare and severe adverse drug reaction involving multiple organs",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "organs.",
+      "a",
+      "rare",
+      "(DRESS)",
+      "syndrome"
+    ],
+    "gold_words": [
+      "systemic",
+      "reaction",
+      "symptoms",
+      "with",
+      "and",
+      "eosinophilia",
+      "drug"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "organs.",
+        -0.11174579671318859
+      ],
+      [
+        "a",
+        -0.07182816523960157
+      ],
+      [
+        "rare",
+        -0.07161530863569537
+      ],
+      [
+        "(DRESS)",
+        -0.06291641019109037
+      ],
+      [
+        "syndrome",
+        -0.0578550441934153
+      ],
+      [
+        "adverse",
+        -0.04367743556477659
+      ],
+      [
+        "Drug",
+        -0.04348033907967581
+      ],
+      [
+        "is",
+        -0.036875388612949
+      ],
+      [
+        "involving",
+        -0.03336724735728071
+      ],
+      [
+        "symptoms",
+        0.016749787128800483
+      ]
+    ],
+    "time_seconds": 48.1
+  },
+  {
+    "example_id": "67d48f6c18b1e36f2e000017",
+    "question": "Which computational method exists for prediction of transcriptional condensate-associated genomic regions?",
+    "context": "SEGCOND predicts putative transcriptional condensate-associated genomic regions by integrating multi-omics data.",
+    "gold_answer": "SEGCOND",
+    "predicted_answer": "SEGCOND",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "SEGCOND",
+      "data.",
+      "multi-omics",
+      "predicts",
+      "integrating"
+    ],
+    "gold_words": [
+      "segcond"
+    ],
+    "overlap": [
+      "segcond"
+    ],
+    "top_importances": [
+      [
+        "SEGCOND",
+        0.545969152872985
+      ],
+      [
+        "data.",
+        -0.1142732067239785
+      ],
+      [
+        "multi-omics",
+        0.09148550875705964
+      ],
+      [
+        "predicts",
+        -0.06596213104231037
+      ],
+      [
+        "integrating",
+        -0.05592161102823563
+      ],
+      [
+        "genomic",
+        0.02382031045331063
+      ],
+      [
+        "by",
+        -0.018889798632702463
+      ],
+      [
+        "transcriptional",
+        -0.017567728981570347
+      ],
+      [
+        "regions",
+        0.01229616564264867
+      ],
+      [
+        "putative",
+        -0.010071236795029439
+      ]
+    ],
+    "time_seconds": 44.1
+  },
+  {
+    "example_id": "67cc960381b102733300000f",
+    "question": "What are desflurane and sevoflurane?",
+    "context": "[Critical evaluation of the new inhalational anesthetics desflurane and sevoflurane].",
+    "gold_answer": "anesthetics",
+    "predicted_answer": "inhalational anesthetics",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "inhalational",
+      "anesthetics",
+      "and",
+      "new",
+      "desflurane"
+    ],
+    "gold_words": [
+      "anesthetics"
+    ],
+    "overlap": [
+      "anesthetics"
+    ],
+    "top_importances": [
+      [
+        "inhalational",
+        0.26860310444343877
+      ],
+      [
+        "anesthetics",
+        0.1908811231728571
+      ],
+      [
+        "and",
+        0.11882762766738482
+      ],
+      [
+        "new",
+        -0.10950895649603813
+      ],
+      [
+        "desflurane",
+        -0.0611426968161483
+      ],
+      [
+        "evaluation",
+        -0.04561499221302457
+      ],
+      [
+        "[Critical",
+        -0.044304895138211446
+      ],
+      [
+        "the",
+        0.02803801611554896
+      ],
+      [
+        "of",
+        -0.009048841422497303
+      ],
+      [
+        "sevoflurane].",
+        0.0010258364171749908
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67d751e418b1e36f2e000040",
+    "question": "Which protein is silencing MIR139 in order to promote AML oncogenesis?",
+    "context": "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
+    "gold_answer": "POLR2M",
+    "predicted_answer": "POLR2M",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "POLR2M",
+      "MIR139",
+      "The",
+      "silenced",
+      "to"
+    ],
+    "gold_words": [
+      "polr2m"
+    ],
+    "overlap": [
+      "polr2m"
+    ],
+    "top_importances": [
+      [
+        "POLR2M",
+        0.37842830104872827
+      ],
+      [
+        "MIR139",
+        0.25326676791591485
+      ],
+      [
+        "The",
+        -0.0391636440461298
+      ],
+      [
+        "silenced",
+        -0.03624339119964501
+      ],
+      [
+        "to",
+        -0.032188444708524715
+      ],
+      [
+        "suppressor",
+        -0.02459493764472496
+      ],
+      [
+        "tumor",
+        -0.010327183324517177
+      ],
+      [
+        "is",
+        0.009595984205363246
+      ],
+      [
+        "promote",
+        -0.007831430612233424
+      ],
+      [
+        "by",
+        0.006532797690563034
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67d497c418b1e36f2e00001a",
+    "question": "What's the effect of liver RBFOX2?",
+    "context": "Liver RBFOX2 regulates cholesterol homeostasis via Scarb1 alternative splicing in mice.",
+    "gold_answer": "Liver RBFOX2 regulates cholesterol homeostasis via Scarb1 alternative splicing in mice.",
+    "predicted_answer": "Liver RBFOX2 regulates cholesterol homeostasis",
+    "plausibility": 0.45454545454545453,
+    "top_k_words": [
+      "regulates",
+      "homeostasis",
+      "cholesterol",
+      "splicing",
+      "via"
+    ],
+    "gold_words": [
+      "liver",
+      "via",
+      "cholesterol",
+      "rbfox2",
+      "regulates",
+      "homeostasis",
+      "scarb1",
+      "mice",
+      "alternative",
+      "splicing",
+      "in"
+    ],
+    "overlap": [
+      "via",
+      "cholesterol",
+      "regulates",
+      "homeostasis",
+      "splicing"
+    ],
+    "top_importances": [
+      [
+        "regulates",
+        -0.2594715056083724
+      ],
+      [
+        "homeostasis",
+        0.20583771361982556
+      ],
+      [
+        "cholesterol",
+        0.09462084328415071
+      ],
+      [
+        "splicing",
+        -0.05712048169631978
+      ],
+      [
+        "via",
+        0.04629165667484753
+      ],
+      [
+        "mice.",
+        -0.028560684913894574
+      ],
+      [
+        "alternative",
+        0.022470826124344756
+      ],
+      [
+        "Scarb1",
+        -0.020702992051635383
+      ],
+      [
+        "in",
+        -0.013788736711614414
+      ],
+      [
+        "RBFOX2",
+        0.013739890568979183
+      ]
+    ],
+    "time_seconds": 43.4
+  },
+  {
+    "example_id": "67d4903418b1e36f2e000018",
+    "question": "Which gene shapes the 3D enhancer network of the developing T cell genome?",
+    "context": "The 3D enhancer network of the developing T cell genome is shaped by SATB1.",
+    "gold_answer": "SATB1",
+    "predicted_answer": "SATB1",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "SATB1.",
+      "The",
+      "network",
+      "of",
+      "developing"
+    ],
+    "gold_words": [
+      "satb1"
+    ],
+    "overlap": [
+      "satb1"
+    ],
+    "top_importances": [
+      [
+        "SATB1.",
+        0.8417430669587905
+      ],
+      [
+        "The",
+        -0.020539193016682857
+      ],
+      [
+        "network",
+        -0.015989355152547235
+      ],
+      [
+        "of",
+        -0.01061482707254466
+      ],
+      [
+        "developing",
+        -0.010549225326042291
+      ],
+      [
+        "by",
+        -0.010491984423070881
+      ],
+      [
+        "enhancer",
+        0.010201616762205167
+      ],
+      [
+        "cell",
+        -0.007982044918217582
+      ],
+      [
+        "T",
+        -0.004828467746174251
+      ],
+      [
+        "the",
+        -0.004612755011451253
+      ]
+    ],
+    "time_seconds": 48.4
+  },
+  {
+    "example_id": "67dedd6818b1e36f2e000061",
+    "question": "Which ensemble machine-learning framework has been developed harnessing UK biobank data?",
+    "context": "The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Here, we present an ensemble machine-learning framewo",
+    "gold_answer": "MILTON",
+    "predicted_answer": "MILTON",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "MILTON)",
+      "MILTON",
+      "predicts",
+      "(machine",
+      "phenotype"
+    ],
+    "gold_words": [
+      "milton"
+    ],
+    "overlap": [
+      "milton"
+    ],
+    "top_importances": [
+      [
+        "MILTON)",
+        0.4034309899254824
+      ],
+      [
+        "MILTON",
+        0.14979387941223096
+      ],
+      [
+        "predicts",
+        0.10893697059399232
+      ],
+      [
+        "(machine",
+        0.04388596541490934
+      ],
+      [
+        "phenotype",
+        -0.03613477279184139
+      ],
+      [
+        "utilizing",
+        -0.034318867335645195
+      ],
+      [
+        "data,",
+        0.023821561490435687
+      ],
+      [
+        "3,213",
+        -0.022410530406115646
+      ],
+      [
+        "Leveraging",
+        0.020296439351978408
+      ],
+      [
+        "biobank-level",
+        -0.020282220958934633
+      ]
+    ],
+    "time_seconds": 45.2
+  },
+  {
+    "example_id": "67e6bf8818b1e36f2e0000c5",
+    "question": "What is the target of Zodasiran?",
+    "context": "Zodasiran, an RNAi Therapeutic Targeting ANGPTL3, for Mixed Hyperlipidemia.",
+    "gold_answer": "ANGPTL3",
+    "predicted_answer": "ANGPTL3",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "ANGPTL3,",
+      "Zodasiran,",
+      "Targeting",
+      "RNAi",
+      "for"
+    ],
+    "gold_words": [
+      "angptl3"
+    ],
+    "overlap": [
+      "angptl3"
+    ],
+    "top_importances": [
+      [
+        "ANGPTL3,",
+        0.28585600989782606
+      ],
+      [
+        "Zodasiran,",
+        0.10136343911404588
+      ],
+      [
+        "Targeting",
+        0.0992133249561223
+      ],
+      [
+        "RNAi",
+        0.06955595808945687
+      ],
+      [
+        "for",
+        -0.03175991487726833
+      ],
+      [
+        "an",
+        -0.027981189909533567
+      ],
+      [
+        "Hyperlipidemia.",
+        0.025037779058148364
+      ],
+      [
+        "Mixed",
+        0.015379728626027666
+      ],
+      [
+        "Therapeutic",
+        0.012490410751501242
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67e1356018b1e36f2e000070",
+    "question": "Where in the body would the  sublci and gyri be found?",
+    "context": "The elaborate folding of the brain surface has posed a practical impediment to investigators engaged in mapping the areas of the cerebral cortex. This obstacle has been overcome partially by the devel",
+    "gold_answer": "brain",
+    "predicted_answer": "cerebral cortex",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "brain",
+      "cortex",
+      "cerebral",
+      "The",
+      "the"
+    ],
+    "gold_words": [
+      "brain"
+    ],
+    "overlap": [
+      "brain"
+    ],
+    "top_importances": [
+      [
+        "brain",
+        -0.16679777542882882
+      ],
+      [
+        "cortex",
+        -0.09308986500723479
+      ],
+      [
+        "cerebral",
+        -0.08354592326860118
+      ],
+      [
+        "The",
+        -0.07713173973551925
+      ],
+      [
+        "the",
+        -0.0707887390323185
+      ],
+      [
+        "been",
+        -0.0427363445644916
+      ],
+      [
+        "mapping",
+        -0.03932351889766406
+      ],
+      [
+        "flattening",
+        -0.03117708058385375
+      ],
+      [
+        "sulci",
+        -0.025903520583851928
+      ],
+      [
+        "folding",
+        0.020510896902280473
+      ]
+    ],
+    "time_seconds": 43.2
+  },
+  {
+    "example_id": "67e28ded18b1e36f2e000080",
+    "question": "Most common reversible cause of infertility in men.",
+    "context": "Varicocele is the most common correctable cause of male infertility ",
+    "gold_answer": "Varicocele",
+    "predicted_answer": "Varicocele",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "Varicocele",
+      "the",
+      "infertility",
+      "correctable",
+      "is"
+    ],
+    "gold_words": [
+      "varicocele"
+    ],
+    "overlap": [
+      "varicocele"
+    ],
+    "top_importances": [
+      [
+        "Varicocele",
+        0.8199903033885212
+      ],
+      [
+        "the",
+        -0.020884004611069224
+      ],
+      [
+        "infertility",
+        0.01502958743919939
+      ],
+      [
+        "correctable",
+        -0.013757629247293941
+      ],
+      [
+        "is",
+        0.009591900412236195
+      ],
+      [
+        "of",
+        0.00812759538625775
+      ],
+      [
+        "most",
+        0.007896464096585754
+      ],
+      [
+        "cause",
+        -0.0033467955887119677
+      ],
+      [
+        "common",
+        0.0027052412303083776
+      ],
+      [
+        "male",
+        0.0025903228569862293
+      ]
+    ],
+    "time_seconds": 43.6
+  },
+  {
+    "example_id": "67eaf29c18b1e36f2e0000e0",
+    "question": "What mutation is found in about 50% of melanomas?",
+    "context": "BRAF is one of multiple RAF proteins responsible for the activation of the MAPK cell signalling cascade involved in cell growth, differentiation, and survival. A hotspot BRAFV600E mutation, in exon 15",
+    "gold_answer": "BRAFV600E mutation",
+    "predicted_answer": "BRAFV600E",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "mutation,",
+      "BRAF",
+      "BRAFV600E",
+      "a",
+      "hotspot"
+    ],
+    "gold_words": [
+      "mutation",
+      "brafv600e"
+    ],
+    "overlap": [
+      "mutation",
+      "brafv600e"
+    ],
+    "top_importances": [
+      [
+        "mutation,",
+        -0.26531633793606524
+      ],
+      [
+        "BRAF",
+        0.06974284664495942
+      ],
+      [
+        "BRAFV600E",
+        0.06368576107297057
+      ],
+      [
+        "a",
+        -0.02964229858101757
+      ],
+      [
+        "hotspot",
+        -0.026666269796337388
+      ],
+      [
+        "carcinomas.",
+        -0.025737226724026327
+      ],
+      [
+        "colorectal",
+        -0.02548967024645148
+      ],
+      [
+        "in",
+        -0.025428864235668123
+      ],
+      [
+        "multiple",
+        -0.019333990713588045
+      ],
+      [
+        "and",
+        0.018643928858068055
+      ]
+    ],
+    "time_seconds": 45.9
+  },
+  {
+    "example_id": "67eb822e18b1e36f2e0000f1",
+    "question": "What is a characteristic family of enzymes that are responsible for DNA demethylation?",
+    "context": "DNA methylation has a profound impact on genome stability, transcription and development. Although enzymes that catalyse DNA methylation have been well characterized, those that are involved in methyl",
+    "gold_answer": "ten-eleven translocation (TET) family enzymes",
+    "predicted_answer": "ten-eleven translocation (TET) family enzymes",
+    "plausibility": 0.6,
+    "top_k_words": [
+      "(TET)",
+      "ten-eleven",
+      "oxidize",
+      "5-methylcytosine",
+      "translocation"
+    ],
+    "gold_words": [
+      "enzymes",
+      "teneleven",
+      "tet",
+      "translocation",
+      "family"
+    ],
+    "overlap": [
+      "tet",
+      "translocation",
+      "teneleven"
+    ],
+    "top_importances": [
+      [
+        "(TET)",
+        -0.2658172184168447
+      ],
+      [
+        "ten-eleven",
+        -0.07775391869847455
+      ],
+      [
+        "oxidize",
+        -0.07133074666713707
+      ],
+      [
+        "5-methylcytosine",
+        0.05761063917308574
+      ],
+      [
+        "translocation",
+        -0.04666348310233984
+      ],
+      [
+        "demethylation.",
+        0.0371190394097332
+      ],
+      [
+        "Although",
+        -0.027892762693829554
+      ],
+      [
+        "transformative",
+        0.02409023268069724
+      ],
+      [
+        "glycosylase",
+        -0.02385395273392905
+      ],
+      [
+        "enzymes",
+        -0.023598560858489506
+      ]
+    ],
+    "time_seconds": 46.7
+  },
+  {
+    "example_id": "67e7df6118b1e36f2e0000d8",
+    "question": "Which database serves as a catalogue of full-length 16S rRNA gene sequences from bacteria in wastewater treatment plants?",
+    "context": "MiDAS 4: A global catalogue of full-length 16S rRNA gene sequences and taxonomy for studies of bacterial communities in wastewater treatment plants.",
+    "gold_answer": "MiDAS 4",
+    "predicted_answer": "MiDAS 4",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "MiDAS",
+      "4:",
+      "global",
+      "of",
+      "and"
+    ],
+    "gold_words": [
+      "4",
+      "midas"
+    ],
+    "overlap": [
+      "4",
+      "midas"
+    ],
+    "top_importances": [
+      [
+        "MiDAS",
+        0.5146430350517475
+      ],
+      [
+        "4:",
+        0.08397044864221669
+      ],
+      [
+        "global",
+        0.07093923889987053
+      ],
+      [
+        "of",
+        0.049698912293119145
+      ],
+      [
+        "and",
+        0.045480713676120846
+      ],
+      [
+        "A",
+        -0.035169191603006425
+      ],
+      [
+        "catalogue",
+        -0.03171800511713839
+      ],
+      [
+        "bacterial",
+        0.027699598536396978
+      ],
+      [
+        "rRNA",
+        -0.01799732280743497
+      ],
+      [
+        "wastewater",
+        0.01506913872483766
+      ]
+    ],
+    "time_seconds": 44.8
+  },
+  {
+    "example_id": "67e270d318b1e36f2e000075",
+    "question": "Most common infectious cause of congenital deafness.",
+    "context": "CMV infection during pregnancy. It is the most common infectious agent for sensorineural hearing loss (SNHL) in young children",
+    "gold_answer": "CMV infection during pregnancy",
+    "predicted_answer": "CMV",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "CMV",
+      "It",
+      "infection",
+      "is",
+      "agent"
+    ],
+    "gold_words": [
+      "infection",
+      "pregnancy",
+      "cmv",
+      "during"
+    ],
+    "overlap": [
+      "infection",
+      "cmv"
+    ],
+    "top_importances": [
+      [
+        "CMV",
+        0.3147172934848036
+      ],
+      [
+        "It",
+        0.1230978965051911
+      ],
+      [
+        "infection",
+        -0.05019145308883519
+      ],
+      [
+        "is",
+        0.04069074207236269
+      ],
+      [
+        "agent",
+        0.032784033931028696
+      ],
+      [
+        "during",
+        0.026885761086289036
+      ],
+      [
+        "hearing",
+        -0.024041662991423643
+      ],
+      [
+        "the",
+        0.022716796109425553
+      ],
+      [
+        "loss",
+        -0.02122922465737433
+      ],
+      [
+        "(SNHL)",
+        -0.016717891252961612
+      ]
+    ],
+    "time_seconds": 43.3
+  },
+  {
+    "example_id": "67cf3f6481b1027333000025",
+    "question": "What is the indication for bromocriptine?",
+    "context": "Prolactinomas are the most common type of functional pituitary tumours. The objective of this study was to determine demographic profile of patients with prolactinomas, and to compare the outcomes in ",
+    "gold_answer": "Prolactinomas",
+    "predicted_answer": "Prolactinomas",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "Prolactinomas",
+      "prolactinomas,",
+      "Bromocriptine",
+      "Cabergoline",
+      "versus"
+    ],
+    "gold_words": [
+      "prolactinomas"
+    ],
+    "overlap": [
+      "prolactinomas"
+    ],
+    "top_importances": [
+      [
+        "Prolactinomas",
+        0.12808982192609047
+      ],
+      [
+        "prolactinomas,",
+        0.10238859727888328
+      ],
+      [
+        "Bromocriptine",
+        -0.0921355299414573
+      ],
+      [
+        "Cabergoline",
+        -0.03706800563318966
+      ],
+      [
+        "versus",
+        0.03476112646684112
+      ],
+      [
+        "tumours.",
+        -0.03292552541385672
+      ],
+      [
+        "most",
+        -0.02299555495497607
+      ],
+      [
+        "demographic",
+        -0.02169172811054534
+      ],
+      [
+        "receiving",
+        0.0212000349884573
+      ],
+      [
+        "outcomes",
+        0.017356603078811067
+      ]
+    ],
+    "time_seconds": 43.4
+  },
+  {
+    "example_id": "67e7db2918b1e36f2e0000d6",
+    "question": "What is currently the number of germline associations with clonal hematopoiesis in European-ancestry populations?",
+    "context": "Clonal hematopoiesis (CH), the clonal expansion of a blood stem cell and its progeny driven by somatic driver mutations, affects over a third of people, yet remains poorly understood. Here we analyze ",
+    "gold_answer": "14",
+    "predicted_answer": "14",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "14.",
+      "4",
+      "from",
+      "Clonal",
+      "associations"
+    ],
+    "gold_words": [
+      "14"
+    ],
+    "overlap": [
+      "14"
+    ],
+    "top_importances": [
+      [
+        "14.",
+        -0.10570822161769423
+      ],
+      [
+        "4",
+        -0.09398088830556377
+      ],
+      [
+        "from",
+        -0.0469386945480435
+      ],
+      [
+        "Clonal",
+        0.0418412806846538
+      ],
+      [
+        "associations",
+        0.03518139040247359
+      ],
+      [
+        "a",
+        -0.03387303638851146
+      ],
+      [
+        "to",
+        0.032295383354075495
+      ],
+      [
+        "the",
+        0.030056994971299496
+      ],
+      [
+        "by",
+        -0.028496281955820414
+      ],
+      [
+        "populations",
+        0.027631154644892946
+      ]
+    ],
+    "time_seconds": 44.4
+  },
+  {
+    "example_id": "67df1a1d18b1e36f2e000065",
+    "question": "Which missense variant in SPDL1 is associated with IPF?",
+    "context": "Our variant-level analysis revealed a novel association between a rare missense variant in SPDL1 and IPF (NM_017785.5:g.169588475 G > A p.Arg20Gln; p = 2.4 × 10-7, odds ratio = 2.87, 95% confidence in",
+    "gold_answer": "NM_017785.5:g.169588475 G > A p.Arg20Gln",
+    "predicted_answer": "p.Arg20Gln",
+    "plausibility": 0.75,
+    "top_k_words": [
+      "A",
+      "(NM_017785.5:g.169588475",
+      "variant",
+      "p.Arg20Gln;",
+      "encodes"
+    ],
+    "gold_words": [
+      "parg20gln",
+      "g",
+      "nm0177855g169588475",
+      "a"
+    ],
+    "overlap": [
+      "parg20gln",
+      "nm0177855g169588475",
+      "a"
+    ],
+    "top_importances": [
+      [
+        "A",
+        -0.13737656216231997
+      ],
+      [
+        "(NM_017785.5:g.169588475",
+        -0.10582007149426437
+      ],
+      [
+        "variant",
+        -0.06371738583808215
+      ],
+      [
+        "p.Arg20Gln;",
+        0.0519501212041591
+      ],
+      [
+        "encodes",
+        0.04391887429006605
+      ],
+      [
+        "contains",
+        0.04248145607385878
+      ],
+      [
+        "×",
+        0.041710610749982634
+      ],
+      [
+        "and",
+        -0.039678988336659296
+      ],
+      [
+        "replicated",
+        0.0394568045150232
+      ],
+      [
+        "2.03-4.07).",
+        -0.03809214047561765
+      ]
+    ],
+    "time_seconds": 48.7
+  },
+  {
+    "example_id": "67e6be3118b1e36f2e0000c3",
+    "question": "What disease can be treated with Fidanacogene elaparvovec?",
+    "context": "Fidanacogene elaparvovec (PrBEQVEZ™) is an adeno-associated viral (AAV) vector-based gene therapy developed by Spark Therapeutics (a subsidiary of Roche) and Pfizer (under a license from Spark Therape",
+    "gold_answer": "haemophilia B",
+    "predicted_answer": "haemophilia B",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "haemophilia",
+      "B.",
+      "viral",
+      "adeno-associated",
+      "Roche)"
+    ],
+    "gold_words": [
+      "b",
+      "haemophilia"
+    ],
+    "overlap": [
+      "b",
+      "haemophilia"
+    ],
+    "top_importances": [
+      [
+        "haemophilia",
+        0.3048630495476169
+      ],
+      [
+        "B.",
+        -0.06782036831705102
+      ],
+      [
+        "viral",
+        0.05528784771157824
+      ],
+      [
+        "adeno-associated",
+        0.05304736744882824
+      ],
+      [
+        "Roche)",
+        0.02518007021999287
+      ],
+      [
+        "therapy",
+        0.020677450623687525
+      ],
+      [
+        "Therapeutics",
+        0.020446458140658957
+      ],
+      [
+        "for",
+        0.019201476516979205
+      ],
+      [
+        "(PrBEQVEZ™)",
+        0.01902352776782701
+      ],
+      [
+        "treatment",
+        0.01894814767567863
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67e6c9d518b1e36f2e0000cd",
+    "question": "How many individuals were selected for generation of whole-genome sequencing data in the Mexico City Prospective Study?",
+    "context": "The Mexico City Prospective Study is a prospective cohort of more than 150,000 adults recruited two decades ago from the urban districts of Coyoacán and Iztapalapa in Mexico City1. Here we generated g",
+    "gold_answer": "9,950",
+    "predicted_answer": "9,950",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "9,950",
+      "selected",
+      "more",
+      "individuals",
+      "City1."
+    ],
+    "gold_words": [
+      "9950"
+    ],
+    "overlap": [
+      "9950"
+    ],
+    "top_importances": [
+      [
+        "9,950",
+        0.38836843232609347
+      ],
+      [
+        "selected",
+        0.044252397706166686
+      ],
+      [
+        "more",
+        -0.029214266177502425
+      ],
+      [
+        "individuals",
+        -0.024479344703027008
+      ],
+      [
+        "City1.",
+        -0.024461663177842312
+      ],
+      [
+        "and",
+        0.02336073694217321
+      ],
+      [
+        "sequencing",
+        0.0227802247762263
+      ],
+      [
+        "Mexico",
+        -0.02063291323845475
+      ],
+      [
+        "all",
+        -0.020327566864167423
+      ],
+      [
+        "Iztapalapa",
+        -0.01979488005845065
+      ]
+    ],
+    "time_seconds": 44.0
+  },
+  {
+    "example_id": "67e014c918b1e36f2e000068",
+    "question": "What is the mode of action of Bempedoic acid?",
+    "context": "Bempedoic acid is a new oral cholesterol-lowering medication that reduces hepatic cholesterol synthesis by inhibiting the enzyme adenosine triphosphate (ATP)-citrate lyase enzyme. ",
+    "gold_answer": "ATP",
+    "predicted_answer": "oral cholesterol-lowering",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "Bempedoic",
+      "oral",
+      "that",
+      "cholesterol-lowering",
+      "a"
+    ],
+    "gold_words": [
+      "atp"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "Bempedoic",
+        0.1804050640057283
+      ],
+      [
+        "oral",
+        0.0778992878021071
+      ],
+      [
+        "that",
+        0.06886438585307435
+      ],
+      [
+        "cholesterol-lowering",
+        -0.0608902083080581
+      ],
+      [
+        "a",
+        0.05968223596739873
+      ],
+      [
+        "medication",
+        -0.056109035461406866
+      ],
+      [
+        "is",
+        0.0552510501461652
+      ],
+      [
+        "reduces",
+        -0.042684043636872594
+      ],
+      [
+        "triphosphate",
+        0.039022897782196
+      ],
+      [
+        "new",
+        0.01972071929395141
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67eb817c18b1e36f2e0000f0",
+    "question": "What is the median survival time for glioblastoma patients with standard treatment?",
+    "context": "Glioblastoma is the most aggressive malignant brain tumor among all primary brain and central nervous system tumors. The median survival time for glioblastoma patients given the current standard of ca",
+    "gold_answer": "15 months",
+    "predicted_answer": "15 months",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "months.",
+      "15",
+      "less",
+      "than",
+      "median"
+    ],
+    "gold_words": [
+      "15",
+      "months"
+    ],
+    "overlap": [
+      "15",
+      "months"
+    ],
+    "top_importances": [
+      [
+        "months.",
+        0.21151546588555437
+      ],
+      [
+        "15",
+        0.177273771749205
+      ],
+      [
+        "less",
+        -0.14429475270504846
+      ],
+      [
+        "than",
+        -0.1053055724623463
+      ],
+      [
+        "median",
+        -0.062440983165463954
+      ],
+      [
+        "Glioblastoma",
+        0.03380773869813289
+      ],
+      [
+        "is",
+        -0.02652279330654956
+      ],
+      [
+        "(surgery,",
+        0.02601814392993391
+      ],
+      [
+        "tumor",
+        -0.024435264934081494
+      ],
+      [
+        "treatment",
+        0.023098917903414607
+      ]
+    ],
+    "time_seconds": 43.2
+  },
+  {
+    "example_id": "67dede2918b1e36f2e000062",
+    "question": "Which ensemble machine-learning framework has been developed for predicting druggability?",
+    "context": "DrugnomeAI is an ensemble machine-learning framework for predicting druggability of candidate drug targets.",
+    "gold_answer": "DrugnomeAI",
+    "predicted_answer": "DrugnomeAI",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "DrugnomeAI",
+      "an",
+      "framework",
+      "is",
+      "targets."
+    ],
+    "gold_words": [
+      "drugnomeai"
+    ],
+    "overlap": [
+      "drugnomeai"
+    ],
+    "top_importances": [
+      [
+        "DrugnomeAI",
+        0.7323516314147042
+      ],
+      [
+        "an",
+        -0.07244728126540495
+      ],
+      [
+        "framework",
+        -0.06090400896896591
+      ],
+      [
+        "is",
+        -0.03700410137510146
+      ],
+      [
+        "targets.",
+        -0.03230241831106791
+      ],
+      [
+        "druggability",
+        0.026210452449316933
+      ],
+      [
+        "predicting",
+        0.02605444970556258
+      ],
+      [
+        "ensemble",
+        0.02449915216971811
+      ],
+      [
+        "machine-learning",
+        0.02240088273859821
+      ],
+      [
+        "of",
+        0.006226347959667806
+      ]
+    ],
+    "time_seconds": 46.9
+  },
+  {
+    "example_id": "67e2849218b1e36f2e00007a",
+    "question": "What is the most common genetic variant of cystic fibrosis?",
+    "context": "CFTR F508del (c.1521_1523delCTT, p.Phe508delPhe) is the most common pathogenic allele underlying cystic fibrosis",
+    "gold_answer": "CFTR F508del (c.1521_1523delCTT, p.Phe508delPhe)",
+    "predicted_answer": "CFTR F508del",
+    "plausibility": 0.75,
+    "top_k_words": [
+      "F508del",
+      "CFTR",
+      "p.Phe508delPhe)",
+      "pathogenic",
+      "is"
+    ],
+    "gold_words": [
+      "pphe508delphe",
+      "f508del",
+      "cftr",
+      "c15211523delctt"
+    ],
+    "overlap": [
+      "pphe508delphe",
+      "f508del",
+      "cftr"
+    ],
+    "top_importances": [
+      [
+        "F508del",
+        0.1774973758330403
+      ],
+      [
+        "CFTR",
+        0.09183584530383916
+      ],
+      [
+        "p.Phe508delPhe)",
+        -0.09130093549421754
+      ],
+      [
+        "pathogenic",
+        0.025304569379686098
+      ],
+      [
+        "is",
+        0.018600114409133648
+      ],
+      [
+        "common",
+        0.01639976912048264
+      ],
+      [
+        "the",
+        -0.008949431113817647
+      ],
+      [
+        "cystic",
+        -0.008916705228473574
+      ],
+      [
+        "underlying",
+        -0.007827527337173942
+      ],
+      [
+        "most",
+        0.0069847859328973465
+      ]
+    ],
+    "time_seconds": 45.3
+  },
+  {
+    "example_id": "67e2944218b1e36f2e000083",
+    "question": "Which cytoscape application has been developed for the study of metabolic pathway evolution?",
+    "context": "BioPAXViz: a cytoscape application for the visual exploration of metabolic pathway evolution.",
+    "gold_answer": "BioPAXViz",
+    "predicted_answer": "BioPAXViz",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "BioPAXViz:",
+      "a",
+      "application",
+      "cytoscape",
+      "for"
+    ],
+    "gold_words": [
+      "biopaxviz"
+    ],
+    "overlap": [
+      "biopaxviz"
+    ],
+    "top_importances": [
+      [
+        "BioPAXViz:",
+        0.7211462938657006
+      ],
+      [
+        "a",
+        -0.07359221860110995
+      ],
+      [
+        "application",
+        -0.05417100260207031
+      ],
+      [
+        "cytoscape",
+        0.04739981374034254
+      ],
+      [
+        "for",
+        -0.029120225892917996
+      ],
+      [
+        "evolution.",
+        -0.02894276388688006
+      ],
+      [
+        "visual",
+        0.023323088797084137
+      ],
+      [
+        "pathway",
+        -0.0138265144174306
+      ],
+      [
+        "exploration",
+        0.010793156627697706
+      ],
+      [
+        "of",
+        -0.007143208083400977
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67eb55f418b1e36f2e0000e7",
+    "question": "What is the most common genetic alteration in primary glioblastoma?",
+    "context": "EGFR amplification has been identified as a genetic hallmark of primary glioblastomas and occurs in 40-60% of cases.",
+    "gold_answer": "EGFR amplification",
+    "predicted_answer": "EGFR amplification",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "EGFR",
+      "amplification",
+      "hallmark",
+      "as",
+      "identified"
+    ],
+    "gold_words": [
+      "egfr",
+      "amplification"
+    ],
+    "overlap": [
+      "egfr",
+      "amplification"
+    ],
+    "top_importances": [
+      [
+        "EGFR",
+        0.332179696800293
+      ],
+      [
+        "amplification",
+        0.13490054896523654
+      ],
+      [
+        "hallmark",
+        0.09501514294777988
+      ],
+      [
+        "as",
+        0.09040225610132144
+      ],
+      [
+        "identified",
+        -0.06172109707904226
+      ],
+      [
+        "glioblastomas",
+        -0.06067351249451098
+      ],
+      [
+        "been",
+        0.04424666028318257
+      ],
+      [
+        "a",
+        0.04359196312979998
+      ],
+      [
+        "has",
+        0.040016610098650825
+      ],
+      [
+        "and",
+        0.039294826495736034
+      ]
+    ],
+    "time_seconds": 43.6
+  },
+  {
+    "example_id": "67e133f118b1e36f2e00006f",
+    "question": "Why is Calabash chalk consumed by pregnant women?",
+    "context": "Calabash chalk (CaC) is an aluminium silicate hydroxide compound with heavy metal constituents, making it a potential neurotoxicant. Pregnant women often consume CaC as an antiemetic, which may interf",
+    "gold_answer": "antiemetic",
+    "predicted_answer": "as an antiemetic",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "antiemetic,",
+      "an",
+      "as",
+      "neurotoxicant.",
+      "Pregnant"
+    ],
+    "gold_words": [
+      "antiemetic"
+    ],
+    "overlap": [
+      "antiemetic"
+    ],
+    "top_importances": [
+      [
+        "antiemetic,",
+        0.13758465283817004
+      ],
+      [
+        "an",
+        -0.09173199581916856
+      ],
+      [
+        "as",
+        0.06625572825168947
+      ],
+      [
+        "neurotoxicant.",
+        -0.04593099511000895
+      ],
+      [
+        "Pregnant",
+        0.04097314331648506
+      ],
+      [
+        "potential",
+        -0.038341264955931674
+      ],
+      [
+        "interfere",
+        -0.03146714408741469
+      ],
+      [
+        "(CaC)",
+        0.027276361078272332
+      ],
+      [
+        "with",
+        0.023774041670899054
+      ],
+      [
+        "CaC",
+        -0.02129504586870482
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e288d518b1e36f2e00007c",
+    "question": "Country with the highest incidence of African Trypanosomiasis (sleeping sickness).",
+    "context": "For the past three decades, the Democratic Republic of the Congo (DRC) has been the country reporting the highest number of cases of human African trypanosomiasis ",
+    "gold_answer": "Democratic Republic of the Congo",
+    "predicted_answer": "Democratic Republic of the Congo",
+    "plausibility": 0.8,
+    "top_k_words": [
+      "the",
+      "Congo",
+      "Republic",
+      "Democratic",
+      "(DRC)"
+    ],
+    "gold_words": [
+      "congo",
+      "republic",
+      "of",
+      "democratic",
+      "the"
+    ],
+    "overlap": [
+      "democratic",
+      "congo",
+      "the",
+      "republic"
+    ],
+    "top_importances": [
+      [
+        "the",
+        -0.12663960131924096
+      ],
+      [
+        "Congo",
+        0.11140118142176524
+      ],
+      [
+        "Republic",
+        -0.10856749869956736
+      ],
+      [
+        "Democratic",
+        -0.08640046034947191
+      ],
+      [
+        "(DRC)",
+        -0.04993616475253355
+      ],
+      [
+        "of",
+        -0.04165170228158693
+      ],
+      [
+        "has",
+        -0.030950342555019942
+      ],
+      [
+        "been",
+        -0.01639696116075095
+      ],
+      [
+        "country",
+        0.014431967639992467
+      ],
+      [
+        "highest",
+        -0.013863616128171842
+      ]
+    ],
+    "time_seconds": 45.8
+  },
+  {
+    "example_id": "67e6bdc618b1e36f2e0000c2",
+    "question": "What is the target of Tulisokibart?",
+    "context": "BACKGROUND: Tulisokibart is a tumor necrosis factor-like cytokine 1A (TL1A) monoclonal antibody in development for the treatment of moderately to severely active ulcerative colitis. ",
+    "gold_answer": "tumor necrosis factor-like cytokine 1A",
+    "predicted_answer": "tumor necrosis factor",
+    "plausibility": 0.6,
+    "top_k_words": [
+      "(TL1A)",
+      "1A",
+      "Tulisokibart",
+      "factor-like",
+      "necrosis"
+    ],
+    "gold_words": [
+      "tumor",
+      "1a",
+      "factorlike",
+      "cytokine",
+      "necrosis"
+    ],
+    "overlap": [
+      "necrosis",
+      "factorlike",
+      "1a"
+    ],
+    "top_importances": [
+      [
+        "(TL1A)",
+        -0.08507573586974913
+      ],
+      [
+        "1A",
+        0.07648208716263405
+      ],
+      [
+        "Tulisokibart",
+        -0.051392518878717666
+      ],
+      [
+        "factor-like",
+        -0.027304806530647093
+      ],
+      [
+        "necrosis",
+        0.025919235332592282
+      ],
+      [
+        "a",
+        -0.02294890969308777
+      ],
+      [
+        "antibody",
+        0.02270145851844984
+      ],
+      [
+        "to",
+        -0.021311365681756685
+      ],
+      [
+        "BACKGROUND:",
+        0.020469735148737685
+      ],
+      [
+        "tumor",
+        0.01732476237563374
+      ]
+    ],
+    "time_seconds": 47.0
+  },
+  {
+    "example_id": "67e56b5418b1e36f2e0000ad",
+    "question": "What is the target of Abelacimab?",
+    "context": "The factor XI/XIa antibody abelacimab combined with enoxaparin inhibits filter clotting in hemodialysis circuits ex vivo.",
+    "gold_answer": "factor XI",
+    "predicted_answer": "filter clotting",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "filter",
+      "abelacimab",
+      "circuits",
+      "clotting",
+      "XI/XIa"
+    ],
+    "gold_words": [
+      "xi",
+      "factor"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "filter",
+        0.1556985718905755
+      ],
+      [
+        "abelacimab",
+        0.09584450338807415
+      ],
+      [
+        "circuits",
+        -0.08446554219373231
+      ],
+      [
+        "clotting",
+        -0.0779507804337372
+      ],
+      [
+        "XI/XIa",
+        -0.07164595273391415
+      ],
+      [
+        "hemodialysis",
+        -0.07021545177043029
+      ],
+      [
+        "combined",
+        0.04037352346119165
+      ],
+      [
+        "in",
+        0.03500452311394706
+      ],
+      [
+        "enoxaparin",
+        -0.03443717728536368
+      ],
+      [
+        "inhibits",
+        0.029948383876192707
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67e2cd8b18b1e36f2e000097",
+    "question": "What is the treatment for paracetamol intoxication?",
+    "context": "administration of intravenous N-acetylcysteine",
+    "gold_answer": "N-acetylcysteine",
+    "predicted_answer": "administration of intravenous N-acetylcysteine",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "of",
+      "intravenous",
+      "N-acetylcysteine",
+      "administration"
+    ],
+    "gold_words": [
+      "nacetylcysteine"
+    ],
+    "overlap": [
+      "nacetylcysteine"
+    ],
+    "top_importances": [
+      [
+        "of",
+        -0.21185862691961574
+      ],
+      [
+        "intravenous",
+        -0.08634358246903906
+      ],
+      [
+        "N-acetylcysteine",
+        0.040427797108149276
+      ],
+      [
+        "administration",
+        0.0274313356372475
+      ]
+    ],
+    "time_seconds": 43.4
+  },
+  {
+    "example_id": "67e5712e18b1e36f2e0000b2",
+    "question": "Plaques en Prairie Fauchée are specific to which disease?",
+    "context": "The painful lesions also called \"Plaques en prairie fauchée\", occur in the context of the discovery of a postive HIV serology. The diagnosis of secondary syphilis was confirmed by a positive syphilis ",
+    "gold_answer": "secondary syphilis",
+    "predicted_answer": "HIV serology. The diagnosis of secondary syphilis",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "syphilis",
+      "(nontreponemal",
+      "postive",
+      "serology.",
+      "diagnosis"
+    ],
+    "gold_words": [
+      "secondary",
+      "syphilis"
+    ],
+    "overlap": [
+      "syphilis"
+    ],
+    "top_importances": [
+      [
+        "syphilis",
+        -0.22315212013801403
+      ],
+      [
+        "(nontreponemal",
+        -0.048927425069654994
+      ],
+      [
+        "postive",
+        -0.047461591036730574
+      ],
+      [
+        "serology.",
+        -0.04290826348931126
+      ],
+      [
+        "diagnosis",
+        -0.041084621442322826
+      ],
+      [
+        "fauchée\",",
+        -0.040974422942078696
+      ],
+      [
+        "Treponema",
+        0.03556695569217912
+      ],
+      [
+        "HIV",
+        -0.031830740080781496
+      ],
+      [
+        "title",
+        -0.030227419705006
+      ],
+      [
+        "secondary",
+        0.027692308367453043
+      ]
+    ],
+    "time_seconds": 43.4
+  },
+  {
+    "example_id": "67e08afd18b1e36f2e00006a",
+    "question": "Eptinezumab is a monclonal antibody direct againest what protein?",
+    "context": "ACKGROUND: Eptinezumab is a monoclonal antibody that targets calcitonin gene-related peptide (CGRP mAb) and is used for migraine prophylaxis. ",
+    "gold_answer": "calcitonin gene-related peptide (CGRP",
+    "predicted_answer": "calcitonin gene-related peptide",
+    "plausibility": 0.75,
+    "top_k_words": [
+      "peptide",
+      "mAb)",
+      "gene-related",
+      "calcitonin",
+      "targets"
+    ],
+    "gold_words": [
+      "calcitonin",
+      "generelated",
+      "peptide",
+      "cgrp"
+    ],
+    "overlap": [
+      "calcitonin",
+      "generelated",
+      "peptide"
+    ],
+    "top_importances": [
+      [
+        "peptide",
+        0.11298834903633323
+      ],
+      [
+        "mAb)",
+        0.05570671909304523
+      ],
+      [
+        "gene-related",
+        -0.052488285264534605
+      ],
+      [
+        "calcitonin",
+        0.0399979838148146
+      ],
+      [
+        "targets",
+        0.0371662627806971
+      ],
+      [
+        "ACKGROUND:",
+        0.027315232554859865
+      ],
+      [
+        "antibody",
+        -0.019566386364672998
+      ],
+      [
+        "and",
+        -0.01847280350784474
+      ],
+      [
+        "is",
+        -0.010406492204370895
+      ],
+      [
+        "migraine",
+        -0.008087378390956041
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e6ce6e18b1e36f2e0000cf",
+    "question": "How many primary genetic associations were identified through pQTL mapping within the Pharma Proteomics Project?",
+    "context": "The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants. Here we provide a detailed summary of thi",
+    "gold_answer": "14,287 primary genetic associations",
+    "predicted_answer": "14,287",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "14,287",
+      "2,923",
+      "primary",
+      "(pQTL)",
+      "We"
+    ],
+    "gold_words": [
+      "14287",
+      "genetic",
+      "associations",
+      "primary"
+    ],
+    "overlap": [
+      "14287",
+      "primary"
+    ],
+    "top_importances": [
+      [
+        "14,287",
+        0.16061422235503758
+      ],
+      [
+        "2,923",
+        0.06212372237742614
+      ],
+      [
+        "primary",
+        0.03838341679828354
+      ],
+      [
+        "(pQTL)",
+        0.02956730163243201
+      ],
+      [
+        "We",
+        0.025563141593388093
+      ],
+      [
+        "Project",
+        0.023782863619521095
+      ],
+      [
+        "indicators.",
+        0.023743884088163063
+      ],
+      [
+        "81%",
+        0.02315902702290361
+      ],
+      [
+        "quantitative",
+        0.021948742078839713
+      ],
+      [
+        "protein",
+        0.02104875782472052
+      ]
+    ],
+    "time_seconds": 47.9
+  },
+  {
+    "example_id": "67e6b34318b1e36f2e0000b9",
+    "question": "rVSV-ZEBOV-GP is used for which disease?",
+    "context": " The only FDA-licensed vaccine against Ebola virus, rVSV-ZEBOV-GP (Ervebo®), is efficacious against infection following just one dose.",
+    "gold_answer": "Ebola virus",
+    "predicted_answer": "Ebola",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "virus,",
+      "against",
+      "FDA-licensed",
+      "Ebola",
+      "infection"
+    ],
+    "gold_words": [
+      "ebola",
+      "virus"
+    ],
+    "overlap": [
+      "ebola",
+      "virus"
+    ],
+    "top_importances": [
+      [
+        "virus,",
+        -0.21614037546871684
+      ],
+      [
+        "against",
+        -0.03527021144157526
+      ],
+      [
+        "FDA-licensed",
+        -0.022138028776050468
+      ],
+      [
+        "Ebola",
+        0.021101315164125247
+      ],
+      [
+        "infection",
+        0.02104951251469321
+      ],
+      [
+        "just",
+        0.0173262537669312
+      ],
+      [
+        "rVSV-ZEBOV-GP",
+        -0.01731333777439207
+      ],
+      [
+        "efficacious",
+        0.016396756043447352
+      ],
+      [
+        "is",
+        0.012865984977310816
+      ],
+      [
+        "following",
+        -0.011103679430257505
+      ]
+    ],
+    "time_seconds": 44.9
+  },
+  {
+    "example_id": "67e296bc18b1e36f2e000085",
+    "question": "How many exomes did the largest whole-exome sequencing study of epilepsy to date involve?",
+    "context": "Identifying genetic risk factors for highly heterogeneous disorders like epilepsy remains challenging. Here, we present the largest whole-exome sequencing study of epilepsy to date, with >54,000 human",
+    "gold_answer": ">54,000 human exomes",
+    "predicted_answer": ">54,000",
+    "plausibility": 0.6666666666666666,
+    "top_k_words": [
+      "exomes,",
+      ">54,000",
+      "patients",
+      "comprising",
+      "whole-exome"
+    ],
+    "gold_words": [
+      "human",
+      "54000",
+      "exomes"
+    ],
+    "overlap": [
+      "54000",
+      "exomes"
+    ],
+    "top_importances": [
+      [
+        "exomes,",
+        0.15736659615252635
+      ],
+      [
+        ">54,000",
+        -0.09442445151384485
+      ],
+      [
+        "patients",
+        -0.09092966705057165
+      ],
+      [
+        "comprising",
+        0.051065117982232594
+      ],
+      [
+        "whole-exome",
+        -0.04528214741049898
+      ],
+      [
+        "human",
+        -0.044183580837959396
+      ],
+      [
+        "genetic",
+        -0.03756761077412502
+      ],
+      [
+        "with",
+        0.02949153676667216
+      ],
+      [
+        "epilepsy",
+        -0.028986235538502856
+      ],
+      [
+        "we",
+        0.02319923020486602
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e4590e18b1e36f2e0000a9",
+    "question": "Westermark’s Sign is specific to which condition?",
+    "context": "n initial chest X-ray revealed the Fleischner's sign, the knuckle sign, and the Westermark sign, specific but not sensitive for central pulmonary embolism, prompting a follow-up angio CT to confirm th",
+    "gold_answer": "pulmonary embolism",
+    "predicted_answer": "central pulmonary embolism",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "embolism,",
+      "central",
+      "pulmonary",
+      "sign,",
+      "not"
+    ],
+    "gold_words": [
+      "pulmonary",
+      "embolism"
+    ],
+    "overlap": [
+      "pulmonary",
+      "embolism"
+    ],
+    "top_importances": [
+      [
+        "embolism,",
+        0.17244956749295653
+      ],
+      [
+        "central",
+        -0.09164632992392704
+      ],
+      [
+        "pulmonary",
+        0.042996022077806575
+      ],
+      [
+        "sign,",
+        0.03814475715589186
+      ],
+      [
+        "not",
+        -0.03632441415560265
+      ],
+      [
+        "for",
+        -0.03600175143035414
+      ],
+      [
+        "X-ray",
+        0.025151261970034658
+      ],
+      [
+        "but",
+        0.024551523440794875
+      ],
+      [
+        "specific",
+        0.021342483655542095
+      ],
+      [
+        "sensitive",
+        -0.02058467997745819
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e6d1b518b1e36f2e0000d3",
+    "question": "Which association in clonal haematopoiesis has been identified in the UK biobank proteogenomics study?",
+    "context": "Because previous proteogenomic studies have focused on common variation via genome-wide association studies, the contribution of rare variants to the plasma proteome remains largely unknown. Here we i",
+    "gold_answer": "association between TET2-CH and increased FLT3 levels.",
+    "predicted_answer": "CH",
+    "plausibility": 0.2857142857142857,
+    "top_k_words": [
+      "between",
+      "FLT3",
+      "clonal",
+      "(CH),",
+      "loci,"
+    ],
+    "gold_words": [
+      "levels",
+      "between",
+      "association",
+      "increased",
+      "flt3",
+      "and",
+      "tet2ch"
+    ],
+    "overlap": [
+      "between",
+      "flt3"
+    ],
+    "top_importances": [
+      [
+        "between",
+        -0.11622195666091063
+      ],
+      [
+        "FLT3",
+        -0.06752426605700625
+      ],
+      [
+        "clonal",
+        0.0606939404209521
+      ],
+      [
+        "(CH),",
+        -0.05301220443096744
+      ],
+      [
+        "loci,",
+        -0.04343171007077758
+      ],
+      [
+        "and",
+        0.0414236780155806
+      ],
+      [
+        "TET2-CH",
+        0.03931001626137947
+      ],
+      [
+        "common",
+        0.03623057040996664
+      ],
+      [
+        "clearance,",
+        -0.03311210911375945
+      ],
+      [
+        "resource",
+        0.03171188451129413
+      ]
+    ],
+    "time_seconds": 45.9
+  },
+  {
+    "example_id": "67fc555a18b1e36f2e000131",
+    "question": "What organ is evaluated by Hysterosalpingography (HSG)?",
+    "context": "Hysterosalpingography (HSG) remains a valuable diagnostic tool in current clinical practice, offering crucial insights into endometrial cavity, fallopian tubes and the adjoining part of the pelvic per",
+    "gold_answer": "fallopian tubes",
+    "predicted_answer": "pelvic peritoneal cavity",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "pelvic",
+      "fallopian",
+      "cavity.",
+      "endometrial",
+      "cavity,"
+    ],
+    "gold_words": [
+      "fallopian",
+      "tubes"
+    ],
+    "overlap": [
+      "fallopian"
+    ],
+    "top_importances": [
+      [
+        "pelvic",
+        -0.13354270576418348
+      ],
+      [
+        "fallopian",
+        -0.10770537122753078
+      ],
+      [
+        "cavity.",
+        -0.08982141971043194
+      ],
+      [
+        "endometrial",
+        -0.08348903471390592
+      ],
+      [
+        "cavity,",
+        -0.0785013161700806
+      ],
+      [
+        "the",
+        -0.0501677309921954
+      ],
+      [
+        "part",
+        -0.03463967331183724
+      ],
+      [
+        "Hysterosalpingography",
+        -0.020456685224637845
+      ],
+      [
+        "peritoneal",
+        -0.016158941530114147
+      ],
+      [
+        "valuable",
+        0.016158309022865098
+      ]
+    ],
+    "time_seconds": 48.1
+  },
+  {
+    "example_id": "67fbe68c18b1e36f2e00011e",
+    "question": "At which age should men start prostate cancer screening?",
+    "context": "Family history of PCa, race/ethnicity, pathogenic variants (particularly BRCA2, MSH2, and HOXB13), and PRS are associated with increased PCa risk and should be considered in shared decision-making to ",
+    "gold_answer": "Family history of PCa, race/ethnicity, pathogenic variants (particularly BRCA2, MSH2, and HOXB13), and PRS are associated with increased PCa risk and should be considered in shared decision-making to determine PCa screening regimens.",
+    "predicted_answer": "PRS",
+    "plausibility": 0.17857142857142858,
+    "top_k_words": [
+      "HOXB13),",
+      "and",
+      "Family",
+      "PRS",
+      "regimens."
+    ],
+    "gold_words": [
+      "screening",
+      "brca2",
+      "prs",
+      "of",
+      "to",
+      "variants",
+      "particularly",
+      "decisionmaking",
+      "in",
+      "determine",
+      "associated",
+      "should",
+      "be",
+      "msh2",
+      "increased",
+      "risk",
+      "pca",
+      "considered",
+      "raceethnicity",
+      "and",
+      "pathogenic",
+      "history",
+      "hoxb13",
+      "are",
+      "with",
+      "shared",
+      "family",
+      "regimens"
+    ],
+    "overlap": [
+      "prs",
+      "hoxb13",
+      "and",
+      "family",
+      "regimens"
+    ],
+    "top_importances": [
+      [
+        "HOXB13),",
+        0.33563041431939517
+      ],
+      [
+        "and",
+        -0.0999560810965129
+      ],
+      [
+        "Family",
+        0.07210281107884815
+      ],
+      [
+        "PRS",
+        -0.06693759315116274
+      ],
+      [
+        "regimens.",
+        -0.04720905864223721
+      ],
+      [
+        "pathogenic",
+        -0.04501812707693568
+      ],
+      [
+        "PCa,",
+        0.04419272109337708
+      ],
+      [
+        "(particularly",
+        -0.043195582946434156
+      ],
+      [
+        "screening",
+        -0.04033620592155707
+      ],
+      [
+        "are",
+        -0.03563470946201687
+      ]
+    ],
+    "time_seconds": 45.9
+  },
+  {
+    "example_id": "67fbee9818b1e36f2e000124",
+    "question": "What proportion of the cells in GBM are typically macrophages/microglia?",
+    "context": "CNS immune defenses are marshaled and dominated by brain resident macrophages and microglia, which are the innate immune sentinels and frontline host immune barriers against various pathogenic insults",
+    "gold_answer": "30-50%",
+    "predicted_answer": "30-50%",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "30-50%",
+      "immune",
+      "microglia,",
+      "to",
+      "insults."
+    ],
+    "gold_words": [
+      "3050"
+    ],
+    "overlap": [
+      "3050"
+    ],
+    "top_importances": [
+      [
+        "30-50%",
+        0.7042389395645411
+      ],
+      [
+        "immune",
+        -0.03661455369500442
+      ],
+      [
+        "microglia,",
+        -0.03543966477841765
+      ],
+      [
+        "to",
+        -0.03335322193541101
+      ],
+      [
+        "insults.",
+        0.02229742578964833
+      ],
+      [
+        "cells",
+        0.020305526641573823
+      ],
+      [
+        "can",
+        -0.019756255178517337
+      ],
+      [
+        "up",
+        -0.01827936882107765
+      ],
+      [
+        "myeloid",
+        -0.01715565508165055
+      ],
+      [
+        "predominant",
+        0.01606256408467817
+      ]
+    ],
+    "time_seconds": 43.8
+  },
+  {
+    "example_id": "67f8ea8318b1e36f2e000107",
+    "question": "What is the difference in action between fomoterol and salmeterol?",
+    "context": "Formoterol has a faster onset of action compared with salmeterol. ",
+    "gold_answer": "Formoterol has a faster onset of action compared with salmeterol",
+    "predicted_answer": "faster onset of action",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "faster",
+      "action",
+      "onset",
+      "has",
+      "compared"
+    ],
+    "gold_words": [
+      "a",
+      "onset",
+      "of",
+      "with",
+      "salmeterol",
+      "action",
+      "has",
+      "faster",
+      "compared",
+      "formoterol"
+    ],
+    "overlap": [
+      "onset",
+      "action",
+      "has",
+      "faster",
+      "compared"
+    ],
+    "top_importances": [
+      [
+        "faster",
+        0.23997652873342587
+      ],
+      [
+        "action",
+        0.12302849262334191
+      ],
+      [
+        "onset",
+        -0.08139372229047276
+      ],
+      [
+        "has",
+        -0.07574596111980685
+      ],
+      [
+        "compared",
+        0.07125021849732398
+      ],
+      [
+        "a",
+        -0.06593129409199819
+      ],
+      [
+        "with",
+        -0.02750957011998629
+      ],
+      [
+        "Formoterol",
+        -0.02002885914958146
+      ],
+      [
+        "salmeterol.",
+        0.018012109286584168
+      ],
+      [
+        "of",
+        -0.00491697282723022
+      ]
+    ],
+    "time_seconds": 43.3
+  },
+  {
+    "example_id": "67fd7a0218b1e36f2e000141",
+    "question": "What type of T cell memory subset is characterized by high CD45RO and CCR7 expression?",
+    "context": "Among the CD8+ cytotoxic lymphocytes, the frequency of different subsets was determined including total memory cells (CD8+CD45RO+CD95+), T central memory (TCM: CD8+CCR7+CD45RO+CD95+), T effector memor",
+    "gold_answer": "T central memory",
+    "predicted_answer": "naïve",
+    "plausibility": 0.3333333333333333,
+    "top_k_words": [
+      "memory",
+      "CD8+CCR7+CD45RO+CD95+),",
+      "CD8+",
+      "naïve",
+      "stem"
+    ],
+    "gold_words": [
+      "memory",
+      "t",
+      "central"
+    ],
+    "overlap": [
+      "memory"
+    ],
+    "top_importances": [
+      [
+        "memory",
+        -0.08999391367901372
+      ],
+      [
+        "CD8+CCR7+CD45RO+CD95+),",
+        0.04640549960569597
+      ],
+      [
+        "CD8+",
+        -0.04244358060721324
+      ],
+      [
+        "naïve",
+        -0.037206185734771906
+      ],
+      [
+        "stem",
+        -0.03307892273533737
+      ],
+      [
+        "cells",
+        -0.03062259559816047
+      ],
+      [
+        "cell",
+        -0.02780696153417818
+      ],
+      [
+        "(TEM:",
+        -0.02543176224321091
+      ],
+      [
+        "including",
+        -0.021973061800506885
+      ],
+      [
+        "effector",
+        -0.02058053232607509
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e6d27518b1e36f2e0000d4",
+    "question": "What is the target of Zolbetuximab?",
+    "context": "Zolbetuximab for Claudin18.2-positive gastric or gastroesophageal junction cancer.",
+    "gold_answer": "Claudin18.2",
+    "predicted_answer": "Claudin18.2",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "Claudin18.2-positive",
+      "for",
+      "gastroesophageal",
+      "cancer.",
+      "Zolbetuximab"
+    ],
+    "gold_words": [
+      "claudin182"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "Claudin18.2-positive",
+        0.09804318633067302
+      ],
+      [
+        "for",
+        0.08291483207466414
+      ],
+      [
+        "gastroesophageal",
+        -0.07599804036668742
+      ],
+      [
+        "cancer.",
+        -0.06366428635232348
+      ],
+      [
+        "Zolbetuximab",
+        0.058124005381969594
+      ],
+      [
+        "or",
+        -0.040929597885152394
+      ],
+      [
+        "junction",
+        -0.026318564282058587
+      ],
+      [
+        "gastric",
+        0.0178574654383457
+      ]
+    ],
+    "time_seconds": 45.3
+  },
+  {
+    "example_id": "67fd5d6e18b1e36f2e000139",
+    "question": "What is a frequently lost chromosomal region in secondary glioblastoma?",
+    "context": "The majority (88%) of primary glioblastomas with LOH#10 showed LOH at all informative markers, suggesting loss of the entire chromosome 10. In contrast, secondary glioblastomas with LOH#10 showed part",
+    "gold_answer": "chromosome 10q",
+    "predicted_answer": "chromosome 10q",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "10.",
+      "10p.",
+      "loss",
+      "LOH#10",
+      "is"
+    ],
+    "gold_words": [
+      "10q",
+      "chromosome"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "10.",
+        -0.14611265482468194
+      ],
+      [
+        "10p.",
+        -0.10612894443391843
+      ],
+      [
+        "loss",
+        0.06105881427912402
+      ],
+      [
+        "LOH#10",
+        -0.053166373296279906
+      ],
+      [
+        "is",
+        0.04910119802037859
+      ],
+      [
+        "10q",
+        -0.04161870440038615
+      ],
+      [
+        "showed",
+        0.03600986145981677
+      ],
+      [
+        "glioblastomas",
+        -0.03561793416020952
+      ],
+      [
+        "on",
+        -0.03431724864754768
+      ],
+      [
+        "results",
+        -0.031474606381768744
+      ]
+    ],
+    "time_seconds": 47.1
+  },
+  {
+    "example_id": "67f6f20618b1e36f2e000103",
+    "question": "What chemokine is involved in recruiting myeloid-derived suppressor cells to GBM?",
+    "context": "The limited therapeutic efficacy of checkpoint blockade immunotherapy against glioblastoma is closely related to the blood-brain barrier (BBB) and tumor immunosuppressive microenvironment, where the l",
+    "gold_answer": "CXCL12",
+    "predicted_answer": "C-X-C motif chemokine ligand-12/C-X-C motif chemokine receptor-4 (CXCL12/CXCR4",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "ligand-12/C-X-C",
+      "motif",
+      "receptor-4",
+      "chemokine",
+      "(CXCL12/CXCR4)"
+    ],
+    "gold_words": [
+      "cxcl12"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "ligand-12/C-X-C",
+        -0.12227269243770689
+      ],
+      [
+        "motif",
+        -0.10727988761697321
+      ],
+      [
+        "receptor-4",
+        -0.07366107902156345
+      ],
+      [
+        "chemokine",
+        0.05354986801382801
+      ],
+      [
+        "(CXCL12/CXCR4)",
+        -0.05166974937454249
+      ],
+      [
+        "recruitment",
+        0.046201649454630005
+      ],
+      [
+        "signaling",
+        -0.045712138288985585
+      ],
+      [
+        "glioblastoma",
+        -0.03536489811289671
+      ],
+      [
+        "Targeting",
+        0.03404157742739058
+      ],
+      [
+        "blood-brain",
+        -0.031876023891432355
+      ]
+    ],
+    "time_seconds": 44.4
+  },
+  {
+    "example_id": "67fc323818b1e36f2e00012d",
+    "question": "What is the term for when a structural rearrangement places an oncogene under the control of a foreign enhancer?",
+    "context": "Recent efforts have shown that structural variations (SVs) can disrupt three-dimensional genome organization and induce enhancer hijacking, yet no computational tools exist to identify such events fro",
+    "gold_answer": "enhancer hijacking",
+    "predicted_answer": "enhancer hijacking",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "induce",
+      "and",
+      "hijacking,",
+      "disrupt",
+      "data."
+    ],
+    "gold_words": [
+      "hijacking",
+      "enhancer"
+    ],
+    "overlap": [
+      "hijacking"
+    ],
+    "top_importances": [
+      [
+        "induce",
+        0.10115263310454842
+      ],
+      [
+        "and",
+        -0.07881231994422344
+      ],
+      [
+        "hijacking,",
+        0.07653665272723995
+      ],
+      [
+        "disrupt",
+        0.05788615169563176
+      ],
+      [
+        "data.",
+        0.044080652147346334
+      ],
+      [
+        "three-dimensional",
+        0.03703376791103086
+      ],
+      [
+        "genome",
+        -0.02792092434017805
+      ],
+      [
+        "shown",
+        -0.02621735067656376
+      ],
+      [
+        "tools",
+        -0.023468446088528442
+      ],
+      [
+        "can",
+        0.021397541001938306
+      ]
+    ],
+    "time_seconds": 43.5
+  },
+  {
+    "example_id": "67e6bed318b1e36f2e0000c4",
+    "question": "What is the target of axatilimab?",
+    "context": "BACKGROUND: Colony-stimulating factor 1 receptor (CSF1R)-dependent monocytes and macrophages are key mediators of chronic graft-versus-host disease (GVHD), a major long-term complication of allogeneic",
+    "gold_answer": "Colony-stimulating factor 1 receptor",
+    "predicted_answer": "Colony-stimulating factor 1 receptor",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "(CSF1R)-dependent",
+      "Colony-stimulating",
+      "1",
+      "macrophages",
+      "graft-versus-host"
+    ],
+    "gold_words": [
+      "colonystimulating",
+      "receptor",
+      "1",
+      "factor"
+    ],
+    "overlap": [
+      "colonystimulating",
+      "1"
+    ],
+    "top_importances": [
+      [
+        "(CSF1R)-dependent",
+        -0.18023783881876346
+      ],
+      [
+        "Colony-stimulating",
+        -0.0827923062056903
+      ],
+      [
+        "1",
+        0.02973290648019322
+      ],
+      [
+        "macrophages",
+        -0.028402072809429295
+      ],
+      [
+        "graft-versus-host",
+        -0.02816438731890885
+      ],
+      [
+        "complication",
+        -0.0251121539978535
+      ],
+      [
+        "(GVHD),",
+        -0.0241702405796113
+      ],
+      [
+        "The",
+        -0.02369907407428133
+      ],
+      [
+        "axatilimab",
+        0.02360349083460887
+      ],
+      [
+        "has",
+        0.020890295147628427
+      ]
+    ],
+    "time_seconds": 43.5
+  },
+  {
+    "example_id": "67f6f18918b1e36f2e000101",
+    "question": "Where do infiltrating macrophages in GBM derive from?",
+    "context": "The most abundant non-neoplastic cells are those of the innate immune system, called tumor-associated macrophages (TAMs). TAMs constitute up to 40% of the tumor mass and consist of both brain-resident",
+    "gold_answer": "bone marrow",
+    "predicted_answer": "periphery",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "from",
+      "marrow-derived",
+      "cells",
+      "The",
+      "tumor-associated"
+    ],
+    "gold_words": [
+      "marrow",
+      "bone"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "from",
+        -0.18197764556684504
+      ],
+      [
+        "marrow-derived",
+        0.11001563986425363
+      ],
+      [
+        "cells",
+        -0.10574385307666287
+      ],
+      [
+        "The",
+        0.04867928365697508
+      ],
+      [
+        "tumor-associated",
+        -0.04441144179102036
+      ],
+      [
+        "most",
+        0.044140045252408576
+      ],
+      [
+        "brain-resident",
+        -0.04357569110114378
+      ],
+      [
+        "immune",
+        -0.04122389475219729
+      ],
+      [
+        "non-neoplastic",
+        -0.03791446671869197
+      ],
+      [
+        "macrophages",
+        -0.033379572918197944
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67fb064318b1e36f2e00010d",
+    "question": "What are aptamers made of?",
+    "context": "aptamer-functionalized nucleic acid nanotechnology offers applications of biosensing, bioimaging, and cancer therapy. In this review, after a brief overview of nucleic acid nanotechnology, we focus on",
+    "gold_answer": "nucleic acid",
+    "predicted_answer": "nucleic acid nanotechnology",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "applications",
+      "aptamer-functionalized",
+      "nucleic",
+      "acid",
+      "nanotechnology"
+    ],
+    "gold_words": [
+      "acid",
+      "nucleic"
+    ],
+    "overlap": [
+      "acid",
+      "nucleic"
+    ],
+    "top_importances": [
+      [
+        "applications",
+        0.1271139317713259
+      ],
+      [
+        "aptamer-functionalized",
+        0.12519704776186757
+      ],
+      [
+        "nucleic",
+        -0.10130185247077318
+      ],
+      [
+        "acid",
+        0.08791679182720775
+      ],
+      [
+        "nanotechnology",
+        0.050380529592650714
+      ],
+      [
+        "with",
+        0.04439768063366746
+      ],
+      [
+        "of",
+        -0.0408388445181034
+      ],
+      [
+        "this",
+        -0.03863352856536415
+      ],
+      [
+        "therapy.",
+        0.03727380002680721
+      ],
+      [
+        "on",
+        0.03710805404020151
+      ]
+    ],
+    "time_seconds": 48.7
+  },
+  {
+    "example_id": "67e6bd0e18b1e36f2e0000c1",
+    "question": "Lenacapavir is tested in which disease?",
+    "context": "PURPOSE OF REVIEW: Long-acting preexposure prophylaxis (LA-PrEP), including cabotegravir (CAB-LA) and lenacapavir, could expand biomedical prevention coverage and reduce HIV incidence.",
+    "gold_answer": "HIV",
+    "predicted_answer": "HIV",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "HIV",
+      "and",
+      "cabotegravir",
+      "including",
+      "(CAB-LA)"
+    ],
+    "gold_words": [
+      "hiv"
+    ],
+    "overlap": [
+      "hiv"
+    ],
+    "top_importances": [
+      [
+        "HIV",
+        0.41485675597922367
+      ],
+      [
+        "and",
+        -0.02942390547819897
+      ],
+      [
+        "cabotegravir",
+        -0.028772473348451535
+      ],
+      [
+        "including",
+        -0.025798757467475158
+      ],
+      [
+        "(CAB-LA)",
+        0.023049395902864173
+      ],
+      [
+        "incidence.",
+        -0.018919147379355253
+      ],
+      [
+        "lenacapavir,",
+        -0.017983730213375855
+      ],
+      [
+        "PURPOSE",
+        0.017491227747373172
+      ],
+      [
+        "REVIEW:",
+        -0.011434970766768957
+      ],
+      [
+        "preexposure",
+        -0.009135073667951446
+      ]
+    ],
+    "time_seconds": 44.7
+  },
+  {
+    "example_id": "680d5e47353a4a2e6b000005",
+    "question": "Is bronchiectasis a chronic or acute condition?",
+    "context": "Introduction: Bronchiectasis is a chronic inflammatory lung disease",
+    "gold_answer": "chronic",
+    "predicted_answer": "chronic",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "chronic",
+      "inflammatory",
+      "lung",
+      "disease",
+      "a"
+    ],
+    "gold_words": [
+      "chronic"
+    ],
+    "overlap": [
+      "chronic"
+    ],
+    "top_importances": [
+      [
+        "chronic",
+        0.3465588768831215
+      ],
+      [
+        "inflammatory",
+        0.05916460478837171
+      ],
+      [
+        "lung",
+        -0.04597464128226351
+      ],
+      [
+        "disease",
+        -0.04546602975395209
+      ],
+      [
+        "a",
+        -0.03490276625990731
+      ],
+      [
+        "is",
+        -0.029903125099623947
+      ],
+      [
+        "Introduction:",
+        -0.009818568412395376
+      ],
+      [
+        "Bronchiectasis",
+        0.006808703335231777
+      ]
+    ],
+    "time_seconds": 43.7
+  },
+  {
+    "example_id": "67e5557c18b1e36f2e0000ac",
+    "question": "What is the target of fezolinetant?",
+    "context": "In March 2023, the U.S. Food and Drug Administration approved fezolinetant (Veozah), a neurokinin 3 receptor antagonist for the treatment of vasomotor symptoms of menopause. ",
+    "gold_answer": "neurokinin 3 receptor",
+    "predicted_answer": "neurokinin 3 receptor",
+    "plausibility": 0.3333333333333333,
+    "top_k_words": [
+      "neurokinin",
+      "antagonist",
+      "fezolinetant",
+      "for",
+      "symptoms"
+    ],
+    "gold_words": [
+      "3",
+      "neurokinin",
+      "receptor"
+    ],
+    "overlap": [
+      "neurokinin"
+    ],
+    "top_importances": [
+      [
+        "neurokinin",
+        0.14489964853930165
+      ],
+      [
+        "antagonist",
+        0.07907501699432255
+      ],
+      [
+        "fezolinetant",
+        0.05325827728828841
+      ],
+      [
+        "for",
+        -0.05210734028405917
+      ],
+      [
+        "symptoms",
+        -0.048068713490864154
+      ],
+      [
+        "March",
+        -0.03324581933638148
+      ],
+      [
+        "receptor",
+        -0.03316223371918231
+      ],
+      [
+        "a",
+        0.0322892980715764
+      ],
+      [
+        "In",
+        0.03033541163064159
+      ],
+      [
+        "Food",
+        -0.02950053263849352
+      ]
+    ],
+    "time_seconds": 44.0
+  },
+  {
+    "example_id": "6810fef8353a4a2e6b000016",
+    "question": "What complication of pregnancy was treated with  Diethylstilbestrol",
+    "context": "Diethylstilbestrol (DES) is a potent estrogen mimic that was predominantly used from the 1940s to the 1970s by pregnant women in hopes of preventing miscarriage. ",
+    "gold_answer": "preventing miscarriage",
+    "predicted_answer": "miscarriage",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "miscarriage.",
+      "(DES)",
+      "Diethylstilbestrol",
+      "1970s",
+      "used"
+    ],
+    "gold_words": [
+      "miscarriage",
+      "preventing"
+    ],
+    "overlap": [
+      "miscarriage"
+    ],
+    "top_importances": [
+      [
+        "miscarriage.",
+        0.24820187571132782
+      ],
+      [
+        "(DES)",
+        0.16370500732012355
+      ],
+      [
+        "Diethylstilbestrol",
+        -0.052007488237406745
+      ],
+      [
+        "1970s",
+        0.029765206959693327
+      ],
+      [
+        "used",
+        0.025046029951501556
+      ],
+      [
+        "of",
+        -0.02059240580880482
+      ],
+      [
+        "a",
+        -0.017298460398660443
+      ],
+      [
+        "to",
+        0.014553833890698526
+      ],
+      [
+        "that",
+        0.013778681474031426
+      ],
+      [
+        "preventing",
+        -0.013480610104946644
+      ]
+    ],
+    "time_seconds": 44.2
+  },
+  {
+    "example_id": "6810cb23353a4a2e6b000012",
+    "question": "Biopharmaceuticals for pediatric bronchiolitis.",
+    "context": " Current protection against severe RSV infection is immunoprophylaxis with the monoclonal antibody palivizumab",
+    "gold_answer": "the monoclonal antibody palivizumab",
+    "predicted_answer": "palivizumab",
+    "plausibility": 0.75,
+    "top_k_words": [
+      "palivizumab",
+      "antibody",
+      "monoclonal",
+      "with",
+      "infection"
+    ],
+    "gold_words": [
+      "the",
+      "monoclonal",
+      "antibody",
+      "palivizumab"
+    ],
+    "overlap": [
+      "palivizumab",
+      "monoclonal",
+      "antibody"
+    ],
+    "top_importances": [
+      [
+        "palivizumab",
+        0.2601901533447251
+      ],
+      [
+        "antibody",
+        -0.10420233704036129
+      ],
+      [
+        "monoclonal",
+        -0.05561629796776071
+      ],
+      [
+        "with",
+        -0.04973735211715608
+      ],
+      [
+        "infection",
+        0.04228960150499515
+      ],
+      [
+        "is",
+        -0.03792651549452589
+      ],
+      [
+        "the",
+        -0.03091285493038518
+      ],
+      [
+        "severe",
+        0.026853273809872884
+      ],
+      [
+        "protection",
+        0.025017090938604606
+      ],
+      [
+        "immunoprophylaxis",
+        0.022304660871617615
+      ]
+    ],
+    "time_seconds": 47.7
+  },
+  {
+    "example_id": "67fe5f0918b1e36f2e000144",
+    "question": "What is the previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Diasease  (MASLD)?",
+    "context": "Current studies emphasize the urgent need for a paradigm shift in conceptualizing nonalcoholic fatty liver disease (NAFLD), now renamed metabolic dysfunction-associated steatotic liver disease (MASLD)",
+    "gold_answer": "NAFLD",
+    "predicted_answer": "NAFLD",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "disease",
+      "fatty",
+      "(MASLD)",
+      "(NAFLD),",
+      "dysfunction-associated"
+    ],
+    "gold_words": [
+      "nafld"
+    ],
+    "overlap": [
+      "nafld"
+    ],
+    "top_importances": [
+      [
+        "disease",
+        -0.16802180943507214
+      ],
+      [
+        "fatty",
+        -0.07848207540186013
+      ],
+      [
+        "(MASLD)",
+        0.060029265842039034
+      ],
+      [
+        "(NAFLD),",
+        0.048551533552709324
+      ],
+      [
+        "dysfunction-associated",
+        0.04631323723762653
+      ],
+      [
+        "liver",
+        -0.042967711912031324
+      ],
+      [
+        "conceptualizing",
+        -0.031302872607427853
+      ],
+      [
+        "nonalcoholic",
+        -0.026452759592882895
+      ],
+      [
+        "Current",
+        -0.02428631550962183
+      ],
+      [
+        "studies",
+        0.020124333040210784
+      ]
+    ],
+    "time_seconds": 45.7
+  },
+  {
+    "example_id": "680f4c63353a4a2e6b00000d",
+    "question": "What is the pharmacological treatment of urinary schistosomiasis?",
+    "context": "praziquantel ",
+    "gold_answer": "praziquantel",
+    "predicted_answer": "praziquantel",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "praziquantel"
+    ],
+    "gold_words": [
+      "praziquantel"
+    ],
+    "overlap": [
+      "praziquantel"
+    ],
+    "top_importances": [
+      [
+        "praziquantel",
+        0.1043568869723188
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "680a07a418b1e36f2e000148",
+    "question": "Which cells are the primary antigen-presenting cells?",
+    "context": "Dendritic cells (DCs) are the primary antigen-presenting cells and play key roles in the orchestration of the innate and adaptive immune system.",
+    "gold_answer": "Dendritic cells",
+    "predicted_answer": "Dendritic cells",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "cells",
+      "primary",
+      "antigen-presenting",
+      "(DCs)",
+      "are"
+    ],
+    "gold_words": [
+      "cells",
+      "dendritic"
+    ],
+    "overlap": [
+      "cells"
+    ],
+    "top_importances": [
+      [
+        "cells",
+        0.12827685622438206
+      ],
+      [
+        "primary",
+        -0.04666266604828557
+      ],
+      [
+        "antigen-presenting",
+        -0.04168158909218003
+      ],
+      [
+        "(DCs)",
+        -0.03741843786300426
+      ],
+      [
+        "are",
+        -0.031825542598929
+      ],
+      [
+        "Dendritic",
+        0.022317316585117847
+      ],
+      [
+        "key",
+        0.01660846951602087
+      ],
+      [
+        "immune",
+        0.016265084758755533
+      ],
+      [
+        "in",
+        -0.014414693058924696
+      ],
+      [
+        "play",
+        -0.01302892654919024
+      ]
+    ],
+    "time_seconds": 44.4
+  },
+  {
+    "example_id": "6810db0a353a4a2e6b000014",
+    "question": "What is the cause of Fibromyalgia?",
+    "context": "Fibromyalgia (FM) is a confusing and controversial diagnosis, characterized by widespread pain and tenderness at specific anatomical sites. The cause of this syndrome is unknown, ",
+    "gold_answer": "unknown",
+    "predicted_answer": "FM) is a confusing and controversial diagnosis, characterized by widespread pain and tenderness at specific anatomical sites. The cause of this syndrome is unknown",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "(FM)",
+      "Fibromyalgia",
+      "unknown,",
+      "cause",
+      "and"
+    ],
+    "gold_words": [
+      "unknown"
+    ],
+    "overlap": [
+      "unknown"
+    ],
+    "top_importances": [
+      [
+        "(FM)",
+        0.26591282831470187
+      ],
+      [
+        "Fibromyalgia",
+        -0.24668585109724409
+      ],
+      [
+        "unknown,",
+        -0.13174464291600507
+      ],
+      [
+        "cause",
+        -0.10140886323402204
+      ],
+      [
+        "and",
+        0.06320957981514153
+      ],
+      [
+        "The",
+        -0.05853251853656065
+      ],
+      [
+        "pain",
+        -0.0409150751930451
+      ],
+      [
+        "anatomical",
+        -0.04030906342380496
+      ],
+      [
+        "syndrome",
+        -0.0375733722084042
+      ],
+      [
+        "this",
+        -0.03402756297283031
+      ]
+    ],
+    "time_seconds": 44.3
+  },
+  {
+    "example_id": "67e285b018b1e36f2e00007b",
+    "question": "What are the genetic variants in Turner syndrome?",
+    "context": "45, X/46, XX mosaicism",
+    "gold_answer": "45, X/46, XX mosaicism",
+    "predicted_answer": "45, X/46, XX mosaicism",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "45,",
+      "mosaicism",
+      "XX",
+      "X/46,"
+    ],
+    "gold_words": [
+      "mosaicism",
+      "x46",
+      "45",
+      "xx"
+    ],
+    "overlap": [
+      "mosaicism",
+      "x46",
+      "45",
+      "xx"
+    ],
+    "top_importances": [
+      [
+        "45,",
+        -0.13560127549458137
+      ],
+      [
+        "mosaicism",
+        -0.10806170859003533
+      ],
+      [
+        "XX",
+        0.03563299908738212
+      ],
+      [
+        "X/46,",
+        -0.024763989348782715
+      ]
+    ],
+    "time_seconds": 44.9
+  },
+  {
+    "example_id": "680a07f918b1e36f2e00014a",
+    "question": "What organelle is responsible for ATP production?",
+    "context": "Mitochondria are considered one of the most important subcellular organelles for targeting and delivering drugs because mitochondria are the main location for various cellular functions and energy (i.",
+    "gold_answer": "Mitochondria",
+    "predicted_answer": "Mitochondria",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "because",
+      "ATP)",
+      "organelles",
+      "subcellular",
+      "the"
+    ],
+    "gold_words": [
+      "mitochondria"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "because",
+        0.08474324189889551
+      ],
+      [
+        "ATP)",
+        -0.06745742738296585
+      ],
+      [
+        "organelles",
+        0.06453474661920162
+      ],
+      [
+        "subcellular",
+        0.03764474277823842
+      ],
+      [
+        "the",
+        -0.03706743833221495
+      ],
+      [
+        "dysfunctions",
+        -0.028789444068696126
+      ],
+      [
+        "metabolic",
+        -0.028468872762694396
+      ],
+      [
+        "targeting",
+        -0.027830908908496897
+      ],
+      [
+        "cause",
+        -0.02624012804400727
+      ],
+      [
+        "malfunctions",
+        -0.024917119365942843
+      ]
+    ],
+    "time_seconds": 47.2
+  },
+  {
+    "example_id": "67cdc78381b102733300001a",
+    "question": "What age group is commonly affected by biliary atresia?",
+    "context": " Biliary atresia is a fibrosing cholangiopathy affecting neonates that is thought to result from a prenatal environmental insult to the bile duct",
+    "gold_answer": "neonates",
+    "predicted_answer": "neonates",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "neonates",
+      "prenatal",
+      "from",
+      "environmental",
+      "affecting"
+    ],
+    "gold_words": [
+      "neonates"
+    ],
+    "overlap": [
+      "neonates"
+    ],
+    "top_importances": [
+      [
+        "neonates",
+        0.7600613807545663
+      ],
+      [
+        "prenatal",
+        0.11009050089532466
+      ],
+      [
+        "from",
+        -0.07530512109787602
+      ],
+      [
+        "environmental",
+        -0.05198590241941324
+      ],
+      [
+        "affecting",
+        0.042740015544573795
+      ],
+      [
+        "cholangiopathy",
+        -0.036964432909346895
+      ],
+      [
+        "insult",
+        -0.032163942963242695
+      ],
+      [
+        "atresia",
+        -0.027397072151846735
+      ],
+      [
+        "result",
+        -0.02459824940106795
+      ],
+      [
+        "a",
+        0.017121604125815693
+      ]
+    ],
+    "time_seconds": 44.4
+  },
+  {
+    "example_id": "680a07ed18b1e36f2e000149",
+    "question": "What neurotransmitter is most associated with muscle activation?",
+    "context": "Nicotinic acetylcholine receptors (nAChRs) are homo- or heteropentameric ligand-gated ion channels mediating excitatory neurotransmission and muscle activation.",
+    "gold_answer": "acetylcholine",
+    "predicted_answer": "Nicotinic acetylcholine",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "acetylcholine",
+      "receptors",
+      "(nAChRs)",
+      "neurotransmission",
+      "Nicotinic"
+    ],
+    "gold_words": [
+      "acetylcholine"
+    ],
+    "overlap": [
+      "acetylcholine"
+    ],
+    "top_importances": [
+      [
+        "acetylcholine",
+        0.24154525034994775
+      ],
+      [
+        "receptors",
+        -0.09240019071242607
+      ],
+      [
+        "(nAChRs)",
+        -0.08069436443200778
+      ],
+      [
+        "neurotransmission",
+        -0.04242235497775428
+      ],
+      [
+        "Nicotinic",
+        -0.03577778807027898
+      ],
+      [
+        "channels",
+        0.030613403170799885
+      ],
+      [
+        "are",
+        0.029587717896032602
+      ],
+      [
+        "muscle",
+        -0.02549426190849243
+      ],
+      [
+        "or",
+        -0.023448875795251657
+      ],
+      [
+        "mediating",
+        0.015315517177303409
+      ]
+    ],
+    "time_seconds": 43.8
+  },
+  {
+    "example_id": "67e93f2d18b1e36f2e0000db",
+    "question": "What medical proceedure causes nephrogenic systemic fibrosis?",
+    "context": "The use of gadolinium-based contrast agents (GBCAs) has a strong association with NSF",
+    "gold_answer": "use of gadolinium-based contrast agents",
+    "predicted_answer": "gadolinium-based contrast agents",
+    "plausibility": 0.6,
+    "top_k_words": [
+      "The",
+      "gadolinium-based",
+      "(GBCAs)",
+      "use",
+      "agents"
+    ],
+    "gold_words": [
+      "of",
+      "contrast",
+      "agents",
+      "use",
+      "gadoliniumbased"
+    ],
+    "overlap": [
+      "agents",
+      "use",
+      "gadoliniumbased"
+    ],
+    "top_importances": [
+      [
+        "The",
+        0.14611465817601865
+      ],
+      [
+        "gadolinium-based",
+        -0.12502877582914523
+      ],
+      [
+        "(GBCAs)",
+        -0.06963979846250155
+      ],
+      [
+        "use",
+        -0.062237570886079945
+      ],
+      [
+        "agents",
+        -0.05829441037090245
+      ],
+      [
+        "of",
+        -0.02998985658514357
+      ],
+      [
+        "a",
+        -0.02921747291588504
+      ],
+      [
+        "strong",
+        -0.01951874604270197
+      ],
+      [
+        "has",
+        0.019517476829669454
+      ],
+      [
+        "with",
+        -0.019469602723609633
+      ]
+    ],
+    "time_seconds": 43.5
+  },
+  {
+    "example_id": "67ca061181b102733300000a",
+    "question": "XIST proteins mediate what cellular process?",
+    "context": "X inactivation is the means of equalizing the dosage of X chromosomal genes in male and female eutherian mammals, so that only one X is active in each cell. The XIST locus (in cis) on each additional ",
+    "gold_answer": "X inactivation",
+    "predicted_answer": "transcriptional silence",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "initiates",
+      "of",
+      "inactivation",
+      "chromosome,",
+      "that"
+    ],
+    "gold_words": [
+      "x",
+      "inactivation"
+    ],
+    "overlap": [
+      "inactivation"
+    ],
+    "top_importances": [
+      [
+        "initiates",
+        0.0907286493881337
+      ],
+      [
+        "of",
+        -0.07307600894175056
+      ],
+      [
+        "inactivation",
+        0.045023250291709754
+      ],
+      [
+        "chromosome,",
+        -0.04439861142605403
+      ],
+      [
+        "that",
+        0.04026524486663375
+      ],
+      [
+        "is",
+        0.032915326990559414
+      ],
+      [
+        "and",
+        -0.02968802133923387
+      ],
+      [
+        "silence",
+        -0.029676937396474756
+      ],
+      [
+        "making",
+        -0.02944877942355251
+      ],
+      [
+        "equalizing",
+        0.028157573292527462
+      ]
+    ],
+    "time_seconds": 43.4
+  },
+  {
+    "example_id": "680a21eb18b1e36f2e000150",
+    "question": "What glial cells are responsible for myelination in the CNS?",
+    "context": " In the vertebrate central nervous system (CNS), oligodendrocytes myelinate neuronal axons to increase conduction velocity and provide trophic support. Myelination can be modified by local signaling a",
+    "gold_answer": "oligodendrocytes",
+    "predicted_answer": "microglia and astrocytes",
+    "plausibility": 0.0,
+    "top_k_words": [
+      "astrocytes,",
+      "neurons",
+      "microglia",
+      "neurons.",
+      "neuronal"
+    ],
+    "gold_words": [
+      "oligodendrocytes"
+    ],
+    "overlap": [],
+    "top_importances": [
+      [
+        "astrocytes,",
+        -0.17216405233662693
+      ],
+      [
+        "neurons",
+        -0.07972625256685567
+      ],
+      [
+        "microglia",
+        -0.0745836846718555
+      ],
+      [
+        "neurons.",
+        -0.05086825277109596
+      ],
+      [
+        "neuronal",
+        0.04999535359093687
+      ],
+      [
+        "oligodendrocytes",
+        -0.042333542251093814
+      ],
+      [
+        "including",
+        -0.04136286721975148
+      ],
+      [
+        "myelination.",
+        0.0391079945857328
+      ],
+      [
+        "at",
+        0.03558440815867224
+      ],
+      [
+        "axon-myelin",
+        -0.03491401004629238
+      ]
+    ],
+    "time_seconds": 47.9
+  },
+  {
+    "example_id": "67fd5d6518b1e36f2e000138",
+    "question": "What is a common chromosome-level gain in glioblastoma?",
+    "context": "These cytogenomic methods revealed classical findings associated with glioblastoma, such as a lack of IDH and TERT mutations, gain of chromosome 7, and loss of chromosome 10. ",
+    "gold_answer": "chromosome 7",
+    "predicted_answer": "chromosome 7",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "chromosome",
+      "10.",
+      "7,",
+      "gain",
+      "TERT"
+    ],
+    "gold_words": [
+      "chromosome",
+      "7"
+    ],
+    "overlap": [
+      "chromosome",
+      "7"
+    ],
+    "top_importances": [
+      [
+        "chromosome",
+        -0.1538235126585597
+      ],
+      [
+        "10.",
+        -0.12609842577793634
+      ],
+      [
+        "7,",
+        0.11783889246559266
+      ],
+      [
+        "gain",
+        0.10781695672457943
+      ],
+      [
+        "TERT",
+        -0.06579712223415
+      ],
+      [
+        "mutations,",
+        0.06337104906230064
+      ],
+      [
+        "of",
+        -0.05032681799936769
+      ],
+      [
+        "lack",
+        -0.04282631365793724
+      ],
+      [
+        "methods",
+        0.022825275610889664
+      ],
+      [
+        "loss",
+        -0.021499722696728008
+      ]
+    ],
+    "time_seconds": 45.0
+  },
+  {
+    "example_id": "67fb046e18b1e36f2e00010c",
+    "question": "What is the gene target for  Zanidatamab?",
+    "context": "Among those therapeutic targets, the human epidermal growth factor receptor-2 (HER-2) signaling pathway is one of the most popular targets for translational research in cancer.",
+    "gold_answer": "HER-2",
+    "predicted_answer": "human epidermal growth factor receptor-2",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "human",
+      "(HER-2)",
+      "epidermal",
+      "receptor-2",
+      "growth"
+    ],
+    "gold_words": [
+      "her2"
+    ],
+    "overlap": [
+      "her2"
+    ],
+    "top_importances": [
+      [
+        "human",
+        -0.1496556201996552
+      ],
+      [
+        "(HER-2)",
+        -0.12084803408256957
+      ],
+      [
+        "epidermal",
+        -0.11503185426419846
+      ],
+      [
+        "receptor-2",
+        -0.06026842184301363
+      ],
+      [
+        "growth",
+        -0.04326206786260073
+      ],
+      [
+        "Among",
+        0.04321738771841851
+      ],
+      [
+        "factor",
+        0.042204420429619485
+      ],
+      [
+        "is",
+        -0.03861675940141926
+      ],
+      [
+        "targets",
+        -0.03666952157104771
+      ],
+      [
+        "the",
+        -0.03347485386422867
+      ]
+    ],
+    "time_seconds": 44.4
+  },
+  {
+    "example_id": "67d71d8f18b1e36f2e00002b",
+    "question": "Is Clostridioides difficile an aerobe or a anaerobe bacterium?",
+    "context": "Some species are obligate aerobes (e.g., Mycobacterium tuberculosis), relying on oxidative phosphorylation for ATP synthesis, whereas others are strict anaerobes (e.g., Clostridioides difficile) relyi",
+    "gold_answer": "strict anaerobe",
+    "predicted_answer": "anaerobes",
+    "plausibility": 0.5,
+    "top_k_words": [
+      "strict",
+      "(e.g.,",
+      "aerobes",
+      "Clostridioides",
+      "difficile)"
+    ],
+    "gold_words": [
+      "strict",
+      "anaerobe"
+    ],
+    "overlap": [
+      "strict"
+    ],
+    "top_importances": [
+      [
+        "strict",
+        -0.14275669052793316
+      ],
+      [
+        "(e.g.,",
+        0.10323492611306466
+      ],
+      [
+        "aerobes",
+        -0.10172930953221437
+      ],
+      [
+        "Clostridioides",
+        0.08494015224411297
+      ],
+      [
+        "difficile)",
+        -0.04666806163643039
+      ],
+      [
+        "obligate",
+        -0.04386228543771004
+      ],
+      [
+        "tuberculosis),",
+        0.026279638803715925
+      ],
+      [
+        "Mycobacterium",
+        -0.024797902714442852
+      ],
+      [
+        "for",
+        -0.023708691200880944
+      ],
+      [
+        "substrate-level",
+        -0.01967366878207182
+      ]
+    ],
+    "time_seconds": 43.2
+  },
+  {
+    "example_id": "67e2b0a018b1e36f2e00008b",
+    "question": "Bacteria that most commonly causes urinary tract infection.",
+    "context": "Escherichia coli was the most identified uropathogen (60.4%) followed by Klebsiella spp. (8.7%) and Enterococcus spp. (7.7%)",
+    "gold_answer": "Escherichia coli",
+    "predicted_answer": "Escherichia coli",
+    "plausibility": 1.0,
+    "top_k_words": [
+      "Escherichia",
+      "coli",
+      "spp.",
+      "Klebsiella",
+      "followed"
+    ],
+    "gold_words": [
+      "coli",
+      "escherichia"
+    ],
+    "overlap": [
+      "coli",
+      "escherichia"
+    ],
+    "top_importances": [
+      [
+        "Escherichia",
+        0.3124758432500766
+      ],
+      [
+        "coli",
+        0.20714669114189813
+      ],
+      [
+        "spp.",
+        -0.06493885468506617
+      ],
+      [
+        "Klebsiella",
+        -0.06153121206950828
+      ],
+      [
+        "followed",
+        -0.05957586470875117
+      ],
+      [
+        "Enterococcus",
+        -0.053018185349510215
+      ],
+      [
+        "uropathogen",
+        0.04395447890994044
+      ],
+      [
+        "the",
+        -0.032416670059442765
+      ],
+      [
+        "by",
+        -0.03240097864380707
+      ],
+      [
+        "most",
+        0.024148055148239478
+      ]
+    ],
+    "time_seconds": 43.9
+  }
+]

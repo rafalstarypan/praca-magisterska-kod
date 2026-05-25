@@ -1,0 +1,28 @@
+{
+  "k=3": {
+    "comprehensiveness_mean": 0.0841248019303127,
+    "comprehensiveness_std": 0.36160627071913337,
+    "sufficiency_mean": 0.009525298254518973,
+    "sufficiency_std": 0.2198010782107938,
+    "n_examples": 82
+  },
+  "k=5": {
+    "comprehensiveness_mean": 0.046693323202794644,
+    "comprehensiveness_std": 0.3449854089462573,
+    "sufficiency_mean": -0.015801313265067774,
+    "sufficiency_std": 0.23483367291088186,
+    "n_examples": 82
+  },
+  "k=10": {
+    "comprehensiveness_mean": 0.09404002298123953,
+    "comprehensiveness_std": 0.3758496724115789,
+    "sufficiency_mean": -0.010154097818019913,
+    "sufficiency_std": 0.14379312518048284,
+    "n_examples": 82
+  },
+  "comprehensiveness_mean": 0.046693323202794644,
+  "comprehensiveness_std": 0.3449854089462573,
+  "sufficiency_mean": -0.015801313265067774,
+  "sufficiency_std": 0.23483367291088186,
+  "n_examples": 82
+}
