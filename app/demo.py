@@ -20,11 +20,11 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 # Available models (lazy-loaded)
 MODELS = {
-    "PubMedBERT (best)": ("results/bioasq/pubmedbert/best_model", "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"),
+    "PubMedBERT (najlepszy)": ("results/bioasq/pubmedbert/best_model", "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"),
     "RoBERTa": ("results/bioasq/roberta/best_model", "FacebookAI/roberta-base"),
     "BioBERT": ("results/bioasq/biobert/best_model", "dmis-lab/biobert-v1.1"),
-    "BERT (baseline)": ("results/bioasq/bert/best_model", "google-bert/bert-base-uncased"),
-    "DistilBERT (fast)": ("results/bioasq/distilbert/best_model", "distilbert/distilbert-base-uncased"),
+    "BERT (bazowy)": ("results/bioasq/bert/best_model", "google-bert/bert-base-uncased"),
+    "DistilBERT (szybki)": ("results/bioasq/distilbert/best_model", "distilbert/distilbert-base-uncased"),
     "ClinicalBERT": ("results/bioasq/clinicalbert/best_model", "emilyalsentzer/Bio_ClinicalBERT"),
 }
 
@@ -101,7 +101,7 @@ def answer_question(model_name, context, question):
     highlighted = []
     if char_start > 0:
         highlighted.append((context[:char_start], None))
-    highlighted.append((context[char_start:char_end], "Answer"))
+    highlighted.append((context[char_start:char_end], "Odpowiedź"))
     if char_end < len(context):
         highlighted.append((context[char_end:], None))
 
@@ -114,69 +114,69 @@ EXAMPLES = [
     [
         "Which protein is silencing MIR139 to promote AML oncogenesis?",
         "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
     [
         "What is the primary vector of zika virus?",
         "Aedes aegypti is the primary vector of these pathogens and Culex quinquefasciatus may be a potential ZIKV vector.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
     [
         "What is the cause of African trypanosomiasis?",
         "Human African trypanosomiasis (HAT) or sleeping sickness is caused by the protozoan parasites Trypanosoma brucei (T.b.) gambiense (West African form) and T.b. rhodesiense (East African form), transmitted by tsetse flies.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
     # COVID-QA examples
     [
         "What proportion of health workers reported distress?",
         "A considerable proportion of participants reported symptoms of depression (634, 50.4%), anxiety (560, 44.6%), insomnia (427, 34.0%), and distress (899, 71.5%). Nurses, women, frontline health care workers, and those working in Wuhan reported more severe degrees of all measurements of mental health symptoms.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
     [
         "How does PEDV spread?",
         "PEDV spreads primarily through fecal-oral contact. Once the virus is internalized, it destroys the lining of piglets' intestines, making them incapable of digesting and deriving nutrition from milk and feed.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
     [
         "Which Human Coronavirus showed species specific clinical characteristics?",
         "The most common species were HCoV-OC43 (35%), HCoV-NL63 (27%), HCoV-229E (22%), and HCoV-HKU1 (16%). We did not observe species-specific differences in the clinical characteristics of HCoV infection, with the exception of HCoV-HKU1, for which the severity of gastrointestinal symptoms trended higher on the fourth day of illness.",
-        "PubMedBERT (best)",
+        "PubMedBERT (najlepszy)",
     ],
 ]
 
 # Build Gradio UI
-with gr.Blocks(title="Biomedical QA — BERT Models") as demo:
-    gr.Markdown("# Biomedical Extractive Question Answering")
-    gr.Markdown("Select a model, paste a biomedical context, and ask a question.")
+with gr.Blocks(title="Biomedyczne QA — modele BERT") as demo:
+    gr.Markdown("# Ekstrakcyjne pytanie–odpowiedź w domenie biomedycznej")
+    gr.Markdown("Wybierz model, wklej tekst biomedyczny i zadaj pytanie.")
 
     with gr.Row():
         model_dd = gr.Dropdown(
             choices=list(MODELS.keys()),
-            value="PubMedBERT (best)",
+            value="PubMedBERT (najlepszy)",
             label="Model",
         )
 
     with gr.Row():
         with gr.Column():
             context_tb = gr.Textbox(
-                label="Context (biomedical text)",
+                label="Kontekst (tekst biomedyczny)",
                 lines=6,
-                placeholder="Paste a biomedical text here...",
+                placeholder="Wklej tekst biomedyczny tutaj...",
             )
             question_tb = gr.Textbox(
-                label="Question",
+                label="Pytanie",
                 lines=1,
-                placeholder="Ask a question about the context...",
+                placeholder="Zadaj pytanie dotyczące kontekstu...",
             )
-            submit_btn = gr.Button("Answer", variant="primary")
+            submit_btn = gr.Button("Odpowiedz", variant="primary")
 
         with gr.Column():
-            answer_tb = gr.Textbox(label="Predicted Answer", interactive=False)
+            answer_tb = gr.Textbox(label="Przewidziana odpowiedź", interactive=False)
             highlighted = gr.HighlightedText(
-                label="Context with highlighted answer",
-                color_map={"Answer": "green"},
+                label="Kontekst z zaznaczoną odpowiedzią",
+                color_map={"Odpowiedź": "green"},
             )
-            confidence_nb = gr.Number(label="Confidence", precision=4)
+            confidence_nb = gr.Number(label="Pewność modelu", precision=4)
 
     submit_btn.click(
         fn=answer_question,
@@ -187,7 +187,7 @@ with gr.Blocks(title="Biomedical QA — BERT Models") as demo:
     gr.Examples(
         examples=EXAMPLES,
         inputs=[question_tb, context_tb, model_dd],
-        label="Example questions (BioASQ + COVID-QA)",
+        label="Przykładowe pytania (BioASQ + COVID-QA)",
     )
 
 if __name__ == "__main__":
